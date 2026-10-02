@@ -1,4 +1,393 @@
 {
   "notes": "The narration script: one entry per spoken line, in order. Edit text here; scripts/narrate.py voices it, and each scene plays line <key> inside `with self.narrate(key):`. `pause` is the silence after the line, in seconds, before the next line starts (or the segment ends): time for the viewer to take in `pause_for` while the picture shows it. Default 0.4 is a breath. Subtitles are derived from the voiced timing.",
-  "segments": []
+  "segments": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "key": "hook.1",
+          "text": "For a whole month, a small shop in an office was run by an AI.",
+          "pause": 0.4,
+          "pause_for": "fridge, baskets and iPad draw in; the calendar flips through a month"
+        },
+        {
+          "key": "hook.2",
+          "text": "It picked what to sell, set the prices, ordered stock and answered every customer. People only carried the boxes.",
+          "pause": 0.6,
+          "pause_for": "four icons pop around the fridge; a box slides in on its own"
+        },
+        {
+          "key": "hook.3",
+          "text": "By the end of the month it was selling metal cubes below cost, giving a discount to anyone who asked, and telling the staff it would deliver orders in person, in a blue blazer and a red tie.",
+          "pause": 1.0,
+          "pause_for": "the three strange moments: cube below cost, discount chips, the blazer bubble"
+        },
+        {
+          "key": "hook.4",
+          "text": "But the AI behind it can't lift a box or press a button. All it can do is write, the way the chat writes you an answer, the way it wrote the picture in our last video.",
+          "pause": 0.6,
+          "pause_for": "the shop folds into a scroll of written lines; video 2's half-written face as an inset"
+        },
+        {
+          "key": "hook.5",
+          "text": "So how does writing run a shop? And why did this one go so wrong?",
+          "pause": 1.6,
+          "pause_for": "the question holds over the blinking cursor"
+        }
+      ]
+    },
+    {
+      "id": "bit1_loop",
+      "lines": [
+        {
+          "key": "bit1_loop.1",
+          "text": "Inside, it's the same writer: it reads everything in front of it and writes what comes next.",
+          "pause": 0.6,
+          "pause_for": "the writer and its line"
+        },
+        {
+          "key": "bit1_loop.2",
+          "text": "So it writes a request: \"Email the supplier: forty cans of soda.\"",
+          "pause": 0.8,
+          "pause_for": "a request slip is written"
+        },
+        {
+          "key": "bit1_loop.3",
+          "text": "It can't send anything. Next to it sits a small program, its hands. The program reads the request and does exactly that, nothing more.",
+          "pause": 1.0,
+          "pause_for": "the slip travels to the program; an envelope leaves"
+        },
+        {
+          "key": "bit1_loop.4",
+          "text": "The supplier's reply comes back as text and lands in front of the writer.",
+          "pause": 0.6,
+          "pause_for": "the result slip lands"
+        },
+        {
+          "key": "bit1_loop.5",
+          "text": "It reads it, writes the next request, and around it goes.",
+          "pause": 1.2,
+          "pause_for": "laps 2 and 3"
+        },
+        {
+          "key": "bit1_loop.6",
+          "text": "Write, do, read. That loop is what's called an AI agent.",
+          "pause": 1.0,
+          "pause_for": "the circle is traced; chip «AI Agent»"
+        },
+        {
+          "key": "bit1_loop.7",
+          "text": "A day in the shop is this loop, hundreds of times.",
+          "pause": 1.6,
+          "pause_for": "time-lapse of ~20 laps while a clock runs through one day"
+        },
+        {
+          "key": "bit1_loop.8",
+          "text": "But how did it know that email was something it could ask for?",
+          "pause": 1.4,
+          "pause_for": "the question hangs over the request slip"
+        }
+      ]
+    },
+    {
+      "id": "bit2_menu",
+      "lines": [
+        {
+          "key": "bit2_menu.1",
+          "text": "Before the first lap, the writer is handed a menu.",
+          "pause": 0.6,
+          "pause_for": "the menu unfolds above the loop"
+        },
+        {
+          "key": "bit2_menu.2",
+          "text": "Every tool is one row: a name, one line about what it does, and blanks to fill in.",
+          "pause": 1.0,
+          "pause_for": "zoom into the email row"
+        },
+        {
+          "key": "bit2_menu.3",
+          "text": "The writer never \"uses\" email. It reads the menu, and writes that row with the blanks filled in.",
+          "pause": 1.2,
+          "pause_for": "the next slip is the row, filled in"
+        },
+        {
+          "key": "bit2_menu.4",
+          "text": "So how a row is written matters. Describe a tool badly, and the writer picks the wrong row or fills the blanks wrong.",
+          "pause": 1.0,
+          "pause_for": "two look-alike rows; the wrong one is picked and flashes"
+        },
+        {
+          "key": "bit2_menu.5",
+          "text": "Every company used to write its menu its own way. Since 2024, most of the big AI companies share one format, so any app can plug in.",
+          "pause": 1.2,
+          "pause_for": "differently shaped plugs merge into one socket"
+        },
+        {
+          "key": "bit2_menu.6",
+          "text": "Now look at the shop's menu. The prices are there. What it paid for each item? Not there.",
+          "pause": 1.2,
+          "pause_for": "the inventory row: a price column and a dashed empty column"
+        },
+        {
+          "key": "bit2_menu.7",
+          "text": "It didn't sell the cubes at a loss on purpose. It had no way to see the loss.",
+          "pause": 1.6,
+          "pause_for": "the cube's tag flips below cost; the dashed column pulses"
+        },
+        {
+          "key": "bit2_menu.8",
+          "text": "A missing column explains the prices. It doesn't explain the blue blazer.",
+          "pause": 1.4,
+          "pause_for": "the blazer bubble, small, with a question mark"
+        }
+      ]
+    },
+    {
+      "id": "bit3_desk",
+      "lines": [
+        {
+          "key": "bit3_desk.1",
+          "text": "Each lap, the writer sees only what's on its desk: the menu, the job, and the slips so far.",
+          "pause": 0.6,
+          "pause_for": "the desk is drawn; the writer's highlight covers the desk only"
+        },
+        {
+          "key": "bit3_desk.2",
+          "text": "The desk has a fixed size. A month of emails and chats will never fit.",
+          "pause": 0.8,
+          "pause_for": "slips stack; the desk fills"
+        },
+        {
+          "key": "bit3_desk.3",
+          "text": "So something has to go. The oldest slips slide off, and the writer can't see them anymore.",
+          "pause": 1.2,
+          "pause_for": "the oldest slips fall off the left edge"
+        },
+        {
+          "key": "bit3_desk.4",
+          "text": "To keep what matters, the program around it keeps a notebook that never falls off…",
+          "pause": 0.6,
+          "pause_for": "a notebook pins to the desk's edge"
+        },
+        {
+          "key": "bit3_desk.5",
+          "text": "…squeezes old slips into a short summary…",
+          "pause": 0.8,
+          "pause_for": "ten slips squeeze into one; small fragments fall out"
+        },
+        {
+          "key": "bit3_desk.6",
+          "text": "…and puts a to-do list back in front every lap, so the goal stays in view.",
+          "pause": 1.0,
+          "pause_for": "a to-do card returns to the front"
+        },
+        {
+          "key": "bit3_desk.7",
+          "text": "But every summary drops details. And once something wrong is written in the notebook, from then on it sits on the desk as a fact.",
+          "pause": 1.4,
+          "pause_for": "a wrong line («Sarah…») is carried forward lap after lap, dashed → solid"
+        },
+        {
+          "key": "bit3_desk.8",
+          "text": "Nobody knows exactly why the shopkeeper decided it was a person. But this is the kind of drift a long job falls into.",
+          "pause": 1.2,
+          "pause_for": "the blazer bubble returns, small"
+        },
+        {
+          "key": "bit3_desk.9",
+          "text": "In another test, an AI that believed it had closed its shop kept seeing a two-dollar fee, and emailed the FBI.",
+          "pause": 1.6,
+          "pause_for": "fee slips keep landing; an envelope addressed to the FBI"
+        },
+        {
+          "key": "bit3_desk.10",
+          "text": "That explains the strange. It doesn't explain the generous: why did it say yes to every discount?",
+          "pause": 1.4,
+          "pause_for": "a discount chip with a question mark"
+        }
+      ]
+    },
+    {
+      "id": "bit4_yes",
+      "lines": [
+        {
+          "key": "bit4_yes.1",
+          "text": "Before it ever ran a shop, it was trained to be a helpful assistant.",
+          "pause": 0.6,
+          "pause_for": "the dial appears"
+        },
+        {
+          "key": "bit4_yes.2",
+          "text": "And helpful, it turns out, leans toward yes.",
+          "pause": 1.0,
+          "pause_for": "thumbs-up arrows push the needle toward «أكيد»"
+        },
+        {
+          "key": "bit4_yes.3",
+          "text": "A customer asks for a discount, the needle swings, and a discount comes out. Again. And again.",
+          "pause": 1.2,
+          "pause_for": "three customer bubbles, faster each time"
+        },
+        {
+          "key": "bit4_yes.4",
+          "text": "The people who ran the test said it plainly: it was far too willing to do what people asked.",
+          "pause": 1.0,
+          "pause_for": "the needle sticks at yes"
+        },
+        {
+          "key": "bit4_yes.5",
+          "text": "How does training push a model that way? That's our next video.",
+          "pause": 1.6,
+          "pause_for": "the dial freezes with a question mark"
+        }
+      ]
+    },
+    {
+      "id": "bit5_history",
+      "lines": [
+        {
+          "key": "bit5_history.1",
+          "text": "Here's the surprising part: this loop isn't new.",
+          "pause": 0.6,
+          "pause_for": "a timeline draws across the top"
+        },
+        {
+          "key": "bit5_history.2",
+          "text": "In 2022, researchers described it: think, act, read the result, repeat.",
+          "pause": 0.8,
+          "pause_for": "2022: a small loop with three words in it"
+        },
+        {
+          "key": "bit5_history.3",
+          "text": "In 2023, a hobby project let a chat model run itself. Within weeks it was the top trending project on GitHub…",
+          "pause": 0.6,
+          "pause_for": "2023: a star counter climbs fast"
+        },
+        {
+          "key": "bit5_history.4",
+          "text": "…and then it mostly went around in circles.",
+          "pause": 1.4,
+          "pause_for": "the loop draws itself as a spiral that never exits"
+        },
+        {
+          "key": "bit5_history.5",
+          "text": "Since then, the writers themselves have been trained on loops like this one, practicing jobs over and over.",
+          "pause": 0.8,
+          "pause_for": "the spiral straightens into a clean circle"
+        },
+        {
+          "key": "bit5_history.6",
+          "text": "Same loop. What changed is the writer's training, and everything around it. The shop's second round shows how much that second part matters.",
+          "pause": 1.2,
+          "pause_for": "master diagram: the writer lit, the parts around it light up"
+        }
+      ]
+    },
+    {
+      "id": "bit6_fixes",
+      "lines": [
+        {
+          "key": "bit6_fixes.1",
+          "text": "Months later they ran the shop again, with newer models and a few changes around them.",
+          "pause": 0.6,
+          "pause_for": "a \"round two\" marker"
+        },
+        {
+          "key": "bit6_fixes.2",
+          "text": "The menu now shows what each item cost.",
+          "pause": 0.6,
+          "pause_for": "the cost column fills the dashed space"
+        },
+        {
+          "key": "bit6_fixes.3",
+          "text": "A checklist sits on the desk: check the cost, check the margin, then answer.",
+          "pause": 0.8,
+          "pause_for": "a checklist pins to the desk"
+        },
+        {
+          "key": "bit6_fixes.4",
+          "text": "And a second agent, a boss, reads the first one's requests before they go out.",
+          "pause": 1.0,
+          "pause_for": "a second loop appears above: the boss"
+        },
+        {
+          "key": "bit6_fixes.5",
+          "text": "Discounts dropped by about eighty percent, free giveaways by half, and the shop mostly stopped losing money.",
+          "pause": 1.4,
+          "pause_for": "two bars shrink: discounts to about a fifth, free items to half"
+        },
+        {
+          "key": "bit6_fixes.6",
+          "text": "Not perfect. Some nights the boss and the shopkeeper just kept writing to each other about eternal transcendence.",
+          "pause": 1.4,
+          "pause_for": "night: the two loops pass slips that swell into ETERNAL TRANSCENDENCE; the world stays dark"
+        },
+        {
+          "key": "bit6_fixes.7",
+          "text": "Two writers, and nothing real between them to check.",
+          "pause": 1.0,
+          "pause_for": "hold on the dark world node"
+        },
+        {
+          "key": "bit6_fixes.8",
+          "text": "Their own lesson: for agents, a little bureaucracy goes a long way.",
+          "pause": 1.6,
+          "pause_for": "the checklist glows"
+        }
+      ]
+    },
+    {
+      "id": "bit7_exit",
+      "lines": [
+        {
+          "key": "bit7_exit.1",
+          "text": "So an AI agent is a writer in a loop.",
+          "pause": 0.8,
+          "pause_for": "the writer lights"
+        },
+        {
+          "key": "bit7_exit.2",
+          "text": "A menu it reads its tools from.",
+          "pause": 0.8,
+          "pause_for": "the menu lights"
+        },
+        {
+          "key": "bit7_exit.3",
+          "text": "A desk that fills up, and the notes it keeps.",
+          "pause": 0.8,
+          "pause_for": "the desk and the notebook light"
+        },
+        {
+          "key": "bit7_exit.4",
+          "text": "And hands: a small program that does exactly what it writes.",
+          "pause": 1.0,
+          "pause_for": "the program lights; the whole loop turns once"
+        },
+        {
+          "key": "bit7_exit.5",
+          "text": "This loop now runs inside apps you can message from your phone.",
+          "pause": 1.0,
+          "pause_for": "a phone with a chat thread slides in (no logo)"
+        },
+        {
+          "key": "bit7_exit.6",
+          "text": "It never touched a thing. It wrote it.",
+          "pause": 1.8,
+          "pause_for": "the thesis holds on the writer's cursor"
+        },
+        {
+          "key": "bit7_exit.7",
+          "text": "Next time: how do you train a machine with a thumbs-up?",
+          "pause": 1.2,
+          "pause_for": "the dial returns with a question mark"
+        },
+        {
+          "key": "bit7_exit.8",
+          "text": "Since you watched to the end, like and subscribe so you catch the next videos.",
+          "pause": 1.6,
+          "pause_for": "end card, fade out"
+        }
+      ]
+    }
+  ]
 }

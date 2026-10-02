@@ -4,7 +4,7 @@ Run: python3 scripts/build_narration_ar.py   (then review the report: every line
 
 Decisions are read, not trusted blindly: a number picks that option (as it now reads in the file),
 Arabic text is the line itself, and anything in English is an instruction that has to be handled
-by hand in OVERRIDES below (e.g. a line to cut from the video).
+by hand in OVERRIDES below. A decision of `remove` (or `cut`) drops the line.
 """
 import json, re, sys
 from pathlib import Path
@@ -15,7 +15,15 @@ OUT = ROOT / "config" / "narration_ar.json"
 EDITS = ROOT / "config" / "narration_ar_edits.json"   # lines re-worded in the recorder: applied last
 NARR = ROOT / "config" / "narration.json"
 
-TITLES = {}   # segment id -> card title shown in the recorder, e.g. "hook": "Hook: ..."
+TITLES = {
+          "hook": "Hook: a shop nobody ran by hand",
+          "bit1_loop": "Bit 1: the writer and its hands",
+          "bit2_menu": "Bit 2: the menu",
+          "bit3_desk": "Bit 3: the desk",
+          "bit4_yes": "Bit 4: why it said yes",
+          "bit5_history": "Bit 5: the loop is old",
+          "bit6_fixes": "Bit 6: round two",
+          "bit7_exit": "Bit 7: recap"}
 
 # Decisions that carry an instruction, read by hand. key -> (status, option picked or None, what it means)
 OVERRIDES = {}
@@ -55,6 +63,8 @@ for key, opts, val in decisions():
         line.update(ar=None, status="pending")
     elif pick in ("★",) or (pick.isdigit() and 1 <= int(pick) <= len(opts)):
         line.update(ar=opts[0 if pick == "★" else int(pick) - 1], status="ready", source=f"option {pick}")
+    elif pick.lower() in ("remove", "cut"):
+        line.update(ar=None, status="removed", note="Ali: remove this line")
     elif re.search(r"[A-Za-z]", val):
         line.update(ar=None, status="needs review", note=f"Decision reads like an instruction: {val!r}")
     else:

@@ -53,7 +53,7 @@ Everyday frame, one idea per line. Each strange moment from the shop is followed
 
 Estimate: English words at the final cut's measured rate (video 2: 568 English words → 3:48 of Arabic VO, ≈ 3.5 words per spoken second), plus each line's pause, ~1.5 s lead-in per segment, and the silent holds noted in the tables. Treat ±15%: Arabic lines run longer or shorter than the English.
 
-Story share (lines about the shop rather than the mechanism): hook.1–3, bit2_menu.5–6, bit3_desk.8–9, bit4_yes.3–4, bit6_fixes.1, .5–.6 ≈ 1:25, about a quarter of the runtime, inside the ≤ 25% rule.
+Story share (lines about the shop rather than the mechanism): hook.1–3, bit2_menu.6–7, bit3_desk.8–9, bit4_yes.3–4, bit6_fixes.1, .5–.6 ≈ 1:25, about a quarter of the runtime, inside the ≤ 25% rule.
 
 Optional extra (+8 s): the SWE-agent line under bit 6.
 
@@ -97,11 +97,11 @@ Title paid by hook.4 (~0:25): the AI only writes.
 | bit2_menu.1 | Before the first lap, the writer is handed a menu. | 0.6 | menu unfolds |
 | bit2_menu.2 | Every tool is one row: a name, one line about what it does, and blanks to fill in. | 1.0 | zoom into the email row |
 | bit2_menu.3 | The writer never "uses" email. It reads the menu, and writes that row with the blanks filled in. | 1.2 | next slip = the row, filled |
-| bit2_menu.3b | So how a row is written matters. Describe a tool badly, and the writer picks the wrong row or fills the blanks wrong. | 1.0 | two look-alike rows; the wrong one is picked and flashes |
-| bit2_menu.4 | Every company used to write its menu its own way. Since 2024, most of the big AI companies share one format, so any app can plug in. | 1.2 | plugs → one socket |
-| bit2_menu.5 | Now look at the shop's menu. The prices are there. What it paid for each item? Not there. | 1.2 | inventory row, dashed empty column |
-| bit2_menu.6 | It didn't sell the cubes at a loss on purpose. It had no way to see the loss. | 1.6 | cube tag flips; dashed column pulses |
-| bit2_menu.7 | A missing column explains the prices. It doesn't explain the blue blazer. | 1.4 | blazer bubble, small, with a question mark |
+| bit2_menu.4 | So how a row is written matters. Describe a tool badly, and the writer picks the wrong row or fills the blanks wrong. | 1.0 | two look-alike rows; the wrong one is picked and flashes |
+| bit2_menu.5 | Every company used to write its menu its own way. Since 2024, most of the big AI companies share one format, so any app can plug in. | 1.2 | plugs → one socket |
+| bit2_menu.6 | Now look at the shop's menu. The prices are there. What it paid for each item? Not there. | 1.2 | inventory row, dashed empty column |
+| bit2_menu.7 | It didn't sell the cubes at a loss on purpose. It had no way to see the loss. | 1.6 | cube tag flips; dashed column pulses |
+| bit2_menu.8 | A missing column explains the prices. It doesn't explain the blue blazer. | 1.4 | blazer bubble, small, with a question mark |
 
 ## 4. The desk — `bit3_desk` · `Bit3Desk`
 
@@ -144,8 +144,8 @@ On screen: one chip, the English term once: «context window».
 | bit5_history.2 | In 2022, researchers described it: think, act, read the result, repeat. | 0.8 | 2022 loop |
 | bit5_history.3 | In 2023, a hobby project let a chat model run itself. Within weeks it was the top trending project on GitHub… | 0.6 | star counter climbs |
 | bit5_history.4 | …and then it mostly went around in circles. | 1.4 | the spiral that never exits |
-| bit5_history.4b | Since then, the writers themselves have been trained on loops like this one, practicing jobs over and over. | 0.8 | the spiral straightens into a clean circle |
-| bit5_history.5 | Same loop. What changed is the writer's training, and everything around it. The shop's second round shows how much that second part matters. | 1.2 | master diagram: writer lit, parts around it light up |
+| bit5_history.5 | Since then, the writers themselves have been trained on loops like this one, practicing jobs over and over. | 0.8 | the spiral straightens into a clean circle |
+| bit5_history.6 | Same loop. What changed is the writer's training, and everything around it. The shop's second round shows how much that second part matters. | 1.2 | master diagram: writer lit, parts around it light up |
 
 ## 7. Round two — `bit6_fixes` · `Bit6Fixes`
 

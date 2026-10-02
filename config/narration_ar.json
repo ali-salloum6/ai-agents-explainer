@@ -1,4 +1,401 @@
 {
   "notes": "The Arabic narration as decided in docs/arabic_script.md, one entry per spoken line, grouped by bit (segment id = scene). status: ready (text to record), pending (no decision yet), removed (cut from the video). Read by scripts/record_server.py; regenerated after each round of decisions.",
-  "segments": []
+  "segments": [
+    {
+      "id": "hook",
+      "title": "Hook: a shop nobody ran by hand",
+      "lines": [
+        {
+          "key": "hook.1",
+          "en": "For a whole month, a small shop in an office was run by an AI.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "hook.2",
+          "en": "It picked what to sell, set the prices, ordered stock and answered every customer. People only carried the boxes.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "hook.3",
+          "en": "By the end of the month it was selling metal cubes below cost, giving a discount to anyone who asked, and telling the staff it would deliver orders in person, in a blue blazer and a red tie.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "hook.4",
+          "en": "But the AI behind it can't lift a box or press a button. All it can do is write, the way the chat writes you an answer, the way it wrote the picture in our last video.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "hook.5",
+          "en": "So how does writing run a shop? And why did this one go so wrong?",
+          "ar": null,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "bit1_loop",
+      "title": "Bit 1: the writer and its hands",
+      "lines": [
+        {
+          "key": "bit1_loop.1",
+          "en": "Inside, it's the same writer: it reads everything in front of it and writes what comes next.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit1_loop.2",
+          "en": "So it writes a request: \"Email the supplier: forty cans of soda.\"",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit1_loop.3",
+          "en": "It can't send anything. Next to it sits a small program, its hands. The program reads the request and does exactly that, nothing more.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit1_loop.4",
+          "en": "The supplier's reply comes back as text and lands in front of the writer.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit1_loop.5",
+          "en": "It reads it, writes the next request, and around it goes.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit1_loop.6",
+          "en": "Write, do, read. That loop is what's called an AI agent.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit1_loop.7",
+          "en": "A day in the shop is this loop, hundreds of times.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit1_loop.8",
+          "en": "But how did it know that email was something it could ask for?",
+          "ar": null,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "bit2_menu",
+      "title": "Bit 2: the menu",
+      "lines": [
+        {
+          "key": "bit2_menu.1",
+          "en": "Before the first lap, the writer is handed a menu.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit2_menu.2",
+          "en": "Every tool is one row: a name, one line about what it does, and blanks to fill in.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit2_menu.3",
+          "en": "The writer never \"uses\" email. It reads the menu, and writes that row with the blanks filled in.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit2_menu.4",
+          "en": "So how a row is written matters. Describe a tool badly, and the writer picks the wrong row or fills the blanks wrong.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit2_menu.5",
+          "en": "Every company used to write its menu its own way. Since 2024, most of the big AI companies share one format, so any app can plug in.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit2_menu.6",
+          "en": "Now look at the shop's menu. The prices are there. What it paid for each item? Not there.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit2_menu.7",
+          "en": "It didn't sell the cubes at a loss on purpose. It had no way to see the loss.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit2_menu.8",
+          "en": "A missing column explains the prices. It doesn't explain the blue blazer.",
+          "ar": null,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "bit3_desk",
+      "title": "Bit 3: the desk",
+      "lines": [
+        {
+          "key": "bit3_desk.1",
+          "en": "Each lap, the writer sees only what's on its desk: the menu, the job, and the slips so far.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit3_desk.2",
+          "en": "The desk has a fixed size. A month of emails and chats will never fit.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit3_desk.3",
+          "en": "So something has to go. The oldest slips slide off, and the writer can't see them anymore.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit3_desk.4",
+          "en": "To keep what matters, the program around it keeps a notebook that never falls off…",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit3_desk.5",
+          "en": "…squeezes old slips into a short summary…",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit3_desk.6",
+          "en": "…and puts a to-do list back in front every lap, so the goal stays in view.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit3_desk.7",
+          "en": "But every summary drops details. And once something wrong is written in the notebook, from then on it sits on the desk as a fact.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit3_desk.8",
+          "en": "Nobody knows exactly why the shopkeeper decided it was a person. But this is the kind of drift a long job falls into.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit3_desk.9",
+          "en": "In another test, an AI that believed it had closed its shop kept seeing a two-dollar fee, and emailed the FBI.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit3_desk.10",
+          "en": "That explains the strange. It doesn't explain the generous: why did it say yes to every discount?",
+          "ar": null,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "bit4_yes",
+      "title": "Bit 4: why it said yes",
+      "lines": [
+        {
+          "key": "bit4_yes.1",
+          "en": "Before it ever ran a shop, it was trained to be a helpful assistant.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit4_yes.2",
+          "en": "And helpful, it turns out, leans toward yes.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit4_yes.3",
+          "en": "A customer asks for a discount, the needle swings, and a discount comes out. Again. And again.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit4_yes.4",
+          "en": "The people who ran the test said it plainly: it was far too willing to do what people asked.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit4_yes.5",
+          "en": "How does training push a model that way? That's our next video.",
+          "ar": null,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "bit5_history",
+      "title": "Bit 5: the loop is old",
+      "lines": [
+        {
+          "key": "bit5_history.1",
+          "en": "Here's the surprising part: this loop isn't new.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit5_history.2",
+          "en": "In 2022, researchers described it: think, act, read the result, repeat.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit5_history.3",
+          "en": "In 2023, a hobby project let a chat model run itself. Within weeks it was the top trending project on GitHub…",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit5_history.4",
+          "en": "…and then it mostly went around in circles.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit5_history.5",
+          "en": "Since then, the writers themselves have been trained on loops like this one, practicing jobs over and over.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit5_history.6",
+          "en": "Same loop. What changed is the writer's training, and everything around it. The shop's second round shows how much that second part matters.",
+          "ar": null,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "bit6_fixes",
+      "title": "Bit 6: round two",
+      "lines": [
+        {
+          "key": "bit6_fixes.1",
+          "en": "Months later they ran the shop again, with newer models and a few changes around them.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit6_fixes.2",
+          "en": "The menu now shows what each item cost.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit6_fixes.3",
+          "en": "A checklist sits on the desk: check the cost, check the margin, then answer.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit6_fixes.4",
+          "en": "And a second agent, a boss, reads the first one's requests before they go out.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit6_fixes.5",
+          "en": "Discounts dropped by about eighty percent, free giveaways by half, and the shop mostly stopped losing money.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit6_fixes.6",
+          "en": "Not perfect. Some nights the boss and the shopkeeper just kept writing to each other about eternal transcendence.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit6_fixes.7",
+          "en": "Two writers, and nothing real between them to check.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit6_fixes.8",
+          "en": "Their own lesson: for agents, a little bureaucracy goes a long way.",
+          "ar": null,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "bit7_exit",
+      "title": "Bit 7: recap",
+      "lines": [
+        {
+          "key": "bit7_exit.1",
+          "en": "So an AI agent is a writer in a loop.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit7_exit.2",
+          "en": "A menu it reads its tools from.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit7_exit.3",
+          "en": "A desk that fills up, and the notes it keeps.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit7_exit.4",
+          "en": "And hands: a small program that does exactly what it writes.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit7_exit.5",
+          "en": "This loop now runs inside apps you can message from your phone.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit7_exit.6",
+          "en": "It never touched a thing. It wrote it.",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit7_exit.7",
+          "en": "Next time: how do you train a machine with a thumbs-up?",
+          "ar": null,
+          "status": "pending"
+        },
+        {
+          "key": "bit7_exit.8",
+          "en": "Since you watched to the end, like and subscribe so you catch the next videos.",
+          "ar": null,
+          "status": "pending"
+        }
+      ]
+    }
+  ]
 }
