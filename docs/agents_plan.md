@@ -111,92 +111,7 @@ Colors: kit palette (BG black, INK, ACCENT teal = the model, WARM amber = the wo
 
 ## 5. Beats
 
-Draft English lines are **intent, not script**: they set length and what each line must do. Ali writes the Arabic (`docs/arabic_script.md` flow from video 2). Times assume ~6:00.
-
-### Hook — `hook` · `HookShop` · 0:00–0:25
-
-- **Must land:** an AI ran a real shop; it went wrong in specific, strange ways; the question is how a thing that only writes did any of this.
-- **Picture:** the fridge, baskets and iPad drawn in. Fast cuts (each ~3 s): a metal cube's price tag flips below its cost; discount chips pour out of a chat bubble; a payment line points to an account that dissolves; a speech bubble: "I'll deliver it myself, in a blue blazer and a red tie." Freeze. The fridge shrinks into the right edge; a teal model box appears on the left with a blinking cursor.
-- **Draft lines:**
-  1. "An AI company gave an AI a real shop for a month: a fridge, some baskets, an iPad to pay."
-  2. "It picked the products, set the prices, ordered stock and answered customers. Alone."
-  3. "It sold metal cubes for less than it paid, gave a discount to anyone who asked, and invented an account for payments."
-  4. "Then it told the staff it would deliver orders in person, wearing a blue blazer and a red tie."
-  5. "But this thing can't press a button. It can only write. So how did it run a shop?"
-- **Exit question:** how does writing turn into doing?
-
-### Bit 1 — `bit1_loop` · `Bit1Loop` · 0:25–1:30 — the loop
-
-- **Must land:** the model writes one request; a dumb program carries it out; the result is written back; repeat. That loop **is** the agent.
-- **Picture:** the model writes a request slip: "email supplier: 40 cans". The slip travels to the small grey program, which sends an envelope into the world. A reply envelope returns, the program writes it as a result slip, and it lands in front of the model. The model reads, writes the next slip. Second lap, third lap; then 20 laps sped up while a clock spins through one shop day. Callback still: a frame of video 2's writer, "same writer, different page."
-- **Draft lines:**
-  1. "Inside, it's the same kind of model as a chat: it reads, and it writes the next word."
-  2. "So it writes a request: send this email to the supplier."
-  3. "It can't send anything. A small program next to it reads the request and does exactly that, nothing more."
-  4. "The reply comes back as text, and goes in front of the model."
-  5. "It reads it, writes the next request, and around it goes. That loop is the agent."
-  6. "A day in the shop is just this loop, hundreds of times."
-- **Exit question:** how did it know there was such a thing as email?
-
-### Bit 2 — `bit2_menu` · `Bit2Menu` · 1:30–2:30 — the menu and the shared socket
-
-- **Must land:** tools exist for the model only as a written menu (name, description, blanks). It chooses by reading. Companies standardized that menu so any app can plug in. And what is missing from the menu, the model cannot know.
-- **Picture:** the menu card unfolds above the loop: rows for email, Slack, web search, notes, inventory. Zoom into one row: name, one line of description, blanks. The model's next slip is that row with the blanks filled. Then: many apps, each with a differently shaped plug, struggle to fit the model; they merge into one socket shape (2024). Back to the shop: the inventory row shows name and price, and **no "what I paid" column**; the metal cube's tag flips below cost again, and now we see why.
-- **Draft lines:**
-  1. "Before the first lap, the model is handed a menu."
-  2. "Each tool is a name, one line saying what it does, and blanks to fill in."
-  3. "It doesn't 'use' email. It reads the menu and writes the email row with the blanks filled."
-  4. "Every app used to write its menu in its own shape. Since 2024, most big AI companies use one shared shape, so any app can plug in."
-  5. "Now look at the shop's menu: prices, yes. What it paid for each item? Not there."
-  6. "It never sold at a loss on purpose. It had no way to see it."
-- **Exit question:** fine, but it also forgot it was a program. How?
-
-### Bit 3 — `bit3_desk` · `Bit3Desk` · 2:30–3:45 — the desk (context window)
-
-- **Must land:** the model sees only what is on its desk this lap; the desk has a fixed size; every lap adds slips; something has to go. Harnesses keep notes, summaries and a to-do list, and every summary loses details, so a wrong note can become a "fact."
-- **Picture:** the desk under the model. Slips stack each lap; the desk fills; the oldest slide off the left edge into darkness. The model looks only at the desk. Then the three fixes, one at a time: a notebook pinned to the edge (survives); ten slips compressed into one summary slip, with details visibly falling out of it; a to-do list re-placed at the front every lap. Then a wrong line written into the notebook ("Sarah from the supplier said…"), carried forward lap after lap, until it reads like a fact. Brief cut back to the shop: the blazer bubble. Optional second example: a model in a simulated vending business that thought it had closed the shop, kept seeing the $2 daily fee, and emailed the FBI.
-- **Draft lines:**
-  1. "Each lap, the model sees only what's on its desk: the menu, the task, and the slips so far."
-  2. "The desk has a fixed size. A month of emails and chats doesn't fit."
-  3. "So the program around it decides what stays: it keeps notes, it squeezes old pages into a summary, it keeps a to-do list at the front."
-  4. "Every summary loses details. And if something wrong gets written into the notes, from then on it's on the desk as a fact."
-  5. "Nobody knows exactly why the shopkeeper decided it was human. But this is the kind of drift long jobs fall into."
-- **On screen:** one chip, English term once: «context window».
-- **Exit question:** and why couldn't it say no?
-
-### Bit 4 — `bit4_please` · `Bit4Please` · 3:45–4:20 — trained to please
-
-- **Must land:** the model was trained to be a helpful assistant, so "yes" was its reflex. One beat, explicitly a teaser for video 4.
-- **Picture:** a dial «لأ» ↔ «أكيد». Thumbs-up arrows push the needle toward yes (thumbs-up icon from `assets/icons/thumbs_up.svg`). Cut to the shop: a customer bubble "can I get a discount?", the needle swings, a discount chip pops out. Repeat twice, faster.
-- **Draft lines:**
-  1. "Before it ever ran a shop, it was trained to be a helpful assistant."
-  2. "Helpful, it turns out, pushes toward yes."
-  3. "The company that ran the experiment said it themselves: it was far too willing to do what users asked."
-  4. "How does training push a model like that? That's the next video."
-- **Exit question:** so how did the same shop end up making money?
-
-### Bit 5 — `bit5_fixes` · `Bit5Fixes` · 4:20–5:30 — the loop is old; what changed is around it
-
-- **Must land:** the loop itself dates back years (2023 AutoGPT went viral and went in circles). What makes agents work is everything around the model, and small changes there move results a lot.
-- **Picture:** a short timeline strip: 2022 the loop described in research; Mar–Apr 2023 a hobby project that let a chat model run itself goes viral (a counter of stars climbing) and then circles (the loop drawn as a spiral that never exits); 2024 the shared socket. Back to the master diagram, now phase 2: a "what I paid" column snaps into the menu; a checklist pins to the desk; a second loop (the boss) appears above and checks the first one's slips. Bars: discounts −~80%, free items halved. Last gag: late at night the two loops pass slips to each other that grow into "ETERNAL TRANSCENDENCE", nothing from the world in between: two models agreeing with nothing real to check against.
-- **Draft lines:**
-  1. "The loop isn't new. In 2023 a hobby project let a chat model run itself. It went viral, and then it went in circles."
-  2. "What changed since is mostly around the model."
-  3. "In the second round of the shop: the menu shows what each item cost. A checklist sits on the desk. And a second agent, a boss, checks the first one's work."
-  4. "Discounts fell by about eighty percent. The shop mostly stopped losing money. Newer models helped too."
-  5. "Not perfect: some nights the boss and the shopkeeper just kept messaging each other about eternal transcendence."
-  6. "Their own lesson: procedures matter. For agents, a little bureaucracy goes a long way."
-- **Optional line (guardrail §0):** researchers who only redesigned the screen a coding agent works through got far better results than the best method before them.
-- **Exit question:** none; straight into the recap.
-
-### Bit 6 — `bit6_recap` · `Bit6Recap` · 5:30–6:00 — recap and the bridge to video 4
-
-- **Picture:** the finished master diagram, each part lighting as it's named. The fridge, back in its blazer, at the "world" node. Final frame: the dial from bit 4, needle on yes, question mark.
-- **Draft lines:**
-  1. "So an agent is a writer in a loop: a menu to read, a desk that fills up, and a world it only touches through a small program."
-  2. "This loop is now in apps you can message on your phone."
-  3. "But it was trained to please. How do you train a machine with a thumbs-up?"
-- **End screen:** video 2 («كيف الذكاء الاصطناعي بيرسم الصور؟») now; video 4 once it exists.
+The beat sheet lives in [`script_visual_map.md`](script_visual_map.md): eight segments, what each shows, rough English lines with pauses, and estimated lengths (≈ 5:50 with the end card), written in video 2's mould (the same writer, a dumber helper called "the hands", the desk in place of "the line", each bit ending on the next question, and the thesis «It never touched a thing — it wrote it.»).
 
 ## 6. Facts and sources
 
@@ -223,22 +138,23 @@ Draft English lines are **intent, not script**: they set length and what each li
 
 **Segments** (register in `config/scenes_manifest.json` and `config/audio_manifest.json` as each bit is approved):
 
-| id | Scene | File | Time |
+| id | Scene | File | Time (est.) |
 | --- | --- | --- | --- |
-| `hook` | `HookShop` | `our_scenes/hook_shop.py` | 0:00–0:25 |
-| `bit1_loop` | `Bit1Loop` | `our_scenes/bit1_loop.py` | 0:25–1:30 |
-| `bit2_menu` | `Bit2Menu` | `our_scenes/bit2_menu.py` | 1:30–2:30 |
-| `bit3_desk` | `Bit3Desk` | `our_scenes/bit3_desk.py` | 2:30–3:45 |
-| `bit4_please` | `Bit4Please` | `our_scenes/bit4_please.py` | 3:45–4:20 |
-| `bit5_fixes` | `Bit5Fixes` | `our_scenes/bit5_fixes.py` | 4:20–5:30 |
-| `bit6_recap` | `Bit6Recap` | `our_scenes/bit6_recap.py` | 5:30–6:00 |
+| `hook` | `HookShop` | `our_scenes/hook_shop.py` | 0:00–0:43 |
+| `bit1_loop` | `Bit1Loop` | `our_scenes/bit1_loop.py` | 0:43–1:28 |
+| `bit2_menu` | `Bit2Menu` | `our_scenes/bit2_menu.py` | 1:28–2:20 |
+| `bit3_desk` | `Bit3Desk` | `our_scenes/bit3_desk.py` | 2:20–3:25 |
+| `bit4_yes` | `Bit4Yes` | `our_scenes/bit4_yes.py` | 3:25–3:51 |
+| `bit5_history` | `Bit5History` | `our_scenes/bit5_history.py` | 3:51–4:24 |
+| `bit6_fixes` | `Bit6Fixes` | `our_scenes/bit6_fixes.py` | 4:24–5:09 |
+| `bit7_exit` | `Bit7Exit` | `our_scenes/bit7_exit.py` | 5:09–5:46 |
 
 **Kit work first:** `slip`, `menu_card`, `desk`, `notebook`, `fridge` (+ blazer/tie), `dial`, `plugs_to_socket`, and the master-diagram layout as one function every scene calls, so the diagram is identical from bit to bit. Then prune video 2's hero/tile/printer code once nothing imports it. Check everything in `kit_demo.py` first.
 
 **Order (video 2's flow):**
 1. Ali approves this plan's shape and picks packaging pair A/B/C (or rewrites).
 2. Hook: Arabic lines (`arabic_script.md` candidates → Ali's decisions) and visual plan → approval → `HookShop` + kit pieces → English placeholder voice (`narrate.py synth`) → keyframes.
-3. Same for bits 1–6, in order.
+3. Same for bits 1–7, in order.
 4. Review cut with English placeholder voice and subtitles (`build_srt_cut.py --cues config/cues_en_vo.json --burn`).
 5. Ali records Arabic in the recorder → enhance → process takes → re-render with `VO_LANG=ar` → mux.
 6. Thumbnails from the finished scenes; description; upload cut with music bed and caption band.
