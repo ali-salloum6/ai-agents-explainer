@@ -104,7 +104,7 @@ Colors: kit palette (BG black, INK, ACCENT teal = the model, WARM amber = the wo
 | the model | النموذج | as in video 2 |
 | the loop / one lap | الدورة | Ali, 3 Oct |
 | request slip / result slip | ورقة طلب / ورقة نتيجة | |
-| tools / the menu | الأدوات / المنيو | Ali, 3 Oct |
+| tools / the tools list | الأدوات / دليل الأدوات | Ali, 3 Oct; «منيو» only for the shop's price menu |
 | the desk (context window) | الطاولة | the English term once, maybe in a chip: context window |
 | notes / to-do list | الدفتر / قائمة المهام | |
 | the boss (CEO agent) | المدير | |
@@ -121,7 +121,7 @@ The beat sheet lives in [`script_visual_map.md`](script_visual_map.md): eight se
 - Vending-Bench (Andon Labs, Feb 2025): simulated vending business, $500 start, $2 daily fee; a model that thought it had closed the business emailed the FBI about the fee. [Paper](https://arxiv.org/html/2502.15840v1)
 
 **History**
-- 2022: the reason-then-act loop described in research (ReAct, Yao et al.). *To cite in the description; verify date before VO.*
+- 2022: the reason-then-act loop described in research: ReAct, Yao et al., [arXiv 2210.03629](https://arxiv.org/abs/2210.03629) (Oct 2022; ICLR 2023).
 - AutoGPT: released 16 Mar 2023; #1 trending on GitHub 3 Apr 2023; 100k stars by 21 Apr 2023; known for loops, hallucinations and API cost. [Wikipedia](https://en.wikipedia.org/wiki/AutoGPT), [TechCrunch](https://techcrunch.com/2023/04/22/what-is-auto-gpt-and-why-does-it-matter/)
 - Model Context Protocol: Anthropic, Nov 2024; OpenAI adopted Mar 2025 (Agents SDK, Responses API, ChatGPT desktop); Gemini support confirmed Apr 2025. [Wikipedia](https://en.wikipedia.org/wiki/Model_Context_Protocol)
 
@@ -175,8 +175,8 @@ The beat sheet lives in [`script_visual_map.md`](script_visual_map.md): eight se
 ## 9. Open questions for Ali
 
 1. Packaging: pair A, B or C for day one, and which two to A/B?
-2. ~~Spoken word for "agent": «الإيجنت», «الوكيل», or both?~~ **«إيجنت»** (Ali, 3 Oct). Also decided: one lap = **دورة**, the menu = **منيو**, the dial «لأ» ↔ **«أكيد»**.
-3. ~~Name Anthropic in VO, or only "an AI company"?~~ **Once, in hook.1** (Ali, 3 Oct).
+2. ~~Spoken word for "agent": «الإيجنت», «الوكيل», or both?~~ **«إيجنت»** (Ali, 3 Oct). Also decided: one lap = **دورة**, the tools list = **دليل الأدوات** («منيو» only for the shop's price menu), the dial «لأ» ↔ **«أكيد»**.
+3. ~~Name Anthropic in VO, or only "an AI company"?~~ **In hook.1 and bit4_yes.4** (Ali, 3 Oct).
 4. ~~Keep the Vending-Bench FBI example in bit 3, or is one drift example enough?~~ **Cut** (Ali, 3 Oct).
 5. ~~Keep the optional SWE-agent line in bit 5?~~ **Not used** (Ali, 3 Oct).
 6. Upload date: ~11 Oct with the full scope, or 4 Oct with the cut-down version (§7)?

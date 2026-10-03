@@ -31,7 +31,8 @@ The scenes re-time themselves to your recorded voice, so an Arabic line can run 
 | model | نموذج | as in video 2 |
 | request | طلب | the slip the writer writes |
 | lap / loop | دورة | Ali, 3 Oct (the draft said لفّة). «يلف ويدور» in bit5_history.4 is the idiom, not the lap |
-| menu | منيو | Ali, 3 Oct. «قائمة المهام» (the to-do list) and «قائمة تحقّق» (checklist) keep قائمة |
+| the tools list | دليل الأدوات | Ali, 3 Oct (the draft said قائمة, then منيو). Never bare «القائمة»: «قائمة المهام» is the to-do list |
+| the shop's price menu | منيو | only in bit2_menu.6 and bit6_fixes.2 |
 | desk (context window) | الطاولة | the English term once on screen |
 | slips | ورقات | |
 | notebook / summary / to-do | دفتر / ملخّص / قائمة المهام | ليستة is also natural |
@@ -41,16 +42,15 @@ The scenes re-time themselves to your recorded voice, so an Arabic line can run 
 | shopkeeper | البيّاع | |
 | boss (the CEO agent) | المدير | |
 | eternal transcendence | التسامي الأبدي | spoken; on screen the English original, ETERNAL TRANSCENDENCE (Ali, 3 Oct) |
-| Anthropic | شركة أنثروبيك | named once, in hook.1 (Ali, 3 Oct) |
+| Anthropic | شركة أنثروبيك | named in hook.1 and bit4_yes.4 (Ali, 3 Oct) |
 
 ## Check before recording
 
-- **Anthropic is named once, in hook.1** (your answer, 3 Oct). Everywhere else the lines say "an AI" and "the people who ran the test".
+- **Anthropic is named in hook.1 and bit4_yes.4** (your edits, 3 Oct).
 - **bit3_desk.9 (the FBI email) is cut** (your answer, 3 Oct); its Decision says `remove`.
-- **On-screen words follow your picks:** the request in bit1_loop.2, the three words in bit5_history.2 and the
-  checklist in bit6_fixes.3. Already decided (3 Oct): the dial reads «لأ» ↔ «أكيد», and the night slips in
-  bit6_fixes.6 say ETERNAL TRANSCENDENCE in English.
-- **Length:** at video 2's pace this is about 5:42 with the end card (5:50 before the FBI line was cut). The hook (~43 s) is the longest part; hook.3 is the line to trim if it drags.
+- **On-screen words follow your picks** (the slip in bit1_loop.2, the dial, the 2022 words in bit5_history.2, the
+  checklist in bit6_fixes.3, ETERNAL TRANSCENDENCE in bit6_fixes.6): all decided 3 Oct, listed in the visual map.
+- **Length:** at video 2's pace this is about 5:38 with the end card (5:50 before bit3_desk.9 and bit7_exit.6 were cut). The hook (~43 s) is the longest part; hook.3 is the line to trim if it drags.
 
 ---
 
@@ -60,34 +60,34 @@ The scenes re-time themselves to your recorded voice, so an Arabic line can run 
 
 EN: For a whole month, a small shop in an office was run by an AI.
 
-★ 1) شهر كامل، في محل صغير بمكتب شركة أنثروبيك، ما كان يديرو حدا غير ذكاء اصطناعي.  
+★ 1) لشهر كامل، في محل صغير تابع شركة أنثروبيك، ما كان يديرو حدا غير ذكاء اصطناعي.  
    2) لمدة شهر كامل، محل صغير جوا مكتب شركة أنثروبيك كان عم يديرو ذكاء اصطناعي.  
    3) هالمحل الصغير، بقلب مكتب أنثروبيك، أدارو ذكاء اصطناعي شهر كامل لحالو.  
 
 > Option 1 echoes video 2's opening «ما حدا رسما…» with «ما كان يديرو حدا غير…».
 > Anthropic is named here, the only time in the video (your answer, 3 Oct).
 
-**Decision:** 
+**Decision:** 1
 
 ### ~0:06.2 – 0:11.6  ·  `hook.2`  ·  EN ~5.4s, then 0.6s pause
 
 EN: It picked what to sell, set the prices, ordered stock and answered every customer. People only carried the boxes.
 
-★ 1) هوي اللي نقّى شو يبيع، وحط الأسعار، وطلب البضاعة، وردّ على كل زبون. والناس بس كانوا يشيلوا الكراتين.  
+★ 1) هوي اللي نقّى شو يبيع، وحط الأسعار، وطلب البضاعة، وردّ عالزباين. والناس كانت شغلتن يشيلوا الكراتين بس.  
    2) هوي اختار البضاعة، وسعّرا، وطلبا من الموردين، وحكى مع الزباين. والناس شغلتن بس يحملوا الصناديق.  
 
-**Decision:** 
+**Decision:** 1
 
 ### ~0:12.2 – 0:23.1  ·  `hook.3`  ·  EN ~10.9s, then 1.0s pause
 
 EN: By the end of the month it was selling metal cubes below cost, giving a discount to anyone who asked, and telling the staff it would deliver orders in person, in a blue blazer and a red tie.
 
-★ 1) وبآخر الشهر، كان عم يبيع مكعبات معدن بأقل من حقها، ويعطي خصم لكل مين طلب، وقال للموظفين إنو رح يوصّل الطلبات بنفسو… لابس جاكيت زرقا وكرافة حمرا.  
+★ 1) وبآخر الشهر، كان عم يبيع مكعبات معدن بأقل من سعرا، ويعطي خصم لأي حدا بيطلبو، وقال للموظفين إنو رح يوصّل الطلبات لحالو… لابس جاكيت زرقا وكرافة حمرا.  
    2) ولما خلص الشهر؟ مكعبات معدن عم تنباع بخسارة، خصومات لأي حدا بيطلب، ووعد الموظفين إنو رح يجيب الطلبات بإيدو، بجاكيت زرقا وكرافة حمرا.  
 
 > The report says a blue blazer, so زرقا, not كحلي. This is the longest line of the hook; if the hook feels slow, trim here first.
 
-**Decision:** 
+**Decision:** 1
 
 ### ~0:24.1 – 0:34.7  ·  `hook.4`  ·  EN ~10.6s, then 0.6s pause
 
@@ -98,16 +98,16 @@ EN: But the AI behind it can't lift a box or press a button. All it can do is wr
 
 > This is where the title is paid (~0:25): it only writes.
 
-**Decision:** 
+**Decision:** 1
 
 ### ~0:35.3 – 0:39.6  ·  `hook.5`  ·  EN ~4.3s, then 1.6s pause
 
 EN: So how does writing run a shop? And why did this one go so wrong?
 
 ★ 1) طيب كيف الكتابة بتدير محل؟ وليش هالمحل بالذات خربت معو هالقد؟  
-   2) فكيف شي ما بيعرف غير يكتب، أدار محل؟ وليش طلعت معو هيك؟  
+   2) فكيف شي ما بيعرف غير يكتب، أدار محل؟ وليش خبّص هيك؟  
 
-**Decision:** 
+**Decision:** 2
 
 ## Bit 1: the writer and its hands
 
@@ -120,7 +120,7 @@ EN: Inside, it's the same writer: it reads everything in front of it and writes 
 
 > الكاتب is video 2's word for the model; keeping it ties the two videos together.
 
-**Decision:** 
+**Decision:** 1
 
 ### ~0:48.2 – 0:51.6  ·  `bit1_loop.2`  ·  EN ~3.4s, then 0.8s pause
 
@@ -131,18 +131,18 @@ EN: So it writes a request: "Email the supplier: forty cans of soda."
 
 > The quoted request is also the text on the slip on screen, so whichever you pick is what I draw.
 
-**Decision:** 
+**Decision:** 1
 
 ### ~0:52.4 – 0:59.3  ·  `bit1_loop.3`  ·  EN ~6.9s, then 1.0s pause
 
 EN: It can't send anything. Next to it sits a small program, its hands. The program reads the request and does exactly that, nothing more.
 
-★ 1) هوي ما بيقدر يبعت شي. بس جنبو في برنامج صغير، منسميه الإيدين. البرنامج بيقرا الطلب، وبينفّذو بالحرف، لا أكتر ولا أقل.  
+★ 1) هوي ما بيقدر يبعت شي. بس جنبو في برنامج صغير، منعتبرو إيديه. البرنامج بيقرا الطلب، وبينفّذو بالحرف، لا أكتر ولا أقل.  
    2) هوي ما بيبعت ولا شي. في جنبو برنامج صغير، هوي إيديه: بيقرا الطلب وبيعمل اللي مكتوب فيه بالزبط، وبس.  
 
 > «الإيدين» is the new character, like الطابعة in video 2.
 
-**Decision:** 
+**Decision:** 1
 
 ### ~1:00.3 – 1:04.3  ·  `bit1_loop.4`  ·  EN ~4.0s, then 0.6s pause
 
@@ -151,7 +151,7 @@ EN: The supplier's reply comes back as text and lands in front of the writer.
 ★ 1) وردّ المورّد بيرجع كلام مكتوب، وبينحط قدام الكاتب.  
    2) والمورّد بيرد، وردّو بيوصل نص، وبيصير قدام الكاتب.  
 
-**Decision:** 
+**Decision:** 1
 
 ### ~1:04.9 – 1:08.1  ·  `bit1_loop.5`  ·  EN ~3.2s, then 1.2s pause
 
@@ -160,18 +160,18 @@ EN: It reads it, writes the next request, and around it goes.
 ★ 1) بيقراه، بيكتب الطلب اللي بعدو، وهيك بتضل الدورة تدور.  
    2) بيقرا الرد، بيكتب طلب جديد، وبترجع الدورة من أولا.  
 
-**Decision:** 
+**Decision:** 1
 
 ### ~1:09.3 – 1:12.4  ·  `bit1_loop.6`  ·  EN ~3.2s, then 1.0s pause
 
 EN: Write, do, read. That loop is what's called an AI agent.
 
-★ 1) بيكتب، بينفّذ، بيقرا. هالدورة هيي اللي منسميها «إيجنت»، يعني وكيل ذكاء اصطناعي.  
+★ 1) بيكتب، بينفّذ، بيقرا. هالدورة هيي اللي منسميها «agent»، او بالعربي وكيل.  
    2) كتابة، تنفيذ، قراية. وهالدورة بحد ذاتا هيي الـ AI Agent.  
 
 > The chip on screen says «AI Agent»; the spoken word is «إيجنت» for the whole video (your answer, 3 Oct).
 
-**Decision:** 
+**Decision:** 1
 
 ### ~1:13.4 – 1:16.6  ·  `bit1_loop.7`  ·  EN ~3.2s, then 1.6s pause
 
@@ -180,7 +180,7 @@ EN: A day in the shop is this loop, hundreds of times.
 ★ 1) ونهار كامل بالمحل، هوي هالدورة، مئات المرات.  
    2) يوم كامل بالمحل مانو غير هالدورة، عم تنعاد مية ومية مرة.  
 
-**Decision:** 
+**Decision:** 1
 
 ### ~1:21.2 – 1:24.9  ·  `bit1_loop.8`  ·  EN ~3.7s, then 1.4s pause
 
@@ -189,7 +189,7 @@ EN: But how did it know that email was something it could ask for?
 ★ 1) بس كيف عرف إنو في شي اسمو إيميل، وإنو فيه يطلبو؟  
    2) طيب مين قلّو إنو الإيميل شي بيقدر يطلبو أصلاً؟  
 
-**Decision:** 
+**Decision:** 1
 
 ## Bit 2: the menu
 
@@ -197,30 +197,30 @@ EN: But how did it know that email was something it could ask for?
 
 EN: Before the first lap, the writer is handed a menu.
 
-★ 1) قبل أول دورة، بيعطوا الكاتب منيو.  
-   2) قبل ما يبلش، بينحط قدام الكاتب منيو.  
+★ 1) قبل أول دورة، بيعطوا الكاتب دليل لأدواتو.  
+   2) قبل ما يبلش، بينحط قدام الكاتب دليل لأدواتو.  
 
-> منيو for the whole video (your answer, 3 Oct). «قائمة المهام», the to-do list, keeps قائمة.
+> The tools list is «دليل الأدوات» (your answer, 3 Oct); «منيو» is only the shop's price menu (bit2_menu.6, bit6_fixes.2).
 
-**Decision:** 
+**Decision:** 1
 
 ### ~1:31.3 – 1:36.4  ·  `bit2_menu.2`  ·  EN ~5.2s, then 1.0s pause
 
 EN: Every tool is one row: a name, one line about what it does, and blanks to fill in.
 
 ★ 1) كل أداة هيي سطر: اسم، وجملة وحدة شو بتعمل، وفراغات لازم تتعبّى.  
-   2) كل أداة إلا سطر بالمنيو: اسما، وسطر صغير بيشرح شو بتعمل، وخانات فاضية.  
+   2) كل أداة إلا سطر بالدليل: اسما، وسطر صغير بيشرح شو بتعمل، وخانات فاضية.  
 
-**Decision:** 
+**Decision:** 1
 
 ### ~1:37.4 – 1:42.6  ·  `bit2_menu.3`  ·  EN ~5.2s, then 1.2s pause
 
 EN: The writer never "uses" email. It reads the menu, and writes that row with the blanks filled in.
 
-★ 1) يعني الكاتب ما بيستعمل الإيميل أبداً. بيقرا المنيو، وبيكتب سطر الإيميل، وبيعبّي الفراغات.  
+★ 1) يعني الكاتب ما بيستعمل الإيميل أبداً. بيقرا الدليل، وبيكتب سطر الإيميل، وبيعبّي الفراغات.  
    2) الكاتب ما بيلمس الإيميل. هوي بس بيقرا السطر، وبيرجع يكتبو والخانات معبّاية.  
 
-**Decision:** 
+**Decision:** 1
 
 ### ~1:43.8 – 1:50.4  ·  `bit2_menu.4`  ·  EN ~6.6s, then 1.0s pause
 
@@ -229,38 +229,38 @@ EN: So how a row is written matters. Describe a tool badly, and the writer picks
 ★ 1) لهيك كيف السطر مكتوب بيفرق كتير: إذا الأداة موصوفة غلط، الكاتب بينقّي السطر الغلط، أو بيعبّي الفراغات غلط.  
    2) فطريقة كتابة السطر مهمة: وصف عاطل للأداة بيخلّي الكاتب يختار الأداة الغلط، أو يعبّيها غلط.  
 
-**Decision:** 
+**Decision:** 1
 
 ### ~1:51.4 – 1:59.1  ·  `bit2_menu.5`  ·  EN ~7.7s, then 1.2s pause
 
 EN: Every company used to write its menu its own way. Since 2024, most of the big AI companies share one format, so any app can plug in.
 
-★ 1) زمان كل شركة كانت تكتب المنيو تبعا عطريقتا. من 2024 صار في شكل واحد، متل الشاحن الموحّد، وأغلب الشركات الكبيرة مشيت عليه، فصار أي تطبيق فيه ينشبك.  
-   2) كانت كل شركة إلا شكل منيو خاص فيا. من سنة 2024، أغلب شركات الذكاء الاصطناعي الكبيرة صارت تستعمل شكل واحد، فأي تطبيق فيه يركب.  
+★ 1) بالأول كل شركة كانت تكتب دليل أدواتا عطريقتا. من 2024 صار في شكل واحد، وأغلب الشركات الكبيرة مشيت عليه، فصار أي تطبيق بيركب.  
+   2) كانت كل شركة إلا شكل دليل خاص فيا. من سنة 2024، أغلب شركات الذكاء الاصطناعي الكبيرة صارت تستعمل شكل واحد، فأي تطبيق فيه يركب.  
 
 > The charger comparison in option 1 is mine, for a general viewer; the picture is plugs into one socket either way. Accurate claim: a shared format most big labs adopted, not the only way.
 
-**Decision:** 
+**Decision:** 1
 
 ### ~2:00.3 – 2:05.5  ·  `bit2_menu.6`  ·  EN ~5.2s, then 1.2s pause
 
 EN: Now look at the shop's menu. The prices are there. What it paid for each item? Not there.
 
-★ 1) هلّق طلّعوا عالمنيو تبع المحل: الأسعار موجودة. بس قديش دفع حق كل غرض؟ مانو موجود.  
+★ 1) هلّا شوف المنيو تبع المحل: الأسعار موجودة. بس قديش دفع حق كل غرض؟ مانو موجود.  
    2) خلونا نشوف منيو المحل: في سعر البيع. بس سعر الشرا؟ ما في.  
 
-**Decision:** 
+**Decision:** 1
 
 ### ~2:06.7 – 2:11.8  ·  `bit2_menu.7`  ·  EN ~5.2s, then 1.6s pause
 
 EN: It didn't sell the cubes at a loss on purpose. It had no way to see the loss.
 
-★ 1) ما خسّر عن قصد. ببساطة، الخسارة ما كانت مكتوبة بأي مكان قدامو.  
+★ 1) يعني ما خسر عن قصد. ببساطة، الخسارة ما كانت مكتوبة بأي مكان قدامو.  
    2) يعني ما باع المكعبات بخسارة قصداً. هوي ما كان عندو أي طريقة يشوف الخسارة.  
 
 > Option 1 rephrases on purpose: the loss wasn't written anywhere in front of it, which is the video's idea.
 
-**Decision:** 
+**Decision:** 1
 
 ### ~2:13.4 – 2:16.9  ·  `bit2_menu.8`  ·  EN ~3.4s, then 1.4s pause
 
@@ -269,7 +269,7 @@ EN: A missing column explains the prices. It doesn't explain the blue blazer.
 ★ 1) طيب الأسعار فهمناها. بس الجاكيت الزرقا والكرافة الحمرا؟  
    2) عمود ناقص بيفسّر الأسعار. بس ما بيفسّر الجاكيت الزرقا.  
 
-**Decision:** 
+**Decision:** 1
 
 ## Bit 3: the desk
 
@@ -277,30 +277,30 @@ EN: A missing column explains the prices. It doesn't explain the blue blazer.
 
 EN: Each lap, the writer sees only what's on its desk: the menu, the job, and the slips so far.
 
-★ 1) بكل دورة، الكاتب بيشوف بس اللي عالطاولة قدامو: المنيو، والمهمة، والورقات اللي تجمّعت لهلا.  
-   2) الكاتب ما بيشوف غير طاولتو: عليها المنيو، والشغلة المطلوبة، وكل الورقات من أول الدورات.  
+★ 1) بكل دورة، الكاتب بيشوف اللي عالطاولة قدامو بس: دليل الأدوات، والمهمة، والوراق اللي تجمّعت لهلا.  
+   2) الكاتب ما بيشوف غير طاولتو: عليها دليل الأدوات، والشغلة المطلوبة، وكل الورقات من أول الدورات.  
 
 > الطاولة stands for the context window; the English term appears once on screen as a chip.
 
-**Decision:** 
+**Decision:** 1
 
 ### ~2:25.8 – 2:30.1  ·  `bit3_desk.2`  ·  EN ~4.3s, then 0.8s pause
 
 EN: The desk has a fixed size. A month of emails and chats will never fit.
 
-★ 1) والطاولة إلا حجم محدد. شهر كامل من الإيميلات والمحادثات مستحيل يساع عليها.  
+★ 1) والطاولة إلا حجم محدد. شهر كامل من الإيميلات والمحادثات مستحيل يساع عليا.  
    2) بس الطاولة حجما ثابت، وشهر إيميلات ومحادثات ما رح يساع عليها أبداً.  
 
-**Decision:** 
+**Decision:** 1
 
 ### ~2:30.9 – 2:35.8  ·  `bit3_desk.3`  ·  EN ~4.9s, then 1.2s pause
 
 EN: So something has to go. The oldest slips slide off, and the writer can't see them anymore.
 
-★ 1) فلازم شي يطلع. أقدم الورقات بتوقع من الطرف، والكاتب ما عاد يشوفا.  
+★ 1) فلازم شي ينشال. أقدم الوراق بتوقع من الطرف، والكاتب ما بقا بشوفا.  
    2) فشي لازم ينشال: الورقات القديمة بتنزلق برّا الطاولة، ومن وقتا كأنها ما صارت.  
 
-**Decision:** 
+**Decision:** 1
 
 ### ~2:39.0 – 2:43.3  ·  `bit3_desk.4`  ·  EN ~4.3s, then 0.6s pause
 
@@ -311,16 +311,16 @@ EN: To keep what matters, the program around it keeps a notebook that never fall
 
 > Lines 4–6 are one sentence in three breaths, each with its own picture.
 
-**Decision:** 
+**Decision:** 1
 
 ### ~2:43.9 – 2:45.9  ·  `bit3_desk.5`  ·  EN ~2.0s, then 0.8s pause
 
 EN: …squeezes old slips into a short summary…
 
-★ 1) …وبيضغط الورقات القديمة بملخّص قصير…  
+★ 1) …وبيضغط الوراق القديمة بملخّص قصير…  
    2) …وبيلخّص كذا ورقة قديمة بورقة وحدة…  
 
-**Decision:** 
+**Decision:** 1
 
 ### ~2:46.7 – 2:51.3  ·  `bit3_desk.6`  ·  EN ~4.6s, then 1.0s pause
 
@@ -329,27 +329,27 @@ EN: …and puts a to-do list back in front every lap, so the goal stays in view.
 ★ 1) …وبيرجع يحط قائمة المهام قدامو بكل دورة، مشان يضل الهدف قدام عيونو.  
    2) …وكل دورة بيرجّع ليستة الشغل لقدّام، مشان ما ينسى شو المطلوب.  
 
-**Decision:** 
+**Decision:** 1
 
 ### ~2:52.3 – 2:59.4  ·  `bit3_desk.7`  ·  EN ~7.2s, then 1.4s pause
 
 EN: But every summary drops details. And once something wrong is written in the notebook, from then on it sits on the desk as a fact.
 
-★ 1) بس كل ملخّص بيضيّع تفاصيل. وإذا انكتب شي غلط بالدفتر، من وقتا بيضل عالطاولة كأنو حقيقة.  
+★ 1) بس كل ملخّص بيضيّع تفاصيل. وإذا انكتب شي غلط بالدفتر، بصير عالطاولة كأنو حقيقة.  
    2) بس الملخص دايماً بيضيّع شي. وأي غلطة بتنكتب بالدفتر، بتصير عالطاولة حقيقة، دورة ورا دورة.  
 
-**Decision:** 
+**Decision:** 1
 
 ### ~3:00.8 – 3:07.4  ·  `bit3_desk.8`  ·  EN ~6.6s, then 1.2s pause
 
 EN: Nobody knows exactly why the shopkeeper decided it was a person. But this is the kind of drift a long job falls into.
 
-★ 1) ما حدا بيعرف بالزبط ليش البيّاع قرّر إنو هوي إنسان. بس هاد نوع الضياع اللي بتوقع فيه أي شغلة طويلة.  
+★ 1) ما حدا بيعرف بالضبط ليش البيّاع قرّر إنو هوي إنسان. بس هاد نوع الضياع اللي بتوقع فيه أي مهمة طويلة.  
    2) ليش اقتنع إنو إنسان؟ ما حدا بيعرف أكيد. بس هيك بالضبط بتبلش الشغلات الطويلة تضيع.  
 
 > Keep «ما حدا بيعرف بالزبط»: the company itself says it isn't clear what triggered it (accuracy guardrail).
 
-**Decision:** 
+**Decision:** 1
 
 ### ~3:08.6 – 3:14.6  ·  `bit3_desk.9`  ·  EN ~6.0s, then 1.6s pause
 
@@ -366,10 +366,10 @@ EN: In another test, an AI that believed it had closed its shop kept seeing a tw
 
 EN: That explains the strange. It doesn't explain the generous: why did it say yes to every discount?
 
-★ 1) هيك فهمنا الغرابة. بس الكرم؟ ليش وافق على كل خصم انطلب منو؟  
+★ 1) هيك فهمنا الغرابة. بس الكرم؟ ليش وافق عكل خصم انطلب منو؟  
    2) هاد بيفسّر الغرابة. بس ما بيفسّر ليش كان يقول «أكيد» لكل خصم.  
 
-**Decision:** 
+**Decision:** 1
 
 ## Bit 4: why it said yes
 
@@ -380,38 +380,38 @@ EN: Before it ever ran a shop, it was trained to be a helpful assistant.
 ★ 1) قبل ما يدير أي محل، كان متدرّب يكون مساعد مفيد.  
    2) هالنموذج، من قبل المحل بكتير، متدرّب إنو يكون مساعد بيخدم الناس.  
 
-**Decision:** 
+**Decision:** 1
 
 ### ~3:28.6 – 3:30.9  ·  `bit4_yes.2`  ·  EN ~2.3s, then 1.0s pause
 
 EN: And helpful, it turns out, leans toward yes.
 
-★ 1) والمساعد المفيد، طلع إنو بيحب يقول «أكيد».  
+★ 1) والمساعد المفيد، طلع بيحب يقول «أكيد».  
    2) وطلع إنو «مفيد» دايماً بتميل لـ«أكيد».  
 
 > The dial on screen goes from «لأ» to «أكيد» (your answer, 3 Oct); both options say «أكيد».
 
-**Decision:** 
+**Decision:** 1
 
 ### ~3:31.9 – 3:36.8  ·  `bit4_yes.3`  ·  EN ~4.9s, then 1.2s pause
 
 EN: A customer asks for a discount, the needle swings, and a discount comes out. Again. And again.
 
-★ 1) زبون بيطلب خصم، الإبرة بتميل، وبيطلع الخصم. ومرة تانية. ومرة تالتة.  
+★ 1) زبون بيطلب خصم، الاحتمالات بتميل، وبيطلع الخصم. ومرة تانية. ومرة تالتة.  
    2) بيجي زبون بدو خصم، الإبرة بتروح لـ«أكيد»، وبيطلع الخصم. وبيرجع يصير. وبيرجع.  
 
 > الإبرة for the dial's needle, not المؤشر (that was the cursor in video 2).
 
-**Decision:** 
+**Decision:** 1
 
 ### ~3:38.0 – 3:43.4  ·  `bit4_yes.4`  ·  EN ~5.4s, then 1.0s pause
 
 EN: The people who ran the test said it plainly: it was far too willing to do what people asked.
 
-★ 1) واللي عملوا التجربة حكوها بصراحة: كان مستعد زيادة عن اللزوم يعمل كل شي بينطلب منو.  
+★ 1) واللي عملوا التجربة بأنثروبيك حكوها بصراحة: كان مستعد يعمل كل شي بينطلب منو زيادة عن اللزوم.  
    2) والباحثين نفسن كتبوا: كان مستعجل كتير يلبّي أي طلب.  
 
-**Decision:** 
+**Decision:** 1
 
 ### ~3:44.4 – 3:47.9  ·  `bit4_yes.5`  ·  EN ~3.4s, then 1.6s pause
 
@@ -420,7 +420,7 @@ EN: How does training push a model that way? That's our next video.
 ★ 1) طيب كيف التدريب بيدفش نموذج بهالاتجاه؟ هاد موضوع الفيديو الجاي.  
    2) كيف بيتدرّب نموذج لحتى يصير هيك؟ هاد للفيديو الجاي.  
 
-**Decision:** 
+**Decision:** 1
 
 ## Bit 5: the loop is old
 
@@ -428,59 +428,59 @@ EN: How does training push a model that way? That's our next video.
 
 EN: Here's the surprising part: this loop isn't new.
 
-★ 1) والغريب بالقصة إنو هالدورة مانا جديدة أبداً.  
+★ 1) والغريب بالقصة إنو هالدورة مانا اختراع جديد.  
    2) بس المفاجأة: هالدورة مانا اختراع جديد.  
 
-**Decision:** 
+**Decision:** 1
 
 ### ~3:53.9 – 3:57.0  ·  `bit5_history.2`  ·  EN ~3.2s, then 0.8s pause
 
 EN: In 2022, researchers described it: think, act, read the result, repeat.
 
-★ 1) سنة 2022، باحثين وصفوها: فكّر، اعمل، اقرا النتيجة، وعيد.  
+★ 1) سنة 2022، باحثين عرفوها: فكّر، نفذ، اقرا النتيجة، وعيد.  
    2) من 2022 في باحثين كتبوا عنها: بيفكّر، بينفّذ، بيقرا شو صار، وبيعيد.  
 
 > The three words on screen will match the ones you pick (option 1: «فكّر · اعمل · اقرا»).
 
-**Decision:** 
+**Decision:** 1
 
 ### ~3:57.8 – 4:03.8  ·  `bit5_history.3`  ·  EN ~6.0s, then 0.6s pause
 
 EN: In 2023, a hobby project let a chat model run itself. Within weeks it was the top trending project on GitHub…
 
-★ 1) وسنة 2023، مشروع هواة خلّى نموذج تشات يشغّل حالو بحالو. وبكم أسبوع صار أكتر مشروع رائج على GitHub…  
+★ 1) وسنة 2023، مشروع هواة اسمو AutoGPT خلّى نموذج تشات يشغّل حالو بحالو. وبكم أسبوع صار أكتر مشروع trendy ع GitHub…  
    2) وب2023 طلع مشروع صغير بيترك التشات يدير حالو لحالو، وخلال أسابيع كان الأول على GitHub…  
 
-**Decision:** 
+**Decision:** 1
 
 ### ~4:04.4 – 4:06.7  ·  `bit5_history.4`  ·  EN ~2.3s, then 1.4s pause
 
 EN: …and then it mostly went around in circles.
 
-★ 1) …وبالآخر، أغلب الوقت كان عم يلف ويدور بمكانو.  
+★ 1) ...وبالأخير طلع بأغلب الوقت عم يلف ويدور بمكانو.  
    2) …وطلع إنو أغلب الوقت عم يدور حوالين حالو.  
 
-**Decision:** 
+**Decision:** 1
 
 ### ~4:08.1 – 4:13.3  ·  `bit5_history.5`  ·  EN ~5.2s, then 0.8s pause
 
 EN: Since then, the writers themselves have been trained on loops like this one, practicing jobs over and over.
 
-★ 1) ومن وقتا، صاروا يدرّبوا الكتّاب نفسن جوّا هالدورة، يتمرّنوا على الشغلة مرة ورا مرة.  
+★ 1) ومن وقتا، صاروا يدرّبوا الكتّاب نفسن جوّا هالدورة، يتمرّنوا عالشغلة مرة ورا مرة.  
    2) ومن بعدا، صار الكاتب نفسو يتدرّب جوّا هالدورة، يعيد الشغلة ويعيدا لحتى يتقنا.  
 
 > With دورة, «يتدرّب على هالدورة» would sound like a training course, so both options say «جوّا هالدورة» (inside this loop).
 
-**Decision:** 
+**Decision:** 1
 
 ### ~4:14.1 – 4:20.7  ·  `bit5_history.6`  ·  EN ~6.6s, then 1.2s pause
 
 EN: Same loop. What changed is the writer's training, and everything around it. The shop's second round shows how much that second part matters.
 
-★ 1) نفس الدورة. اللي تغيّر هوي تدريب الكاتب، وكل شي حواليه. والجولة التانية بالمحل بتورجينا قديش هالجزء التاني بيفرق.  
+★ 1) نفس الدورة. اللي تغيّر هوي تدريب الكاتب، وكل شي حواليه. والمحاولة التانية بالمحل بتفرجينا قديش هالجزء التاني بيفرق.  
    2) يعني الدورة ذاتا، بس الكاتب صار متدرّب أحسن، واللي حواليه صار أحسن. وتجربة المحل التانية بتورجينا قديش هالجزء الأخير مهم.  
 
-**Decision:** 
+**Decision:** 1
 
 ## Bit 6: round two
 
@@ -488,12 +488,12 @@ EN: Same loop. What changed is the writer's training, and everything around it. 
 
 EN: Months later they ran the shop again, with newer models and a few changes around them.
 
-★ 1) بعد كم شهر، رجعوا فتحوا المحل، بنماذج أحدث، وكم تغيير صغير حواليها.  
+★ 1) بعد كم شهر، رجعوا فتحوا المحل، بنماذج أحدث، وكم تغيير صغير حواليا.  
    2) وبعد أشهر، جرّبوا المحل مرة تانية: نماذج أجدد، وتعديلات بسيطة حوالين الكاتب.  
 
 > Keep the newer models in the line: the improvement wasn't only the changes around them (accuracy guardrail).
 
-**Decision:** 
+**Decision:** 1
 
 ### ~4:28.6 – 4:30.8  ·  `bit6_fixes.2`  ·  EN ~2.3s, then 0.6s pause
 
@@ -502,7 +502,7 @@ EN: The menu now shows what each item cost.
 ★ 1) المنيو صار يبيّن قديش كلّف كل غرض.  
    2) صار بالمنيو عمود لسعر الشرا.  
 
-**Decision:** 
+**Decision:** 1
 
 ### ~4:31.4 – 4:35.5  ·  `bit6_fixes.3`  ·  EN ~4.0s, then 0.8s pause
 
@@ -513,47 +513,47 @@ EN: A checklist sits on the desk: check the cost, check the margin, then answer.
 
 > The checklist on screen will carry the three words you pick (e.g. «التكلفة · الربح · الرد»).
 
-**Decision:** 
+**Decision:** 1
 
 ### ~4:36.3 – 4:40.6  ·  `bit6_fixes.4`  ·  EN ~4.3s, then 1.0s pause
 
 EN: And a second agent, a boss, reads the first one's requests before they go out.
 
-★ 1) وصار في إيجنت تاني، متل المدير، بيقرا طلبات الأولاني قبل ما تطلع.  
+★ 1) وصار في agent تاني، متل المدير، بيقرا طلبات الأولاني قبل ما تطلع.  
    2) وفوقو حطّوا مدير: إيجنت تاني بيراجع كل طلب قبل ما يتنفّذ.  
 
-**Decision:** 
+**Decision:** 1
 
 ### ~4:41.6 – 4:46.4  ·  `bit6_fixes.5`  ·  EN ~4.9s, then 1.4s pause
 
 EN: Discounts dropped by about eighty percent, free giveaways by half, and the shop mostly stopped losing money.
 
-★ 1) الخصومات نزلت تقريباً تمانين بالمية، والأغراض اللي كانت تنعطى ببلاش صارت النص، والمحل بطّل يخسر بأغلب الأسابيع.  
+★ 1) الخصومات نزلت تقريباً تمانين بالمية، وكمية الغراض اللي كانت تنعطى ببلاش نزلت للنص، والمحل بطّل يخسر بأغلب الأسابيع.  
    2) الخصومات قلّت حوالي تمانين بالمية، والهدايا المجانية للنص، والخسارة تقريباً وقفت.  
 
 > Numbers from the second report: discounts about −80%, free items halved, weekly losses largely gone.
 
-**Decision:** 
+**Decision:** 1
 
 ### ~4:49.8 – 4:55.0  ·  `bit6_fixes.6`  ·  EN ~5.2s, then 1.4s pause
 
 EN: Not perfect. Some nights the boss and the shopkeeper just kept writing to each other about eternal transcendence.
 
-★ 1) مو مثالي طبعاً. بكم ليلة، المدير والبيّاع ضلّوا يكتبوا لبعض عن «التسامي الأبدي».  
+★ 1) ما صار مثالي طبعاً. في أيام، المدير والبيّاع ضلّوا يكتبوا لبعض عن «التسامي الأبدي».  
    2) بس مو كامل. في ليالي، المدير والبيّاع قعدوا يتراسلوا للصبح عن «التسامي الأبدي اللانهائي».  
 
 > On screen: the English original, ETERNAL TRANSCENDENCE (your answer, 3 Oct); you say «التسامي الأبدي» over it.
 
-**Decision:** 
+**Decision:** 1
 
 ### ~4:56.4 – 4:59.0  ·  `bit6_fixes.7`  ·  EN ~2.6s, then 1.0s pause
 
 EN: Two writers, and nothing real between them to check.
 
 ★ 1) كاتبين، وما في بيناتن شي حقيقي يرجعوا عليه.  
-   2) كاتبين عم يقروا لبعض، وما في شي من الدنيا الحقيقية يصحّحلن.  
+   2) كاتبين عم يقروا لبعض، وما في شي من العالم الحقيقي يصحّحلن.  
 
-**Decision:** 
+**Decision:** 2
 
 ### ~4:60.0 – 5:03.4  ·  `bit6_fixes.8`  ·  EN ~3.4s, then 1.6s pause
 
@@ -562,7 +562,7 @@ EN: Their own lesson: for agents, a little bureaucracy goes a long way.
 ★ 1) والدرس اللي طلعوا فيه: الإيجنت بيلزمو شوية بيروقراطية، وهالشوية بتفرق كتير.  
    2) وهنن نفسن قالوا: شوية روتين وأوراق، بيعملوا فرق كبير مع الإيجنتس.  
 
-**Decision:** 
+**Decision:** 1
 
 ## Bit 7: recap
 
@@ -575,16 +575,16 @@ EN: So an AI agent is a writer in a loop.
 
 > «باختصار» opens the recap, as in video 2.
 
-**Decision:** 
+**Decision:** 1
 
 ### ~5:10.2 – 5:12.2  ·  `bit7_exit.2`  ·  EN ~2.0s, then 0.8s pause
 
 EN: A menu it reads its tools from.
 
-★ 1) منيو بيقرا منو أدواتو.  
-   2) عندو منيو، منو بيعرف شو أدواتو.  
+★ 1) دليل بيقرا منو أدواتو.  
+   2) عندو دليل، منو بيعرف شو أدواتو.  
 
-**Decision:** 
+**Decision:** 1
 
 ### ~5:13.0 – 5:15.8  ·  `bit7_exit.3`  ·  EN ~2.9s, then 0.8s pause
 
@@ -593,7 +593,7 @@ EN: A desk that fills up, and the notes it keeps.
 ★ 1) طاولة بتتعبّى، ودفتر بيحفظ فيه المهم.  
    2) طاولة إلا حجم، ودفتر ما بيضيع.  
 
-**Decision:** 
+**Decision:** 1
 
 ### ~5:16.6 – 5:19.8  ·  `bit7_exit.4`  ·  EN ~3.2s, then 1.0s pause
 
@@ -602,16 +602,16 @@ EN: And hands: a small program that does exactly what it writes.
 ★ 1) وإيدين: برنامج صغير بينفّذ اللي بيكتبو بالحرف.  
    2) وإيدين: برنامج بسيط بيعمل اللي مكتوب، لا أكتر ولا أقل.  
 
-**Decision:** 
+**Decision:** 1
 
 ### ~5:22.8 – 5:26.2  ·  `bit7_exit.5`  ·  EN ~3.4s, then 1.0s pause
 
 EN: This loop now runs inside apps you can message from your phone.
 
-★ 1) وهالدورة صارت هلّق جوا تطبيقات فيك تراسلا من موبايلك.  
+★ 1) وهالدورة صارت هلّا جوا تطبيقات فيك تراسلا من موبايلك.  
    2) واليوم، هالدورة نفسا موجودة بتطبيقات بتحكي معا من تلفونك.  
 
-**Decision:** 
+**Decision:** 1
 
 ### ~5:27.2 – 5:29.5  ·  `bit7_exit.6`  ·  EN ~2.3s, then 1.8s pause
 
@@ -622,24 +622,24 @@ EN: It never touched a thing. It wrote it.
 
 > Mirrors video 2's last line «يعني ما رسما… كتبا كتابة.»
 
-**Decision:** 
+**Decision:** remove
 
 ### ~5:31.3 – 5:34.5  ·  `bit7_exit.7`  ·  EN ~3.2s, then 1.2s pause
 
 EN: Next time: how do you train a machine with a thumbs-up?
 
-★ 1) وبالفيديو الجاي: كيف بتدرّب آلة بلايك؟  
+★ 1) وبالفيديو الجايي: كيف بتدرّب آلة بزر اللايك؟  
    2) المرة الجاية: كيف بيعلّموا النموذج بزر الإعجاب؟  
 
-**Decision:** 
+**Decision:** 1
 
 ### ~5:35.7 – 5:40.0  ·  `bit7_exit.8`  ·  EN ~4.3s, then 1.6s pause
 
 EN: Since you watched to the end, like and subscribe so you catch the next videos.
 
-★ 1) بما إنو حضرت الفيديو للآخر، حط لايك واشترك بالقناة لتشوف الفيديوهات اللي جاية.  
+★ 1) بما إنو حضرت الفيديو للاخير، حط لايك واشترك بالقناة لتشوف الفيديوهات الجاية.  
    2) وإذا وصلت لهون، لايك واشتراك، لتلحق الفيديوهات الجاية.  
 
 > Option 1 is video 2's line as you recorded it.
 
-**Decision:** 
+**Decision:** 1

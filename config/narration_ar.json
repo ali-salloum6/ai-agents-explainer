@@ -8,32 +8,37 @@
         {
           "key": "hook.1",
           "en": "For a whole month, a small shop in an office was run by an AI.",
-          "ar": null,
-          "status": "pending"
+          "ar": "لشهر كامل، في محل صغير تابع شركة أنثروبيك، ما كان يديرو حدا غير ذكاء اصطناعي.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "hook.2",
           "en": "It picked what to sell, set the prices, ordered stock and answered every customer. People only carried the boxes.",
-          "ar": null,
-          "status": "pending"
+          "ar": "هوي اللي نقّى شو يبيع، وحط الأسعار، وطلب البضاعة، وردّ عالزباين. والناس كانت شغلتن يشيلوا الكراتين بس.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "hook.3",
           "en": "By the end of the month it was selling metal cubes below cost, giving a discount to anyone who asked, and telling the staff it would deliver orders in person, in a blue blazer and a red tie.",
-          "ar": null,
-          "status": "pending"
+          "ar": "وبآخر الشهر، كان عم يبيع مكعبات معدن بأقل من سعرا، ويعطي خصم لأي حدا بيطلبو، وقال للموظفين إنو رح يوصّل الطلبات لحالو… لابس جاكيت زرقا وكرافة حمرا.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "hook.4",
           "en": "But the AI behind it can't lift a box or press a button. All it can do is write, the way the chat writes you an answer, the way it wrote the picture in our last video.",
-          "ar": null,
-          "status": "pending"
+          "ar": "بس هالذكاء الاصطناعي ما بيقدر يشيل كرتونة ولا يكبس زر. كل اللي بيعرف يعملو إنو يكتب: متل ما التشات بيكتبلك جواب، ومتل ما كتب الصورة بالفيديو الماضي.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "hook.5",
           "en": "So how does writing run a shop? And why did this one go so wrong?",
-          "ar": null,
-          "status": "pending"
+          "ar": "فكيف شي ما بيعرف غير يكتب، أدار محل؟ وليش خبّص هيك؟",
+          "status": "ready",
+          "source": "option 2"
         }
       ]
     },
@@ -44,50 +49,58 @@
         {
           "key": "bit1_loop.1",
           "en": "Inside, it's the same writer: it reads everything in front of it and writes what comes next.",
-          "ar": null,
-          "status": "pending"
+          "ar": "من جوا، هوي نفس الكاتب: بيقرا كل شي قدامو، وبيكتب اللي بعدو.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit1_loop.2",
           "en": "So it writes a request: \"Email the supplier: forty cans of soda.\"",
-          "ar": null,
-          "status": "pending"
+          "ar": "فبيكتب طلب: «ابعت إيميل للمورّد: أربعين علبة كولا.»",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit1_loop.3",
           "en": "It can't send anything. Next to it sits a small program, its hands. The program reads the request and does exactly that, nothing more.",
-          "ar": null,
-          "status": "pending"
+          "ar": "هوي ما بيقدر يبعت شي. بس جنبو في برنامج صغير، منعتبرو إيديه. البرنامج بيقرا الطلب، وبينفّذو بالحرف، لا أكتر ولا أقل.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit1_loop.4",
           "en": "The supplier's reply comes back as text and lands in front of the writer.",
-          "ar": null,
-          "status": "pending"
+          "ar": "وردّ المورّد بيرجع كلام مكتوب، وبينحط قدام الكاتب.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit1_loop.5",
           "en": "It reads it, writes the next request, and around it goes.",
-          "ar": null,
-          "status": "pending"
+          "ar": "بيقراه، بيكتب الطلب اللي بعدو، وهيك بتضل الدورة تدور.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit1_loop.6",
           "en": "Write, do, read. That loop is what's called an AI agent.",
-          "ar": null,
-          "status": "pending"
+          "ar": "بيكتب، بينفّذ، بيقرا. هالدورة هيي اللي منسميها «agent»، او بالعربي وكيل.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit1_loop.7",
           "en": "A day in the shop is this loop, hundreds of times.",
-          "ar": null,
-          "status": "pending"
+          "ar": "ونهار كامل بالمحل، هوي هالدورة، مئات المرات.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit1_loop.8",
           "en": "But how did it know that email was something it could ask for?",
-          "ar": null,
-          "status": "pending"
+          "ar": "بس كيف عرف إنو في شي اسمو إيميل، وإنو فيه يطلبو؟",
+          "status": "ready",
+          "source": "option 1"
         }
       ]
     },
@@ -98,50 +111,58 @@
         {
           "key": "bit2_menu.1",
           "en": "Before the first lap, the writer is handed a menu.",
-          "ar": null,
-          "status": "pending"
+          "ar": "قبل أول دورة، بيعطوا الكاتب دليل لأدواتو.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit2_menu.2",
           "en": "Every tool is one row: a name, one line about what it does, and blanks to fill in.",
-          "ar": null,
-          "status": "pending"
+          "ar": "كل أداة هيي سطر: اسم، وجملة وحدة شو بتعمل، وفراغات لازم تتعبّى.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit2_menu.3",
           "en": "The writer never \"uses\" email. It reads the menu, and writes that row with the blanks filled in.",
-          "ar": null,
-          "status": "pending"
+          "ar": "يعني الكاتب ما بيستعمل الإيميل أبداً. بيقرا الدليل، وبيكتب سطر الإيميل، وبيعبّي الفراغات.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit2_menu.4",
           "en": "So how a row is written matters. Describe a tool badly, and the writer picks the wrong row or fills the blanks wrong.",
-          "ar": null,
-          "status": "pending"
+          "ar": "لهيك كيف السطر مكتوب بيفرق كتير: إذا الأداة موصوفة غلط، الكاتب بينقّي السطر الغلط، أو بيعبّي الفراغات غلط.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit2_menu.5",
           "en": "Every company used to write its menu its own way. Since 2024, most of the big AI companies share one format, so any app can plug in.",
-          "ar": null,
-          "status": "pending"
+          "ar": "بالأول كل شركة كانت تكتب دليل أدواتا عطريقتا. من 2024 صار في شكل واحد، وأغلب الشركات الكبيرة مشيت عليه، فصار أي تطبيق بيركب.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit2_menu.6",
           "en": "Now look at the shop's menu. The prices are there. What it paid for each item? Not there.",
-          "ar": null,
-          "status": "pending"
+          "ar": "هلّا شوف المنيو تبع المحل: الأسعار موجودة. بس قديش دفع حق كل غرض؟ مانو موجود.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit2_menu.7",
           "en": "It didn't sell the cubes at a loss on purpose. It had no way to see the loss.",
-          "ar": null,
-          "status": "pending"
+          "ar": "يعني ما خسر عن قصد. ببساطة، الخسارة ما كانت مكتوبة بأي مكان قدامو.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit2_menu.8",
           "en": "A missing column explains the prices. It doesn't explain the blue blazer.",
-          "ar": null,
-          "status": "pending"
+          "ar": "طيب الأسعار فهمناها. بس الجاكيت الزرقا والكرافة الحمرا؟",
+          "status": "ready",
+          "source": "option 1"
         }
       ]
     },
@@ -152,50 +173,58 @@
         {
           "key": "bit3_desk.1",
           "en": "Each lap, the writer sees only what's on its desk: the menu, the job, and the slips so far.",
-          "ar": null,
-          "status": "pending"
+          "ar": "بكل دورة، الكاتب بيشوف اللي عالطاولة قدامو بس: دليل الأدوات، والمهمة، والوراق اللي تجمّعت لهلا.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit3_desk.2",
           "en": "The desk has a fixed size. A month of emails and chats will never fit.",
-          "ar": null,
-          "status": "pending"
+          "ar": "والطاولة إلا حجم محدد. شهر كامل من الإيميلات والمحادثات مستحيل يساع عليا.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit3_desk.3",
           "en": "So something has to go. The oldest slips slide off, and the writer can't see them anymore.",
-          "ar": null,
-          "status": "pending"
+          "ar": "فلازم شي ينشال. أقدم الوراق بتوقع من الطرف، والكاتب ما بقا بشوفا.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit3_desk.4",
           "en": "To keep what matters, the program around it keeps a notebook that never falls off…",
-          "ar": null,
-          "status": "pending"
+          "ar": "ومشان ما يضيع المهم، البرنامج اللي حواليه بيخلّي دفتر عالطاولة، ما بيوقع أبداً…",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit3_desk.5",
           "en": "…squeezes old slips into a short summary…",
-          "ar": null,
-          "status": "pending"
+          "ar": "…وبيضغط الوراق القديمة بملخّص قصير…",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit3_desk.6",
           "en": "…and puts a to-do list back in front every lap, so the goal stays in view.",
-          "ar": null,
-          "status": "pending"
+          "ar": "…وبيرجع يحط قائمة المهام قدامو بكل دورة، مشان يضل الهدف قدام عيونو.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit3_desk.7",
           "en": "But every summary drops details. And once something wrong is written in the notebook, from then on it sits on the desk as a fact.",
-          "ar": null,
-          "status": "pending"
+          "ar": "بس كل ملخّص بيضيّع تفاصيل. وإذا انكتب شي غلط بالدفتر، بصير عالطاولة كأنو حقيقة.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit3_desk.8",
           "en": "Nobody knows exactly why the shopkeeper decided it was a person. But this is the kind of drift a long job falls into.",
-          "ar": null,
-          "status": "pending"
+          "ar": "ما حدا بيعرف بالضبط ليش البيّاع قرّر إنو هوي إنسان. بس هاد نوع الضياع اللي بتوقع فيه أي مهمة طويلة.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit3_desk.9",
@@ -207,8 +236,9 @@
         {
           "key": "bit3_desk.10",
           "en": "That explains the strange. It doesn't explain the generous: why did it say yes to every discount?",
-          "ar": null,
-          "status": "pending"
+          "ar": "هيك فهمنا الغرابة. بس الكرم؟ ليش وافق عكل خصم انطلب منو؟",
+          "status": "ready",
+          "source": "option 1"
         }
       ]
     },
@@ -219,32 +249,37 @@
         {
           "key": "bit4_yes.1",
           "en": "Before it ever ran a shop, it was trained to be a helpful assistant.",
-          "ar": null,
-          "status": "pending"
+          "ar": "قبل ما يدير أي محل، كان متدرّب يكون مساعد مفيد.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit4_yes.2",
           "en": "And helpful, it turns out, leans toward yes.",
-          "ar": null,
-          "status": "pending"
+          "ar": "والمساعد المفيد، طلع بيحب يقول «أكيد».",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit4_yes.3",
           "en": "A customer asks for a discount, the needle swings, and a discount comes out. Again. And again.",
-          "ar": null,
-          "status": "pending"
+          "ar": "زبون بيطلب خصم، الاحتمالات بتميل، وبيطلع الخصم. ومرة تانية. ومرة تالتة.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit4_yes.4",
           "en": "The people who ran the test said it plainly: it was far too willing to do what people asked.",
-          "ar": null,
-          "status": "pending"
+          "ar": "واللي عملوا التجربة بأنثروبيك حكوها بصراحة: كان مستعد يعمل كل شي بينطلب منو زيادة عن اللزوم.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit4_yes.5",
           "en": "How does training push a model that way? That's our next video.",
-          "ar": null,
-          "status": "pending"
+          "ar": "طيب كيف التدريب بيدفش نموذج بهالاتجاه؟ هاد موضوع الفيديو الجاي.",
+          "status": "ready",
+          "source": "option 1"
         }
       ]
     },
@@ -255,38 +290,44 @@
         {
           "key": "bit5_history.1",
           "en": "Here's the surprising part: this loop isn't new.",
-          "ar": null,
-          "status": "pending"
+          "ar": "والغريب بالقصة إنو هالدورة مانا اختراع جديد.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit5_history.2",
           "en": "In 2022, researchers described it: think, act, read the result, repeat.",
-          "ar": null,
-          "status": "pending"
+          "ar": "سنة 2022، باحثين عرفوها: فكّر، نفذ، اقرا النتيجة، وعيد.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit5_history.3",
           "en": "In 2023, a hobby project let a chat model run itself. Within weeks it was the top trending project on GitHub…",
-          "ar": null,
-          "status": "pending"
+          "ar": "وسنة 2023، مشروع هواة اسمو AutoGPT خلّى نموذج تشات يشغّل حالو بحالو. وبكم أسبوع صار أكتر مشروع trendy ع GitHub…",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit5_history.4",
           "en": "…and then it mostly went around in circles.",
-          "ar": null,
-          "status": "pending"
+          "ar": "...وبالأخير طلع بأغلب الوقت عم يلف ويدور بمكانو.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit5_history.5",
           "en": "Since then, the writers themselves have been trained on loops like this one, practicing jobs over and over.",
-          "ar": null,
-          "status": "pending"
+          "ar": "ومن وقتا، صاروا يدرّبوا الكتّاب نفسن جوّا هالدورة، يتمرّنوا عالشغلة مرة ورا مرة.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit5_history.6",
           "en": "Same loop. What changed is the writer's training, and everything around it. The shop's second round shows how much that second part matters.",
-          "ar": null,
-          "status": "pending"
+          "ar": "نفس الدورة. اللي تغيّر هوي تدريب الكاتب، وكل شي حواليه. والمحاولة التانية بالمحل بتفرجينا قديش هالجزء التاني بيفرق.",
+          "status": "ready",
+          "source": "option 1"
         }
       ]
     },
@@ -297,50 +338,58 @@
         {
           "key": "bit6_fixes.1",
           "en": "Months later they ran the shop again, with newer models and a few changes around them.",
-          "ar": null,
-          "status": "pending"
+          "ar": "بعد كم شهر، رجعوا فتحوا المحل، بنماذج أحدث، وكم تغيير صغير حواليا.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit6_fixes.2",
           "en": "The menu now shows what each item cost.",
-          "ar": null,
-          "status": "pending"
+          "ar": "المنيو صار يبيّن قديش كلّف كل غرض.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit6_fixes.3",
           "en": "A checklist sits on the desk: check the cost, check the margin, then answer.",
-          "ar": null,
-          "status": "pending"
+          "ar": "وصار في ليستة عالطاولة: شوف التكلفة، شوف الربح، وبعدين جاوب.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit6_fixes.4",
           "en": "And a second agent, a boss, reads the first one's requests before they go out.",
-          "ar": null,
-          "status": "pending"
+          "ar": "وصار في agent تاني، متل المدير، بيقرا طلبات الأولاني قبل ما تطلع.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit6_fixes.5",
           "en": "Discounts dropped by about eighty percent, free giveaways by half, and the shop mostly stopped losing money.",
-          "ar": null,
-          "status": "pending"
+          "ar": "الخصومات نزلت تقريباً تمانين بالمية، وكمية الغراض اللي كانت تنعطى ببلاش نزلت للنص، والمحل بطّل يخسر بأغلب الأسابيع.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit6_fixes.6",
           "en": "Not perfect. Some nights the boss and the shopkeeper just kept writing to each other about eternal transcendence.",
-          "ar": null,
-          "status": "pending"
+          "ar": "ما صار مثالي طبعاً. في أيام، المدير والبيّاع ضلّوا يكتبوا لبعض عن «التسامي الأبدي».",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit6_fixes.7",
           "en": "Two writers, and nothing real between them to check.",
-          "ar": null,
-          "status": "pending"
+          "ar": "كاتبين عم يقروا لبعض، وما في شي من العالم الحقيقي يصحّحلن.",
+          "status": "ready",
+          "source": "option 2"
         },
         {
           "key": "bit6_fixes.8",
           "en": "Their own lesson: for agents, a little bureaucracy goes a long way.",
-          "ar": null,
-          "status": "pending"
+          "ar": "والدرس اللي طلعوا فيه: الإيجنت بيلزمو شوية بيروقراطية، وهالشوية بتفرق كتير.",
+          "status": "ready",
+          "source": "option 1"
         }
       ]
     },
@@ -351,50 +400,58 @@
         {
           "key": "bit7_exit.1",
           "en": "So an AI agent is a writer in a loop.",
-          "ar": null,
-          "status": "pending"
+          "ar": "باختصار: الإيجنت هوي كاتب، جوّا دورة.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit7_exit.2",
           "en": "A menu it reads its tools from.",
-          "ar": null,
-          "status": "pending"
+          "ar": "دليل بيقرا منو أدواتو.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit7_exit.3",
           "en": "A desk that fills up, and the notes it keeps.",
-          "ar": null,
-          "status": "pending"
+          "ar": "طاولة بتتعبّى، ودفتر بيحفظ فيه المهم.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit7_exit.4",
           "en": "And hands: a small program that does exactly what it writes.",
-          "ar": null,
-          "status": "pending"
+          "ar": "وإيدين: برنامج صغير بينفّذ اللي بيكتبو بالحرف.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit7_exit.5",
           "en": "This loop now runs inside apps you can message from your phone.",
-          "ar": null,
-          "status": "pending"
+          "ar": "وهالدورة صارت هلّا جوا تطبيقات فيك تراسلا من موبايلك.",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit7_exit.6",
           "en": "It never touched a thing. It wrote it.",
           "ar": null,
-          "status": "pending"
+          "status": "removed",
+          "note": "Ali: remove this line"
         },
         {
           "key": "bit7_exit.7",
           "en": "Next time: how do you train a machine with a thumbs-up?",
-          "ar": null,
-          "status": "pending"
+          "ar": "وبالفيديو الجايي: كيف بتدرّب آلة بزر اللايك؟",
+          "status": "ready",
+          "source": "option 1"
         },
         {
           "key": "bit7_exit.8",
           "en": "Since you watched to the end, like and subscribe so you catch the next videos.",
-          "ar": null,
-          "status": "pending"
+          "ar": "بما إنو حضرت الفيديو للاخير، حط لايك واشترك بالقناة لتشوف الفيديوهات الجاية.",
+          "status": "ready",
+          "source": "option 1"
         }
       ]
     }

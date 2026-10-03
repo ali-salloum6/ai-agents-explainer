@@ -29,14 +29,15 @@ Lines that quote on-screen text decide what gets drawn. Picks come from [`arabic
 
 | Where | On screen | Source |
 | --- | --- | --- |
-| bit1_loop.2 · the request slip | *pending Ali's pick* | bit1_loop.2 |
+| bit1_loop.2 · the request slip | «ابعت إيميل للمورّد: أربعين علبة كولا.» | Ali, 3 Oct (option 1) |
 | bit1_loop.6 · chip | «AI Agent» (spoken: «إيجنت») | Ali, 3 Oct |
 | bit4_yes · the dial's two ends | «لأ» ↔ «أكيد» | Ali, 3 Oct |
-| bit5_history.2 · the 2022 loop's three words | *pending Ali's pick* | bit5_history.2 |
-| bit6_fixes.3 · the checklist | *pending Ali's pick* | bit6_fixes.3 |
+| bit5_history.2 · the 2022 loop's three words | «فكّر · نفّذ · اقرا» (the VO adds «وعيد») | Ali, 3 Oct (option 1, edited) |
+| bit6_fixes.3 · the checklist | «شوف التكلفة · شوف الربح · جاوب» | Ali, 3 Oct (option 1) |
+| bit 2 · two different cards | the tools guide «دليل الأدوات» (tool rows) and the shop's price menu «منيو المحل» (items and prices, then the cost column) | Ali, 3 Oct |
 | bit6_fixes.6 · the night slips | ETERNAL TRANSCENDENCE (English original, caps; the VO says «التسامي الأبدي») | Ali, 3 Oct |
 
-Also decided 3 Oct: bit3_desk.9 (the FBI email) is cut; the optional SWE-agent line is not used.
+Also decided 3 Oct: bit3_desk.9 (the FBI email) and bit7_exit.6 (the thesis line) are cut; the optional SWE-agent line is not used. bit4_yes.3 now says «الاحتمالات بتميل» (the odds tip) where the draft had the needle: bit 4's proposal should show the dial as yes/no odds.
 
 ## In the spirit of video 2
 
@@ -63,7 +64,7 @@ Everyday frame, one idea per line. Each strange moment from the shop is followed
 | 5 | `bit4_yes` | `Bit4Yes` | Trained to please: the yes dial (teaser for video 4) | 70 | 0:27 | 3:25–3:51 |
 | 6 | `bit5_history` | `Bit5History` | The loop is old: 2022, 2023's viral project going in circles, trained writers since | 89 | 0:32 | 3:51–4:24 |
 | 7 | `bit6_fixes` | `Bit6Fixes` | Round two: cost column, checklist, a boss; results; transcendence | 109 | 0:45 | 4:24–5:09 |
-| 8 | `bit7_exit` | `Bit7Exit` | Recap on the master diagram; thesis; next video; subscribe | 84 | 0:37 | 5:09–5:46 |
+| 8 | `bit7_exit` | `Bit7Exit` | Recap on the master diagram; next video; subscribe | 84 | 0:37 | 5:09–5:46 |
 | | | | | **908** | **≈ 5:46** | + end card ≈ **5:54** |
 
 Estimate: English words at the final cut's measured rate (video 2: 568 English words → 3:48 of Arabic VO, ≈ 3.5 words per spoken second), plus each line's pause, ~1.5 s lead-in per segment, and the silent holds noted in the tables. Treat ±15%: Arabic lines run longer or shorter than the English.
@@ -107,7 +108,7 @@ Title paid by hook.4 (~0:25): the AI only writes.
 
 ## 3. The menu — `bit2_menu` · `Bit2Menu`
 
-**Shows:** a menu card unfolds above the loop with five rows (email, chat with customers, web search, notes, inventory). Zoom into the email row: name · one line of description · two empty blanks. The writer's next slip is that same row with the blanks filled. Then five app icons, each with a differently shaped plug, fail to fit the writer; their plugs morph into one shape and click into a single socket (a "2024" marker). Back to the shop's menu: the inventory row has a price column and an empty, dashed column where "what I paid" would be. The metal cube's tag flips below cost again; the dashed column pulses.
+**Shows:** the tools guide («دليل الأدوات», a card) unfolds above the loop with five rows (email, chat with customers, web search, notes, inventory). Zoom into the email row: name · one line of description · two empty blanks. The writer's next slip is that same row with the blanks filled. Then five app icons, each with a differently shaped plug, fail to fit the writer; their plugs morph into one shape and click into a single socket (a "2024" marker). Then the shop's price menu («منيو المحل», a separate card: the items and their prices) with an empty, dashed column where "what I paid" would be. The metal cube's tag flips below cost again; the dashed column pulses.
 
 | Key | Line (rough) | Pause | Picture |
 | --- | --- | --- | --- |
@@ -116,7 +117,7 @@ Title paid by hook.4 (~0:25): the AI only writes.
 | bit2_menu.3 | The writer never "uses" email. It reads the menu, and writes that row with the blanks filled in. | 1.2 | next slip = the row, filled |
 | bit2_menu.4 | So how a row is written matters. Describe a tool badly, and the writer picks the wrong row or fills the blanks wrong. | 1.0 | two look-alike rows; the wrong one is picked and flashes |
 | bit2_menu.5 | Every company used to write its menu its own way. Since 2024, most of the big AI companies share one format, so any app can plug in. | 1.2 | plugs → one socket |
-| bit2_menu.6 | Now look at the shop's menu. The prices are there. What it paid for each item? Not there. | 1.2 | inventory row, dashed empty column |
+| bit2_menu.6 | Now look at the shop's menu. The prices are there. What it paid for each item? Not there. | 1.2 | the price menu, dashed empty column |
 | bit2_menu.7 | It didn't sell the cubes at a loss on purpose. It had no way to see the loss. | 1.6 | cube tag flips; dashed column pulses |
 | bit2_menu.8 | A missing column explains the prices. It doesn't explain the blue blazer. | 1.4 | blazer bubble, small, with a question mark |
 
@@ -166,7 +167,7 @@ On screen: one chip, the English term once: «context window».
 
 ## 7. Round two — `bit6_fixes` · `Bit6Fixes`
 
-**Shows:** the shop's master diagram again, with a "round two" marker. Three parts snap in, one per line: a cost column fills the dashed space in the menu; a checklist card pins to the desk (three ticks: cost, margin, answer); a second, smaller loop appears above, the boss, and reads each slip before it leaves. Two bars (discounts, free items) shrink, one to about a fifth, one to half. Then night: the two loops pass slips back and forth, the text on them swelling into "ETERNAL TRANSCENDENCE", while the world node stays dark. The checklist glows on the last line.
+**Shows:** the shop's master diagram again, with a "round two" marker. Three parts snap in, one per line: a cost column fills the dashed space in the price menu; a checklist card pins to the desk (three ticks: cost, margin, answer); a second, smaller loop appears above, the boss, and reads each slip before it leaves. Two bars (discounts, free items) shrink, one to about a fifth, one to half. Then night: the two loops pass slips back and forth, the text on them swelling into "ETERNAL TRANSCENDENCE", while the world node stays dark. The checklist glows on the last line.
 
 | Key | Line (rough) | Pause | Picture |
 | --- | --- | --- | --- |
@@ -183,7 +184,7 @@ On screen: one chip, the English term once: «context window».
 
 ## 8. Recap — `bit7_exit` · `Bit7Exit`
 
-**Shows:** the finished master diagram. Each part lights as it's named: writer, menu, desk + notebook, hands. A phone silhouette with a chat thread slides in beside it (no logo). The thesis line holds on the writer's cursor. The dial from bit 4 returns with its question mark. End card.
+**Shows:** the finished master diagram. Each part lights as it's named: writer, tools guide, desk + notebook, hands. A phone silhouette with a chat thread slides in beside it (no logo). The dial from bit 4 returns with its question mark. End card.
 
 | Key | Line (rough) | Pause | Picture |
 | --- | --- | --- | --- |
@@ -192,6 +193,6 @@ On screen: one chip, the English term once: «context window».
 | bit7_exit.3 | A desk that fills up, and the notes it keeps. | 0.8 | desk and notebook light |
 | bit7_exit.4 | And hands: a small program that does exactly what it writes. | 1.0 | the program lights; the whole loop turns once (+2 s hold) |
 | bit7_exit.5 | This loop now runs inside apps you can message from your phone. | 1.0 | phone with a chat thread |
-| bit7_exit.6 | It never touched a thing. It wrote it. | 1.8 | thesis holds on the cursor |
+| bit7_exit.6 | It never touched a thing. It wrote it. | 1.8 | **cut (Ali, 3 Oct)** |
 | bit7_exit.7 | Next time: how do you train a machine with a thumbs-up? | 1.2 | the dial with a question mark |
 | bit7_exit.8 | Since you watched to the end, like and subscribe so you catch the next videos. | 1.6 | end card, fade out |
