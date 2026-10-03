@@ -8,7 +8,7 @@
         {
           "key": "hook.1",
           "en": "For a whole month, a small shop in an office was run by an AI.",
-          "ar": "لشهر كامل، في محل صغير تابع شركة أنثروبيك، ما كان يديرو حدا غير ذكاء اصطناعي.",
+          "ar": "لشهر كامل، في محل صغير تابع لشركة أنثروبيك، ما كان يديرو حدا غير ذكاء اصطناعي.",
           "status": "ready",
           "source": "option 1"
         },
@@ -56,7 +56,7 @@
         {
           "key": "bit1_loop.2",
           "en": "So it writes a request: \"Email the supplier: forty cans of soda.\"",
-          "ar": "فبيكتب طلب: «ابعت إيميل للمورّد: أربعين علبة كولا.»",
+          "ar": "فبيكتب طلب: «ابعت إيميل للمورّد: أربعين علبة كولا» مثلا",
           "status": "ready",
           "source": "option 1"
         },
@@ -256,7 +256,7 @@
         {
           "key": "bit4_yes.2",
           "en": "And helpful, it turns out, leans toward yes.",
-          "ar": "والمساعد المفيد، طلع بيحب يقول «أكيد».",
+          "ar": "والمساعد المفيد، طلع بيحب يقول «أكيد» كتير.",
           "status": "ready",
           "source": "option 1"
         },
@@ -297,7 +297,7 @@
         {
           "key": "bit5_history.2",
           "en": "In 2022, researchers described it: think, act, read the result, repeat.",
-          "ar": "سنة 2022، باحثين عرفوها: فكّر، نفذ، اقرا النتيجة، وعيد.",
+          "ar": "بسنة 2022، باحثين عرفوها: فكّر، نفذ، اقرا النتيجة، وعيد.",
           "status": "ready",
           "source": "option 1"
         },
@@ -449,7 +449,7 @@
         {
           "key": "bit7_exit.8",
           "en": "Since you watched to the end, like and subscribe so you catch the next videos.",
-          "ar": "بما إنو حضرت الفيديو للاخير، حط لايك واشترك بالقناة لتشوف الفيديوهات الجاية.",
+          "ar": "بما إنو حضرت الفيديو للاخير، حط لايك واشترك بالقناة لتشوف الفيديوهات اللي جاية.",
           "status": "ready",
           "source": "option 1"
         }

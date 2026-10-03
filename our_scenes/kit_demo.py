@@ -136,3 +136,60 @@ class KitDemo(Scene):
         self.play(FadeIn(tc), FadeIn(tp[:n_done], lag_ratio=0.01), FadeIn(cur2), run_time=0.8)
         self.play(blink(cur2, n=3, period=0.4))
         self.wait(1.0)
+
+
+# ----------------------------------------------------------------------------------------------
+# Video 3's kit (our_scenes/agent_kit.py): four pages, ~2 s each.
+#   .venv/bin/manimgl our_scenes/kit_demo.py AgentKitDemo -w -l --video_dir ./media
+# ----------------------------------------------------------------------------------------------
+from our_scenes import agent_kit as ak  # noqa: E402
+
+
+class AgentKitDemo(Scene):
+    def construct(self):
+        self.camera.background_rgba = list(color_to_rgba(BG))
+
+        # ---- 1. the master diagram, finished: guide, writer, hands, world, desk, notebook, loop ----
+        m = ak.master(guide=True, desk_on=True)
+        slips = VGroup(*[ak.slip(kind="request" if k % 2 else "result", width=0.95, seed=k).move_to(ak.desk_slot(k, 5))
+                         for k in range(5)])
+        nb = ak.notebook(0.8, 0.95).move_to(np.array([ak.DESK_X1 - 0.55, ak.SLIP_Y + 0.12, 0]))
+        req = ak.slip(ak.REQUEST_SLIP_AR, font_size=24).next_to(m.to_hands, UP, buff=0.12)
+        page1 = VGroup(m.view, m.guide, m.writer, m.hands, m.world, m.to_hands, m.to_world, m.back, m.desk, slips, nb, req)
+        self.add(page1, ak.loop_ring(radius=3.6, opacity=0.25))
+        self.wait(2.0)
+        self.clear()
+
+        # ---- 2. the shop and the icons ----
+        fr = ak.fridge(3.2).move_to(np.array([-3.6, 0.2, 0]))
+        pad = ak.ipad(1.1).next_to(fr, RIGHT, buff=0.4).align_to(fr, DOWN).shift(0.9 * UP)
+        icons = VGroup(ak.icon_box(), ak.icon_tag(), ak.envelope(), ak.icon_bubble(), ak.icon_search(), ak.icon_note(),
+                       ak.icon_shelves(), ak.icon_can(), ak.icon_chips(), ak.icon_cube(), ak.icon_percent(), ak.icon_gift(),
+                       ak.icon_star(), ak.icon_clock(), ak.icon_calendar(0.7), ak.icon_blazer(0.9), ak.icon_button(),
+                       ak.icon_supplier(), ak.icon_check(), ak.icon_cross(), ak.question_mark(0.6), ak.thumbs_up())
+        icons.arrange_in_grid(4, 6, buff=0.35).move_to(np.array([2.6, 0.2, 0]))
+        phone = ak.icon_phone(2.0).move_to(np.array([6.0, -2.4, 0]))
+        self.add(fr, pad, icons, phone)
+        self.wait(2.0)
+        self.clear()
+
+        # ---- 3. the tools guide, the filled row, the price menu (before / after round two) ----
+        g = ak.tools_guide().move_to(np.array([-3.3, 1.2, 0]))
+        filled = ak.filled_row_slip(["المورّد", "أربعين علبة كولا"]).next_to(g, DOWN, buff=0.4)
+        pm = ak.price_menu().move_to(np.array([3.3, 1.6, 0]))
+        pm2 = ak.price_menu(show_cost=True, title=False).next_to(pm, DOWN, buff=0.3)
+        self.add(g, filled, pm, pm2)
+        self.wait(2.0)
+        self.clear()
+
+        # ---- 4. desk pieces, the dial, plugs and the socket, the English chips ----
+        row = VGroup(ak.job_card(), ak.todo_card(), ak.notebook(), ak.slip(kind="result", width=1.0, n_lines=3),
+                     ak.checklist_card()).arrange(RIGHT, buff=0.3).move_to(np.array([0, 2.3, 0]))
+        d = ak.dial(1.3).move_to(np.array([-4.0, -1.3, 0]))
+        d.set_value(0.85)
+        plugs = VGroup(*[ak.plug(k) for k in range(5)], ak.plug(-1)).arrange(RIGHT, buff=0.3).move_to(np.array([1.0, -0.6, 0]))
+        sock = ak.socket().next_to(plugs, RIGHT, buff=0.5)
+        chips = VGroup(ak.chip_en(ak.AGENT_EN), ak.chip_en(ak.CONTEXT_EN, color=INK_2),
+                       ak.en_text(ak.TRANSCEND_EN, 30, WARM)).arrange(RIGHT, buff=0.4).move_to(np.array([1.8, -2.6, 0]))
+        self.add(row, d, plugs, sock, chips)
+        self.wait(2.0)

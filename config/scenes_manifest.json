@@ -1,4 +1,101 @@
 {
   "notes": "Maps segment id (audio_manifest.json) to Manim scene. Optional deps: extra paths that trigger re-render when modified — every scene depends on the narration (its timing follows each line's spoken length), so re-voicing lines marks the renders stale. Pattern from ../1-hour-challenge/config/scenes_manifest.json.",
-  "segments": []
+  "segments": [
+    {
+      "id": "hook",
+      "scene": "our_scenes/hook_shop.py:HookShop",
+      "deps": [
+        "our_scenes/kit.py",
+        "our_scenes/agent_kit.py",
+        "config/narration.json",
+        "media/audio/lines/index.json",
+        "config/narration_ar.json",
+        "media/audio/lines_ar/clean/index.json"
+      ]
+    },
+    {
+      "id": "bit1_loop",
+      "scene": "our_scenes/bit1_loop.py:Bit1Loop",
+      "deps": [
+        "our_scenes/kit.py",
+        "our_scenes/agent_kit.py",
+        "config/narration.json",
+        "media/audio/lines/index.json",
+        "config/narration_ar.json",
+        "media/audio/lines_ar/clean/index.json"
+      ]
+    },
+    {
+      "id": "bit2_menu",
+      "scene": "our_scenes/bit2_menu.py:Bit2Menu",
+      "deps": [
+        "our_scenes/kit.py",
+        "our_scenes/agent_kit.py",
+        "config/narration.json",
+        "media/audio/lines/index.json",
+        "config/narration_ar.json",
+        "media/audio/lines_ar/clean/index.json"
+      ]
+    },
+    {
+      "id": "bit3_desk",
+      "scene": "our_scenes/bit3_desk.py:Bit3Desk",
+      "deps": [
+        "our_scenes/kit.py",
+        "our_scenes/agent_kit.py",
+        "config/narration.json",
+        "media/audio/lines/index.json",
+        "config/narration_ar.json",
+        "media/audio/lines_ar/clean/index.json"
+      ]
+    },
+    {
+      "id": "bit4_yes",
+      "scene": "our_scenes/bit4_yes.py:Bit4Yes",
+      "deps": [
+        "our_scenes/kit.py",
+        "our_scenes/agent_kit.py",
+        "config/narration.json",
+        "media/audio/lines/index.json",
+        "config/narration_ar.json",
+        "media/audio/lines_ar/clean/index.json"
+      ]
+    },
+    {
+      "id": "bit5_history",
+      "scene": "our_scenes/bit5_history.py:Bit5History",
+      "deps": [
+        "our_scenes/kit.py",
+        "our_scenes/agent_kit.py",
+        "config/narration.json",
+        "media/audio/lines/index.json",
+        "config/narration_ar.json",
+        "media/audio/lines_ar/clean/index.json"
+      ]
+    },
+    {
+      "id": "bit6_fixes",
+      "scene": "our_scenes/bit6_fixes.py:Bit6Fixes",
+      "deps": [
+        "our_scenes/kit.py",
+        "our_scenes/agent_kit.py",
+        "config/narration.json",
+        "media/audio/lines/index.json",
+        "config/narration_ar.json",
+        "media/audio/lines_ar/clean/index.json"
+      ]
+    },
+    {
+      "id": "bit7_exit",
+      "scene": "our_scenes/bit7_exit.py:Bit7Exit",
+      "deps": [
+        "our_scenes/kit.py",
+        "our_scenes/agent_kit.py",
+        "config/narration.json",
+        "media/audio/lines/index.json",
+        "config/narration_ar.json",
+        "media/audio/lines_ar/clean/index.json"
+      ]
+    }
+  ]
 }

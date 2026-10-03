@@ -1,9 +1,20 @@
 {
   "output": "media/output/final_with_music.mp4",
   "narration_manifest": "config/audio_manifest.json",
-  "segment_order": [],
+  "segment_order": [
+    "hook",
+    "bit1_loop",
+    "bit2_menu",
+    "bit3_desk",
+    "bit4_yes",
+    "bit5_history",
+    "bit6_fixes",
+    "bit7_exit"
+  ],
   "music": {
-    "files": [],
+    "files": [
+      "media/music/No.10 _A New Beginning - Esther Abrami.mp3"
+    ],
     "volume": 0.14,
     "loop": true
   },

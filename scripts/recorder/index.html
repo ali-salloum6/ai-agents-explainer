@@ -181,7 +181,8 @@
             <button class="btn" id="editsave">Save wording</button>
             <button class="btn" id="editcancel">Cancel</button>
             <span><kbd>⌘</kbd>+<kbd>Enter</kbd> save · <kbd>Esc</kbd> cancel · changes the option this line uses (or your wording)
-              in docs/arabic_script.md; earlier takes get marked "older wording"</span>
+              in docs/arabic_script.md; earlier takes get marked "older wording" (if a take already says the new wording,
+              press "Mark as current" on it)</span>
           </div>
         </div>
         <div class="ctx rec-only" id="next"></div>
@@ -259,8 +260,9 @@ async function loadLines(keepKey) {
   render();
 }
 const chosenTake = (l) => l.takes.find((t) => t.file === l.chosen);
-const isDone = (l) => l.status === "ready" && !!chosenTake(l) && chosenTake(l).text === l.text;
-const isStale = (l) => !!chosenTake(l) && chosenTake(l).text !== l.text;
+const says = (t) => t.says ?? t.text;          // what the take says: the wording shown, or the one it was marked current for
+const isDone = (l) => l.status === "ready" && !!chosenTake(l) && says(chosenTake(l)) === l.text;
+const isStale = (l) => !!chosenTake(l) && says(chosenTake(l)) !== l.text;
 const isRemoved = (l) => l.status === "removed";
 const isOpen = (l) => l.status === "pending" || l.status === "needs review";
 function firstOpen() {
@@ -448,10 +450,12 @@ function renderTakes(l) {
   box.append(el("h3", "", `Takes (${l.takes.length}); the highlighted one is used`));
   [...l.takes].reverse().forEach((t) => {
     const row = el("div", "take" + (t.file === l.chosen ? " chosen" : ""));
-    const old = t.text !== l.text ? `<span class="old" title="${escapeHtml(t.text)}">older wording</span>` : "";
+    const old = says(t) !== l.text ? `<span class="old" title="${escapeHtml(says(t))}">older wording</span>` : "";
     row.innerHTML = `<span class="name">${t.file}</span><span class="dim">${t.seconds.toFixed(1)} s</span>
       <span class="dim">${t.recorded.slice(11, 16)}</span>${old}<span class="spacer"></span>`;
     row.append(btn("▶", () => playFile(t.file)));
+    if (old && l.status === "ready") row.append(btn("Mark as current", () => markCurrent(l, t.file), "",
+      "You fixed the wording to match what you said: this take says the current wording"));
     if (t.file !== l.chosen) row.append(btn("Use this take", () => chooseTake(l, t.file)));
     box.append(row);
   });
@@ -462,6 +466,14 @@ async function chooseTake(l, file) {
     const data = await post(`/api/choose?key=${encodeURIComponent(l.key)}`, { file });
     Object.assign(l, { takes: data.takes, chosen: data.chosen });
     setStatus(`Using ${file}`, "good"); render();
+  } catch (err) { setStatus(err.message, "err"); }
+}
+
+async function markCurrent(l, file) {
+  try {
+    const data = await post(`/api/current?key=${encodeURIComponent(l.key)}`, { file });
+    Object.assign(l, { takes: data.takes, chosen: data.chosen });
+    setStatus(`${file} marked as saying the current wording.`, "good"); render();
   } catch (err) { setStatus(err.message, "err"); }
 }
 

@@ -19,6 +19,9 @@ Every take is kept; nothing is ever overwritten or deleted:
   media/audio/lines_ar/manifest.json                            per line: the Arabic you were shown for every take,
                                                                 its length, when it was recorded, which take is chosen
 
+If you said a line a little differently and then fixed its wording to match, "Mark as current" on the take
+records that it says the new wording (a "says" field next to the wording you were shown; nothing else changes).
+
 <key> is the line's key in config/narration.json (hook.1, bit3_chat.12, ...), so a file name says which
 line it is, and manifest.json says exactly which words were read in it.
 
@@ -132,6 +135,20 @@ def save_take(key: str, body: bytes, shown_text: str) -> dict:
     return rec
 
 
+def mark_current(key: str, name: str, text: str) -> dict:
+    """Take `name` says `text`, the line's current wording (it was re-worded after recording to match the take)."""
+    with _lock:
+        man = load_manifest()
+        rec = man["lines"].get(key)
+        take = next((t for t in rec["takes"] if t["file"] == name), None) if rec else None
+        if take is None:
+            raise KeyError(f"no take {name} for {key}")
+        take["says"] = text
+        take["confirmed"] = _dt.datetime.now().isoformat(timespec="seconds")
+        save_manifest(man)
+    return rec
+
+
 def choose_take(key: str, name: str) -> dict:
     with _lock:
         man = load_manifest()
@@ -196,6 +213,13 @@ class Handler(BaseHTTPRequestHandler):
                 return self._json(rec)
             if url.path == "/api/choose":
                 return self._json(choose_take(key, json.loads(body)["file"]))
+            if url.path == "/api/current":          # body {"file": "<key>__t03.wav"}: it says the current wording
+                line = next((ln for ln in read_lines() if ln["key"] == key and ln["status"] == "ready"), None)
+                if line is None:
+                    return self._json({"error": f"{key} has no decided wording"}, 409)
+                rec = mark_current(key, json.loads(body)["file"], line["text"])
+                print(f"marked current: {json.loads(body)['file']} says {line['text']}", flush=True)
+                return self._json(rec)
             if url.path == "/api/decide":           # body {"decision": "2" | "remove" | Arabic wording | ""}
                 value = json.loads(body)["decision"]
                 nar.set_decision(key, value)

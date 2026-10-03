@@ -9,5 +9,70 @@
     "audio_sample_rate": 44100,
     "audio_channels": 1
   },
-  "segments": []
+  "segments": [
+    {
+      "id": "hook",
+      "video": "media/HookShop.mp4",
+      "output": "hook_with_audio.mp4",
+      "notes": "0:00 hook: the shop nobody ran by hand; it only writes. Ali's Arabic VO: takes enhanced (Adobe) and cleaned by scripts/process_takes.py, laid down by scripts/narrate.py track.",
+      "audio": "media/audio/hook-vo-ar.wav",
+      "strategy": "longest"
+    },
+    {
+      "id": "bit1_loop",
+      "video": "media/Bit1Loop.mp4",
+      "output": "bit1_loop_with_audio.mp4",
+      "notes": "the writer and its hands: write, do, read, round and round. Ali's Arabic VO: takes enhanced (Adobe) and cleaned by scripts/process_takes.py, laid down by scripts/narrate.py track.",
+      "audio": "media/audio/bit1_loop-vo-ar.wav",
+      "strategy": "longest"
+    },
+    {
+      "id": "bit2_menu",
+      "video": "media/Bit2Menu.mp4",
+      "output": "bit2_menu_with_audio.mp4",
+      "notes": "the tools guide (دليل الأدوات); one shared socket; the price menu's missing cost column. Ali's Arabic VO: takes enhanced (Adobe) and cleaned by scripts/process_takes.py, laid down by scripts/narrate.py track.",
+      "audio": "media/audio/bit2_menu-vo-ar.wav",
+      "strategy": "longest"
+    },
+    {
+      "id": "bit3_desk",
+      "video": "media/Bit3Desk.mp4",
+      "output": "bit3_desk_with_audio.mp4",
+      "notes": "the desk fills; notebook, summary, to-do; drift. Ali's Arabic VO: takes enhanced (Adobe) and cleaned by scripts/process_takes.py, laid down by scripts/narrate.py track.",
+      "audio": "media/audio/bit3_desk-vo-ar.wav",
+      "strategy": "longest"
+    },
+    {
+      "id": "bit4_yes",
+      "video": "media/Bit4Yes.mp4",
+      "output": "bit4_yes_with_audio.mp4",
+      "notes": "trained to please: the yes/no odds dial. Ali's Arabic VO: takes enhanced (Adobe) and cleaned by scripts/process_takes.py, laid down by scripts/narrate.py track.",
+      "audio": "media/audio/bit4_yes-vo-ar.wav",
+      "strategy": "longest"
+    },
+    {
+      "id": "bit5_history",
+      "video": "media/Bit5History.mp4",
+      "output": "bit5_history_with_audio.mp4",
+      "notes": "the loop is old: 2022, 2023 AutoGPT going in circles, trained writers. Ali's Arabic VO: takes enhanced (Adobe) and cleaned by scripts/process_takes.py, laid down by scripts/narrate.py track.",
+      "audio": "media/audio/bit5_history-vo-ar.wav",
+      "strategy": "longest"
+    },
+    {
+      "id": "bit6_fixes",
+      "video": "media/Bit6Fixes.mp4",
+      "output": "bit6_fixes_with_audio.mp4",
+      "notes": "round two: cost column, checklist, a boss; results; transcendence. Ali's Arabic VO: takes enhanced (Adobe) and cleaned by scripts/process_takes.py, laid down by scripts/narrate.py track.",
+      "audio": "media/audio/bit6_fixes-vo-ar.wav",
+      "strategy": "longest"
+    },
+    {
+      "id": "bit7_exit",
+      "video": "media/Bit7Exit.mp4",
+      "output": "bit7_exit_with_audio.mp4",
+      "notes": "recap on the master diagram; next video; subscribe. Ali's Arabic VO: takes enhanced (Adobe) and cleaned by scripts/process_takes.py, laid down by scripts/narrate.py track.",
+      "audio": "media/audio/bit7_exit-vo-ar.wav",
+      "strategy": "longest"
+    }
+  ]
 }

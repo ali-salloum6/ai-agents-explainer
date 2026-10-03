@@ -60,7 +60,7 @@ The scenes re-time themselves to your recorded voice, so an Arabic line can run 
 
 EN: For a whole month, a small shop in an office was run by an AI.
 
-★ 1) لشهر كامل، في محل صغير تابع شركة أنثروبيك، ما كان يديرو حدا غير ذكاء اصطناعي.  
+★ 1) لشهر كامل، في محل صغير تابع لشركة أنثروبيك، ما كان يديرو حدا غير ذكاء اصطناعي.  
    2) لمدة شهر كامل، محل صغير جوا مكتب شركة أنثروبيك كان عم يديرو ذكاء اصطناعي.  
    3) هالمحل الصغير، بقلب مكتب أنثروبيك، أدارو ذكاء اصطناعي شهر كامل لحالو.  
 
@@ -126,7 +126,7 @@ EN: Inside, it's the same writer: it reads everything in front of it and writes 
 
 EN: So it writes a request: "Email the supplier: forty cans of soda."
 
-★ 1) فبيكتب طلب: «ابعت إيميل للمورّد: أربعين علبة كولا.»  
+★ 1) فبيكتب طلب: «ابعت إيميل للمورّد: أربعين علبة كولا» مثلا  
    2) فبيكتب سطر: «إيميل للمورّد: بدنا أربعين علبة مشروب غازي.»  
 
 > The quoted request is also the text on the slip on screen, so whichever you pick is what I draw.
@@ -386,7 +386,7 @@ EN: Before it ever ran a shop, it was trained to be a helpful assistant.
 
 EN: And helpful, it turns out, leans toward yes.
 
-★ 1) والمساعد المفيد، طلع بيحب يقول «أكيد».  
+★ 1) والمساعد المفيد، طلع بيحب يقول «أكيد» كتير.  
    2) وطلع إنو «مفيد» دايماً بتميل لـ«أكيد».  
 
 > The dial on screen goes from «لأ» to «أكيد» (your answer, 3 Oct); both options say «أكيد».
@@ -437,7 +437,7 @@ EN: Here's the surprising part: this loop isn't new.
 
 EN: In 2022, researchers described it: think, act, read the result, repeat.
 
-★ 1) سنة 2022، باحثين عرفوها: فكّر، نفذ، اقرا النتيجة، وعيد.  
+★ 1) بسنة 2022، باحثين عرفوها: فكّر، نفذ، اقرا النتيجة، وعيد.  
    2) من 2022 في باحثين كتبوا عنها: بيفكّر، بينفّذ، بيقرا شو صار، وبيعيد.  
 
 > The three words on screen will match the ones you pick (option 1: «فكّر · اعمل · اقرا»).
@@ -637,7 +637,7 @@ EN: Next time: how do you train a machine with a thumbs-up?
 
 EN: Since you watched to the end, like and subscribe so you catch the next videos.
 
-★ 1) بما إنو حضرت الفيديو للاخير، حط لايك واشترك بالقناة لتشوف الفيديوهات الجاية.  
+★ 1) بما إنو حضرت الفيديو للاخير، حط لايك واشترك بالقناة لتشوف الفيديوهات اللي جاية.  
    2) وإذا وصلت لهون، لايك واشتراك، لتلحق الفيديوهات الجاية.  
 
 > Option 1 is video 2's line as you recorded it.
