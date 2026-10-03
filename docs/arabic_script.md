@@ -24,29 +24,32 @@ The scenes re-time themselves to your recorded voice, so an Arabic line can run 
 
 | English | Arabic | note |
 |---|---|---|
-| AI agent | إيجنت / الـ AI Agent | alternative: وكيل ذكاء اصطناعي. The on-screen chip says «AI Agent» |
+| AI agent | إيجنت / الـ AI Agent | Ali, 3 Oct: إيجنت (glossed once as وكيل ذكاء اصطناعي in bit1_loop.6). The on-screen chip says «AI Agent» |
 | the writer (the model) | الكاتب | video 2's word |
 | the hands (the program) | الإيدين | the new helper; «برنامج صغير» when introduced |
 | model | نموذج | as in video 2 |
 | request | طلب | the slip the writer writes |
-| lap / loop | لفّة | دورة once, in bit1.6 option 1; pick one |
-| menu | قائمة | alternative: منيو |
+| lap / loop | دورة | Ali, 3 Oct (the draft said لفّة). «يلف ويدور» in bit5_history.4 is the idiom, not the lap |
+| menu | منيو | Ali, 3 Oct. «قائمة المهام» (the to-do list) and «قائمة تحقّق» (checklist) keep قائمة |
 | desk (context window) | الطاولة | the English term once on screen |
 | slips | ورقات | |
 | notebook / summary / to-do | دفتر / ملخّص / قائمة المهام | ليستة is also natural |
 | discount | خصم | |
 | the dial's needle | الإبرة | not المؤشر, which was the cursor in video 2 |
+| the dial's two ends | لأ ↔ أكيد | Ali, 3 Oct; drawn on screen |
 | shopkeeper | البيّاع | |
 | boss (the CEO agent) | المدير | |
-| eternal transcendence | التسامي الأبدي | |
+| eternal transcendence | التسامي الأبدي | spoken; on screen the English original, ETERNAL TRANSCENDENCE (Ali, 3 Oct) |
+| Anthropic | شركة أنثروبيك | named once, in hook.1 (Ali, 3 Oct) |
 
 ## Check before recording
 
-- **The company isn't named.** The lines say "an AI" and "the people who ran the test". If you want to name Anthropic, say where.
-- **bit3_desk.9 (the FBI email) is optional.** Write `remove` under its Decision to cut it.
-- **On-screen words follow your picks:** the request in bit1.2, the dial «لأ»/«أكيد» in bit 4, the three words in
-  bit5.2, the checklist in bit6.3, and «التسامي الأبدي» in bit6.6 (or keep the English all-caps original there).
-- **Length:** at video 2's pace this is about 5:50 with the end card. The hook (~43 s) is the longest part; hook.3 is the line to trim if it drags.
+- **Anthropic is named once, in hook.1** (your answer, 3 Oct). Everywhere else the lines say "an AI" and "the people who ran the test".
+- **bit3_desk.9 (the FBI email) is cut** (your answer, 3 Oct); its Decision says `remove`.
+- **On-screen words follow your picks:** the request in bit1_loop.2, the three words in bit5_history.2 and the
+  checklist in bit6_fixes.3. Already decided (3 Oct): the dial reads «لأ» ↔ «أكيد», and the night slips in
+  bit6_fixes.6 say ETERNAL TRANSCENDENCE in English.
+- **Length:** at video 2's pace this is about 5:42 with the end card (5:50 before the FBI line was cut). The hook (~43 s) is the longest part; hook.3 is the line to trim if it drags.
 
 ---
 
@@ -56,11 +59,12 @@ The scenes re-time themselves to your recorded voice, so an Arabic line can run 
 
 EN: For a whole month, a small shop in an office was run by an AI.
 
-★ 1) شهر كامل، في محل صغير بمكتب، ما كان يديرو حدا غير ذكاء اصطناعي.  
-   2) لمدة شهر كامل، محل صغير جوا مكتب شركة كان عم يديرو ذكاء اصطناعي.  
-   3) هالمحل الصغير، بقلب مكتب، أدارو ذكاء اصطناعي شهر كامل لحالو.  
+★ 1) شهر كامل، في محل صغير بمكتب شركة أنثروبيك، ما كان يديرو حدا غير ذكاء اصطناعي.  
+   2) لمدة شهر كامل، محل صغير جوا مكتب شركة أنثروبيك كان عم يديرو ذكاء اصطناعي.  
+   3) هالمحل الصغير، بقلب مكتب أنثروبيك، أدارو ذكاء اصطناعي شهر كامل لحالو.  
 
 > Option 1 echoes video 2's opening «ما حدا رسما…» with «ما كان يديرو حدا غير…».
+> Anthropic is named here, the only time in the video (your answer, 3 Oct).
 
 **Decision:** 
 
@@ -152,8 +156,8 @@ EN: The supplier's reply comes back as text and lands in front of the writer.
 
 EN: It reads it, writes the next request, and around it goes.
 
-★ 1) بيقراه، بيكتب الطلب اللي بعدو، وهيك بتضل اللفة تدور.  
-   2) بيقرا الرد، بيكتب طلب جديد، وبترجع اللفة من أولا.  
+★ 1) بيقراه، بيكتب الطلب اللي بعدو، وهيك بتضل الدورة تدور.  
+   2) بيقرا الرد، بيكتب طلب جديد، وبترجع الدورة من أولا.  
 
 **Decision:** 
 
@@ -161,10 +165,10 @@ EN: It reads it, writes the next request, and around it goes.
 
 EN: Write, do, read. That loop is what's called an AI agent.
 
-★ 1) بيكتب، بينفّذ، بيقرا. هاللفة هيي اللي منسميها «إيجنت»، يعني وكيل ذكاء اصطناعي.  
-   2) كتابة، تنفيذ، قراية. وهاللفة بحد ذاتا هيي الـ AI Agent.  
+★ 1) بيكتب، بينفّذ، بيقرا. هالدورة هيي اللي منسميها «إيجنت»، يعني وكيل ذكاء اصطناعي.  
+   2) كتابة، تنفيذ، قراية. وهالدورة بحد ذاتا هيي الـ AI Agent.  
 
-> The chip on screen says «AI Agent». Pick the spoken word you want for the whole video (see Words used).
+> The chip on screen says «AI Agent»; the spoken word is «إيجنت» for the whole video (your answer, 3 Oct).
 
 **Decision:** 
 
@@ -172,8 +176,8 @@ EN: Write, do, read. That loop is what's called an AI agent.
 
 EN: A day in the shop is this loop, hundreds of times.
 
-★ 1) ونهار كامل بالمحل، هوي هاللفة، مئات المرات.  
-   2) يوم كامل بالمحل مانو غير هاللفة، عم تنعاد مية ومية مرة.  
+★ 1) ونهار كامل بالمحل، هوي هالدورة، مئات المرات.  
+   2) يوم كامل بالمحل مانو غير هالدورة، عم تنعاد مية ومية مرة.  
 
 **Decision:** 
 
@@ -192,10 +196,10 @@ EN: But how did it know that email was something it could ask for?
 
 EN: Before the first lap, the writer is handed a menu.
 
-★ 1) قبل أول لفة، بيعطوا الكاتب قائمة.  
+★ 1) قبل أول دورة، بيعطوا الكاتب منيو.  
    2) قبل ما يبلش، بينحط قدام الكاتب منيو.  
 
-> قائمة or منيو: pick one for the whole video.
+> منيو for the whole video (your answer, 3 Oct). «قائمة المهام», the to-do list, keeps قائمة.
 
 **Decision:** 
 
@@ -204,7 +208,7 @@ EN: Before the first lap, the writer is handed a menu.
 EN: Every tool is one row: a name, one line about what it does, and blanks to fill in.
 
 ★ 1) كل أداة هيي سطر: اسم، وجملة وحدة شو بتعمل، وفراغات لازم تتعبّى.  
-   2) كل أداة إلا سطر بالقائمة: اسما، وسطر صغير بيشرح شو بتعمل، وخانات فاضية.  
+   2) كل أداة إلا سطر بالمنيو: اسما، وسطر صغير بيشرح شو بتعمل، وخانات فاضية.  
 
 **Decision:** 
 
@@ -212,7 +216,7 @@ EN: Every tool is one row: a name, one line about what it does, and blanks to fi
 
 EN: The writer never "uses" email. It reads the menu, and writes that row with the blanks filled in.
 
-★ 1) يعني الكاتب ما بيستعمل الإيميل أبداً. بيقرا القائمة، وبيكتب سطر الإيميل، وبيعبّي الفراغات.  
+★ 1) يعني الكاتب ما بيستعمل الإيميل أبداً. بيقرا المنيو، وبيكتب سطر الإيميل، وبيعبّي الفراغات.  
    2) الكاتب ما بيلمس الإيميل. هوي بس بيقرا السطر، وبيرجع يكتبو والخانات معبّاية.  
 
 **Decision:** 
@@ -230,8 +234,8 @@ EN: So how a row is written matters. Describe a tool badly, and the writer picks
 
 EN: Every company used to write its menu its own way. Since 2024, most of the big AI companies share one format, so any app can plug in.
 
-★ 1) زمان كل شركة كانت تكتب قائمتا عطريقتا. من 2024 صار في شكل واحد، متل الشاحن الموحّد، وأغلب الشركات الكبيرة مشيت عليه، فصار أي تطبيق فيه ينشبك.  
-   2) كانت كل شركة إلا شكل قائمة خاص فيا. من سنة 2024، أغلب شركات الذكاء الاصطناعي الكبيرة صارت تستعمل شكل واحد، فأي تطبيق فيه يركب.  
+★ 1) زمان كل شركة كانت تكتب المنيو تبعا عطريقتا. من 2024 صار في شكل واحد، متل الشاحن الموحّد، وأغلب الشركات الكبيرة مشيت عليه، فصار أي تطبيق فيه ينشبك.  
+   2) كانت كل شركة إلا شكل منيو خاص فيا. من سنة 2024، أغلب شركات الذكاء الاصطناعي الكبيرة صارت تستعمل شكل واحد، فأي تطبيق فيه يركب.  
 
 > The charger comparison in option 1 is mine, for a general viewer; the picture is plugs into one socket either way. Accurate claim: a shared format most big labs adopted, not the only way.
 
@@ -241,8 +245,8 @@ EN: Every company used to write its menu its own way. Since 2024, most of the bi
 
 EN: Now look at the shop's menu. The prices are there. What it paid for each item? Not there.
 
-★ 1) هلّق طلّعوا عقائمة المحل: الأسعار موجودة. بس قديش دفع حق كل غرض؟ مانو موجود.  
-   2) خلونا نشوف قائمة المحل: في سعر البيع. بس سعر الشرا؟ ما في.  
+★ 1) هلّق طلّعوا عالمنيو تبع المحل: الأسعار موجودة. بس قديش دفع حق كل غرض؟ مانو موجود.  
+   2) خلونا نشوف منيو المحل: في سعر البيع. بس سعر الشرا؟ ما في.  
 
 **Decision:** 
 
@@ -272,8 +276,8 @@ EN: A missing column explains the prices. It doesn't explain the blue blazer.
 
 EN: Each lap, the writer sees only what's on its desk: the menu, the job, and the slips so far.
 
-★ 1) بكل لفة، الكاتب بيشوف بس اللي عالطاولة قدامو: القائمة، والمهمة، والورقات اللي تجمّعت لهلا.  
-   2) الكاتب ما بيشوف غير طاولتو: عليها القائمة، والشغلة المطلوبة، وكل الورقات من أول اللفات.  
+★ 1) بكل دورة، الكاتب بيشوف بس اللي عالطاولة قدامو: المنيو، والمهمة، والورقات اللي تجمّعت لهلا.  
+   2) الكاتب ما بيشوف غير طاولتو: عليها المنيو، والشغلة المطلوبة، وكل الورقات من أول الدورات.  
 
 > الطاولة stands for the context window; the English term appears once on screen as a chip.
 
@@ -321,8 +325,8 @@ EN: …squeezes old slips into a short summary…
 
 EN: …and puts a to-do list back in front every lap, so the goal stays in view.
 
-★ 1) …وبيرجع يحط قائمة المهام قدامو بكل لفة، مشان يضل الهدف قدام عيونو.  
-   2) …وكل لفة بيرجّع ليستة الشغل لقدّام، مشان ما ينسى شو المطلوب.  
+★ 1) …وبيرجع يحط قائمة المهام قدامو بكل دورة، مشان يضل الهدف قدام عيونو.  
+   2) …وكل دورة بيرجّع ليستة الشغل لقدّام، مشان ما ينسى شو المطلوب.  
 
 **Decision:** 
 
@@ -331,7 +335,7 @@ EN: …and puts a to-do list back in front every lap, so the goal stays in view.
 EN: But every summary drops details. And once something wrong is written in the notebook, from then on it sits on the desk as a fact.
 
 ★ 1) بس كل ملخّص بيضيّع تفاصيل. وإذا انكتب شي غلط بالدفتر، من وقتا بيضل عالطاولة كأنو حقيقة.  
-   2) بس الملخص دايماً بيضيّع شي. وأي غلطة بتنكتب بالدفتر، بتصير عالطاولة حقيقة، لفة ورا لفة.  
+   2) بس الملخص دايماً بيضيّع شي. وأي غلطة بتنكتب بالدفتر، بتصير عالطاولة حقيقة، دورة ورا دورة.  
 
 **Decision:** 
 
@@ -353,16 +357,16 @@ EN: In another test, an AI that believed it had closed its shop kept seeing a tw
 ★ 1) وبتجربة تانية، ذكاء اصطناعي كان مفكّر حالو سكّر المحل، ضل يشوف رسم دولارين عم ينخصم منو كل يوم… فبعت إيميل للـ FBI.  
    2) وبتجربة تانية، واحد مفكّر إنو سكّر محلّو، ولما ضلّت تنخصم منو دولارين كل يوم، اشتكى للـ FBI.  
 
-> Optional: write «remove» under Decision to cut it (−8 s).
+> Cut (your answer, 3 Oct): −8 s.
 
-**Decision:** 
+**Decision:** remove
 
 ### ~3:16.2 – 3:21.1  ·  `bit3_desk.10`  ·  EN ~4.9s, then 1.4s pause
 
 EN: That explains the strange. It doesn't explain the generous: why did it say yes to every discount?
 
 ★ 1) هيك فهمنا الغرابة. بس الكرم؟ ليش وافق على كل خصم انطلب منو؟  
-   2) هاد بيفسّر الغرابة. بس ما بيفسّر ليش كان يقول «إي» لكل خصم.  
+   2) هاد بيفسّر الغرابة. بس ما بيفسّر ليش كان يقول «أكيد» لكل خصم.  
 
 **Decision:** 
 
@@ -382,9 +386,9 @@ EN: Before it ever ran a shop, it was trained to be a helpful assistant.
 EN: And helpful, it turns out, leans toward yes.
 
 ★ 1) والمساعد المفيد، طلع إنو بيحب يقول «أكيد».  
-   2) وطلع إنو «مفيد» دايماً بتميل لـ«إي».  
+   2) وطلع إنو «مفيد» دايماً بتميل لـ«أكيد».  
 
-> The dial on screen goes from «لأ» to «أكيد»; option 1 says the same word.
+> The dial on screen goes from «لأ» to «أكيد» (your answer, 3 Oct); both options say «أكيد».
 
 **Decision:** 
 
@@ -423,8 +427,8 @@ EN: How does training push a model that way? That's our next video.
 
 EN: Here's the surprising part: this loop isn't new.
 
-★ 1) والغريب بالقصة إنو هاللفة مانا جديدة أبداً.  
-   2) بس المفاجأة: هاللفة مانا اختراع جديد.  
+★ 1) والغريب بالقصة إنو هالدورة مانا جديدة أبداً.  
+   2) بس المفاجأة: هالدورة مانا اختراع جديد.  
 
 **Decision:** 
 
@@ -461,8 +465,10 @@ EN: …and then it mostly went around in circles.
 
 EN: Since then, the writers themselves have been trained on loops like this one, practicing jobs over and over.
 
-★ 1) ومن وقتا، صاروا يدرّبوا الكتّاب نفسن على هيك لفّات، يتمرّنوا على الشغلة مرة ورا مرة.  
-   2) ومن بعدا، صار الكاتب نفسو يتدرّب على هاللفة، يعيد الشغلة ويعيدا لحتى يتقنا.  
+★ 1) ومن وقتا، صاروا يدرّبوا الكتّاب نفسن جوّا هالدورة، يتمرّنوا على الشغلة مرة ورا مرة.  
+   2) ومن بعدا، صار الكاتب نفسو يتدرّب جوّا هالدورة، يعيد الشغلة ويعيدا لحتى يتقنا.  
+
+> With دورة, «يتدرّب على هالدورة» would sound like a training course, so both options say «جوّا هالدورة» (inside this loop).
 
 **Decision:** 
 
@@ -470,8 +476,8 @@ EN: Since then, the writers themselves have been trained on loops like this one,
 
 EN: Same loop. What changed is the writer's training, and everything around it. The shop's second round shows how much that second part matters.
 
-★ 1) نفس اللفة. اللي تغيّر هوي تدريب الكاتب، وكل شي حواليه. والجولة التانية بالمحل بتورجينا قديش هالجزء التاني بيفرق.  
-   2) يعني اللفة ذاتا، بس الكاتب صار متدرّب أحسن، واللي حواليه صار أحسن. وتجربة المحل التانية بتورجينا قديش هالجزء الأخير مهم.  
+★ 1) نفس الدورة. اللي تغيّر هوي تدريب الكاتب، وكل شي حواليه. والجولة التانية بالمحل بتورجينا قديش هالجزء التاني بيفرق.  
+   2) يعني الدورة ذاتا، بس الكاتب صار متدرّب أحسن، واللي حواليه صار أحسن. وتجربة المحل التانية بتورجينا قديش هالجزء الأخير مهم.  
 
 **Decision:** 
 
@@ -492,8 +498,8 @@ EN: Months later they ran the shop again, with newer models and a few changes ar
 
 EN: The menu now shows what each item cost.
 
-★ 1) القائمة صارت تبيّن قديش كلّف كل غرض.  
-   2) صار بالقائمة عمود لسعر الشرا.  
+★ 1) المنيو صار يبيّن قديش كلّف كل غرض.  
+   2) صار بالمنيو عمود لسعر الشرا.  
 
 **Decision:** 
 
@@ -535,7 +541,7 @@ EN: Not perfect. Some nights the boss and the shopkeeper just kept writing to ea
 ★ 1) مو مثالي طبعاً. بكم ليلة، المدير والبيّاع ضلّوا يكتبوا لبعض عن «التسامي الأبدي».  
    2) بس مو كامل. في ليالي، المدير والبيّاع قعدوا يتراسلوا للصبح عن «التسامي الأبدي اللانهائي».  
 
-> On screen: the English all-caps original, or your Arabic? Your call.
+> On screen: the English original, ETERNAL TRANSCENDENCE (your answer, 3 Oct); you say «التسامي الأبدي» over it.
 
 **Decision:** 
 
@@ -563,7 +569,7 @@ EN: Their own lesson: for agents, a little bureaucracy goes a long way.
 
 EN: So an AI agent is a writer in a loop.
 
-★ 1) باختصار: الإيجنت هوي كاتب، عم يدور بلفّة.  
+★ 1) باختصار: الإيجنت هوي كاتب، جوّا دورة.  
    2) يعني الـ AI Agent: كاتب بدورة.  
 
 > «باختصار» opens the recap, as in video 2.
@@ -574,8 +580,8 @@ EN: So an AI agent is a writer in a loop.
 
 EN: A menu it reads its tools from.
 
-★ 1) قائمة بيقرا منها أدواتو.  
-   2) عندو قائمة، منها بيعرف شو أدواتو.  
+★ 1) منيو بيقرا منو أدواتو.  
+   2) عندو منيو، منو بيعرف شو أدواتو.  
 
 **Decision:** 
 
@@ -601,8 +607,8 @@ EN: And hands: a small program that does exactly what it writes.
 
 EN: This loop now runs inside apps you can message from your phone.
 
-★ 1) وهاللفة صارت هلّق جوا تطبيقات فيك تراسلا من موبايلك.  
-   2) واليوم، هاللفة نفسا موجودة بتطبيقات بتحكي معا من تلفونك.  
+★ 1) وهالدورة صارت هلّق جوا تطبيقات فيك تراسلا من موبايلك.  
+   2) واليوم، هالدورة نفسا موجودة بتطبيقات بتحكي معا من تلفونك.  
 
 **Decision:** 
 

@@ -23,6 +23,21 @@ Process: [`instructions.md`](instructions.md). Background, accuracy guardrails a
 
 English lines are rough, for length and intent. Lengths are estimated at video 2's pace (568 words in 3:48 ≈ 2.5 words/s including pauses), plus the silent holds noted per bit.
 
+## On-screen text set by the Arabic picks
+
+Lines that quote on-screen text decide what gets drawn. Picks come from [`arabic_script.md`](arabic_script.md); pending ones are filled in once Ali's decisions are in.
+
+| Where | On screen | Source |
+| --- | --- | --- |
+| bit1_loop.2 · the request slip | *pending Ali's pick* | bit1_loop.2 |
+| bit1_loop.6 · chip | «AI Agent» (spoken: «إيجنت») | Ali, 3 Oct |
+| bit4_yes · the dial's two ends | «لأ» ↔ «أكيد» | Ali, 3 Oct |
+| bit5_history.2 · the 2022 loop's three words | *pending Ali's pick* | bit5_history.2 |
+| bit6_fixes.3 · the checklist | *pending Ali's pick* | bit6_fixes.3 |
+| bit6_fixes.6 · the night slips | ETERNAL TRANSCENDENCE (English original, caps; the VO says «التسامي الأبدي») | Ali, 3 Oct |
+
+Also decided 3 Oct: bit3_desk.9 (the FBI email) is cut; the optional SWE-agent line is not used.
+
 ## In the spirit of video 2
 
 | Video 2 | Video 3 |
@@ -53,9 +68,11 @@ Everyday frame, one idea per line. Each strange moment from the shop is followed
 
 Estimate: English words at the final cut's measured rate (video 2: 568 English words → 3:48 of Arabic VO, ≈ 3.5 words per spoken second), plus each line's pause, ~1.5 s lead-in per segment, and the silent holds noted in the tables. Treat ±15%: Arabic lines run longer or shorter than the English.
 
-Story share (lines about the shop rather than the mechanism): hook.1–3, bit2_menu.6–7, bit3_desk.8–9, bit4_yes.3–4, bit6_fixes.1, .5–.6 ≈ 1:25, about a quarter of the runtime, inside the ≤ 25% rule.
+With bit3_desk.9 cut (Ali, 3 Oct), bit 3 is ≈ 0:56 and the whole ≈ 5:38, ≈ 5:46 with the end card.
 
-Optional extra (+8 s): the SWE-agent line under bit 6.
+Story share (lines about the shop rather than the mechanism): hook.1–3, bit2_menu.6–7, bit3_desk.8, bit4_yes.3–4, bit6_fixes.1, .5–.6 ≈ 1:17, about a quarter of the runtime, inside the ≤ 25% rule.
+
+The optional SWE-agent line under bit 6 is not used (Ali, 3 Oct).
 
 ---
 
@@ -105,7 +122,7 @@ Title paid by hook.4 (~0:25): the AI only writes.
 
 ## 4. The desk — `bit3_desk` · `Bit3Desk`
 
-**Shows:** a desk (a tray of fixed width) under the writer; the menu and the job card sit at its left; slips line up lap by lap. The desk fills; the oldest slips slide off the left edge into darkness, and the writer's soft highlight never reaches past the desk. Three fixes, one at a time: a notebook pinned at the desk's right edge (it stays); ten slips squeezed into one short summary slip, small fragments of detail falling out; a to-do card put back at the front each lap. Then a wrong line written into the notebook ("Sarah from the supplier said…"), carried forward lap after lap, its outline turning from dashed to solid. A brief return of the blazer bubble. Optional second case: in a simulated shop, $2 fee slips keep landing on a desk where the writer has written "shop closed"; it writes an envelope addressed to the FBI.
+**Shows:** a desk (a tray of fixed width) under the writer; the menu and the job card sit at its left; slips line up lap by lap. The desk fills; the oldest slips slide off the left edge into darkness, and the writer's soft highlight never reaches past the desk. Three fixes, one at a time: a notebook pinned at the desk's right edge (it stays); ten slips squeezed into one short summary slip, small fragments of detail falling out; a to-do card put back at the front each lap. Then a wrong line written into the notebook ("Sarah from the supplier said…"), carried forward lap after lap, its outline turning from dashed to solid. A brief return of the blazer bubble. ~~Optional second case: in a simulated shop, $2 fee slips keep landing on a desk where the writer has written "shop closed"; it writes an envelope addressed to the FBI.~~ Cut (Ali, 3 Oct).
 
 | Key | Line (rough) | Pause | Picture |
 | --- | --- | --- | --- |
@@ -117,7 +134,7 @@ Title paid by hook.4 (~0:25): the AI only writes.
 | bit3_desk.6 | …and puts a to-do list back in front every lap, so the goal stays in view. | 1.0 | to-do card returns to the front |
 | bit3_desk.7 | But every summary drops details. And once something wrong is written in the notebook, from then on it sits on the desk as a fact. | 1.4 | "Sarah…" line carried forward, dashed → solid |
 | bit3_desk.8 | Nobody knows exactly why the shopkeeper decided it was a person. But this is the kind of drift a long job falls into. | 1.2 | blazer bubble returns, small |
-| bit3_desk.9 | In another test, an AI that believed it had closed its shop kept seeing a two-dollar fee, and emailed the FBI. | 1.6 | fee slips land; envelope "FBI" *(optional, Ali's call)* |
+| bit3_desk.9 | In another test, an AI that believed it had closed its shop kept seeing a two-dollar fee, and emailed the FBI. | 1.6 | **cut (Ali, 3 Oct)** |
 | bit3_desk.10 | That explains the strange. It doesn't explain the generous: why did it say yes to every discount? | 1.4 | a discount chip, question mark |
 
 On screen: one chip, the English term once: «context window».
@@ -162,7 +179,7 @@ On screen: one chip, the English term once: «context window».
 | bit6_fixes.7 | Two writers, and nothing real between them to check. | 1.0 | hold on the dark world node |
 | bit6_fixes.8 | Their own lesson: for agents, a little bureaucracy goes a long way. | 1.6 | checklist glows |
 
-Optional (Ali's call, +8 s): "Researchers who only redesigned the screen a coding agent works through got far better results than the best method before them."
+~~Optional (Ali's call, +8 s): "Researchers who only redesigned the screen a coding agent works through got far better results than the best method before them."~~ Not used (Ali, 3 Oct).
 
 ## 8. Recap — `bit7_exit` · `Bit7Exit`
 

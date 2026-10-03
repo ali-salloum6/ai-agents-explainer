@@ -100,11 +100,11 @@ Colors: kit palette (BG black, INK, ACCENT teal = the model, WARM amber = the wo
 
 | English | Arabic (proposal) | note |
 | --- | --- | --- |
-| AI agent | الـ AI Agent / الوكيل | Latin in the title for search; spoken «الإيجنت» or «الوكيل», Ali's call |
+| AI agent | الـ AI Agent / الإيجنت | Latin in the title for search; spoken «الإيجنت» (Ali, 3 Oct) |
 | the model | النموذج | as in video 2 |
-| the loop / one lap | الدورة / لفّة | |
+| the loop / one lap | الدورة | Ali, 3 Oct |
 | request slip / result slip | ورقة طلب / ورقة نتيجة | |
-| tools / the menu | الأدوات / القائمة (المنيو) | |
+| tools / the menu | الأدوات / المنيو | Ali, 3 Oct |
 | the desk (context window) | الطاولة | the English term once, maybe in a chip: context window |
 | notes / to-do list | الدفتر / قائمة المهام | |
 | the boss (CEO agent) | المدير | |
@@ -175,9 +175,9 @@ The beat sheet lives in [`script_visual_map.md`](script_visual_map.md): eight se
 ## 9. Open questions for Ali
 
 1. Packaging: pair A, B or C for day one, and which two to A/B?
-2. Spoken word for "agent": «الإيجنت», «الوكيل», or both?
-3. Name Anthropic in VO, or only "an AI company"?
-4. Keep the Vending-Bench FBI example in bit 3, or is one drift example enough?
-5. Keep the optional SWE-agent line in bit 5?
+2. ~~Spoken word for "agent": «الإيجنت», «الوكيل», or both?~~ **«إيجنت»** (Ali, 3 Oct). Also decided: one lap = **دورة**, the menu = **منيو**, the dial «لأ» ↔ **«أكيد»**.
+3. ~~Name Anthropic in VO, or only "an AI company"?~~ **Once, in hook.1** (Ali, 3 Oct).
+4. ~~Keep the Vending-Bench FBI example in bit 3, or is one drift example enough?~~ **Cut** (Ali, 3 Oct).
+5. ~~Keep the optional SWE-agent line in bit 5?~~ **Not used** (Ali, 3 Oct).
 6. Upload date: ~11 Oct with the full scope, or 4 Oct with the cut-down version (§7)?
 7. Music: video 2's beds again, or new ones?
