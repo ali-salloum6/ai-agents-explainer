@@ -5,4 +5,4 @@
 - [ ] Confirm the upload date
 - [ ] Verify the claims in the plan's accuracy guardrails before writing VO
 - [ ] Write the hook's Arabic lines into `script_visual_map.md`
-- [ ] Install / link `manim/` (see README)
+- [x] Install / link `manim/` (see README): linked to `../1-hour-challenge/manim` (ManimGL 1.7.2), KitDemo renders (3 Oct)

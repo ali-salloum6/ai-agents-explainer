@@ -39,7 +39,7 @@ Same as video 2 ([`../ai-image-explainer`](../ai-image-explainer)):
 
 ```bash
 python3 -m venv .venv && . .venv/bin/activate
-git clone --depth 1 https://github.com/3b1b/manim.git manim   # or: ln -s ../ai-image-explainer/manim manim
+ln -s ../1-hour-challenge/manim manim   # the checkout videos 1 and 2 run (or: git clone --depth 1 https://github.com/3b1b/manim.git manim)
 pip install -e ./manim
 pip install -r manim/requirements.txt
 # ffmpeg on PATH

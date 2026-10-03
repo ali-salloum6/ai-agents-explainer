@@ -48,7 +48,8 @@ config/adobe_enhance_token.txt
 .local/
 
 # Upstream Manim / lesson clones — install per README or attach as submodules
-manim/
+# (/manim without a trailing slash also matches manim as a symlink to a sibling checkout)
+/manim
 videos/
 
 # Tests / packaging

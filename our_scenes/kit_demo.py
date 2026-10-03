@@ -5,7 +5,7 @@ Not a video beat; a visual test bench for the shared kit.
 Render (preview 854×480):
   .venv/bin/manimgl our_scenes/kit_demo.py KitDemo -w -l --video_dir ./media
 Keyframes:
-  python3 scripts/export_keyframes.py --segment hook --video media/KitDemo.mp4 --out-dir keyframes/kit_demo --count 12
+  python3 scripts/export_keyframes.py --segment kit_demo --video media/KitDemo.mp4 --count 12
 """
 from __future__ import annotations
 
