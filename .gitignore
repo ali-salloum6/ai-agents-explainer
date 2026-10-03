@@ -63,5 +63,9 @@ build/
 
 # Frame-check screenshots (local verification only)
 media/frame_check/
+# Each segment's last frame (scripts/render_segments.py), the next segment opens on it
+media/frames/
+# Narration timing logs written by the scenes
+media/timing/
 # Per-segment review keyframes (scripts/export_keyframes.py)
 keyframes/

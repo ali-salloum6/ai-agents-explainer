@@ -974,3 +974,24 @@ class AgentScene(NarratedScene):
         """Blink a cursor for about `seconds` (whole blinks; at least one)."""
         n = max(1, int(round(seconds / period)))
         self.play(blink(mob, n=n, period=seconds / n))
+
+    def continue_from(self, prev_scene: str, fade: float = 0.45) -> None:
+        """Open on the previous segment's exact last frame (media/frames/<prev_scene>_last.png, saved by
+        scripts/render_segments.py after each render) and dissolve it into this scene's own first frame over
+        `fade` seconds, on its own clock: the cut between segments is seamless and no timing changes. A no-op
+        when the frame isn't there (render the previous segment first)."""
+        path = MEDIA_DIR / "frames" / f"{prev_scene}_last.png"
+        if not path.is_file():
+            return
+        img = ImageMobject(str(path))
+        img.set_height(FRAME_HEIGHT).move_to(ORIGIN)
+        img.set_z_index(50)
+        t0 = self.time
+
+        def upd(m, dt):
+            a = min(1.0, (self.time - t0) / fade)
+            m.set_opacity(1.0 - smooth(a))
+            if a >= 1.0:
+                m.clear_updaters()
+        img.add_updater(upd)
+        self.add(img)

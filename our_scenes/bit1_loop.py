@@ -27,11 +27,13 @@ if str(_REPO_ROOT) not in sys.path:
 
 from our_scenes.agent_kit import *  # noqa: F401,F403
 
+LAP_S = 0.3 + 0.4 + 0.4 + 0.2 + 0.4 + 0.2 + 0.55      # one lap at speed 1 (see _lap)
 N_SLOTS = N_ROW                            # slips the row shows before the oldest slide off (bit 3's subject)
 
 
 class Bit1Loop(AgentScene):
     def construct(self):
+        self.continue_from("HookShop")              # the cut from HookShop is seamless
         self.row = []                                  # result / request slips lying in front of the writer
         m = master()
         w, h, wd = m.writer, m.hands, m.world
@@ -97,8 +99,9 @@ class Bit1Loop(AgentScene):
             self.play(FadeIn(cone), Indicate(res, color=ACCENT, scale_factor=1.08), run_time=0.6)
             self.play(FadeOut(cone), run_time=0.25)
             self.until("بيكتب", lead=0.2)
-            self._lap(wd.customers, speed=1.0, seed=5)
-            self._lap(wd.supplier, speed=1.6, seed=6)
+            s1 = max(1.0, LAP_S * (1 + 1 / 1.6) / max(0.5, self.hold_left() - 0.25))   # both laps fit the line + pause
+            self._lap(wd.customers, speed=s1, seed=5)
+            self._lap(wd.supplier, speed=1.6 * s1, seed=6)
 
         # ---- 6. write, do, read: that loop is what's called an AI agent ----------------------------
         with self.narrate("bit1_loop.6"):
@@ -121,9 +124,9 @@ class Bit1Loop(AgentScene):
         with self.narrate("bit1_loop.7", pause=line_pause("bit1_loop.7") + 3.0):
             clock = icon_clock(1.3).move_to(np.array([4.6, 2.55, 0]))
             self.play(FadeIn(clock, scale=0.7), FadeOut(chip), run_time=0.4)
-            total = self.hold_left() - 0.6
             n = 20
-            per = total / n
+            deadline = self.time + self.hold_left() - 0.4      # then the dot fades; each play re-measures the
+                                                                # time left, so frame rounding can't add up
             dot = behind(Dot(radius=0.1).set_fill(ACCENT, 1).move_to(lane.path.get_start()))
             self.add(dot)
             for k in range(n):
@@ -139,9 +142,10 @@ class Bit1Loop(AgentScene):
                          Rotate(clock.minute, -TAU * 24 / n / 6, about_point=clock.face.get_center())]
                 anims += self._shift_row_anims()
                 self.add(env)
+                per = max(1 / 30, (deadline - self.time) / (n - k))
                 self.play(*anims, run_time=per, rate_func=linear)
                 self.remove(env)
-            self.play(FadeOut(dot), run_time=0.3)
+            self.play(FadeOut(dot), run_time=max(0.1, min(0.3, self.hold_left() - 0.02)))
 
         # ---- 8. but how did it know email was something it could ask for? -------------------------
         with self.narrate("bit1_loop.8"):
@@ -181,11 +185,11 @@ class Bit1Loop(AgentScene):
         cone.set_fill(ACCENT, opacity=opacity).set_stroke(width=0)
         return cone
 
-    def _envelope(self, a, b, run_time: float = 0.6, color=INK_2) -> None:
+    def _envelope(self, a, b, run_time: float = 0.6, color=INK_2, fade: float = 0.2) -> None:
         env = flying(envelope(0.5, color).move_to(a))
         self.add(env)
         self.play(env.animate.move_to(b), run_time=run_time)
-        self.play(FadeOut(env, scale=0.5), run_time=0.2)
+        self.play(FadeOut(env, scale=0.5), run_time=fade)
 
     def _land(self, s: Mobject, run_time: float = 0.7) -> None:
         """Slip s (at the hands) drops onto the next place on the row."""
@@ -202,8 +206,8 @@ class Bit1Loop(AgentScene):
         self.play(FadeIn(r, scale=0.5), blink(self.cur, n=1, period=0.3 / speed), run_time=0.3 / speed)
         self.play(r.animate.scale(0.3).move_to(self.h.get_center()).set_opacity(0), run_time=0.4 / speed)
         self.remove(r)
-        self._envelope(self.h.get_center(), target.get_center(), run_time=0.4 / speed)
-        self._envelope(target.get_center(), self.h.get_center(), run_time=0.4 / speed, color=WARM)
+        self._envelope(self.h.get_center(), target.get_center(), run_time=0.4 / speed, fade=0.2 / speed)
+        self._envelope(target.get_center(), self.h.get_center(), run_time=0.4 / speed, color=WARM, fade=0.2 / speed)
         res = flying(slip(kind="result", width=SLIP_W, seed=seed + 50).move_to(self.h.get_center()))
         self.add(res)
         self._land(res, run_time=0.55 / speed)

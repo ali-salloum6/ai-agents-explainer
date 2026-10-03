@@ -1239,6 +1239,10 @@ def line_phrases(key: str) -> list[tuple[float, float]]:
     return [tuple(p) for p in entry.get("phrases", [])]
 
 
+_PIN_TOL = 0.12   # a pause is pinned to a punctuation mark only this close (in shares of the line); Ali also
+                  # breathes where there is no comma, and pinning that to a far mark put words seconds early
+
+
 def line_word_at(key: str, needle: str) -> float:
     """Seconds into line `key` where `needle` (a word or phrase of its text) is spoken: its share
     of the line's letters, laid over the voiced stretches (line_phrases) so pauses are skipped.
@@ -1264,8 +1268,8 @@ def line_word_at(key: str, needle: str) -> float:
         options = [(abs(x - cum_t / voiced), k) for k, x in enumerate(marks) if k > used]
         if not options:
             break
-        _, k = min(options)
-        if marks[k] <= knots_x[-1]:
+        d, k = min(options)
+        if d > _PIN_TOL or marks[k] <= knots_x[-1]:   # a breath with no punctuation near it stays unpinned
             continue
         knots_x.append(marks[k]); knots_t.append(cum_t); used = k
     knots_x.append(1.0); knots_t.append(voiced)

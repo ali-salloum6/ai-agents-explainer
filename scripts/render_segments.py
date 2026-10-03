@@ -27,6 +27,20 @@ PREVIEW_WIDTH = 854
 HD_WIDTH = 1920
 
 
+FRAMES_DIR = REPO_ROOT / "media" / "frames"
+
+
+def save_last_frame(video: Path, scene_class: str) -> None:
+    """The render's last frame as media/frames/<Scene>_last.png: the next segment opens on it
+    (AgentScene.continue_from), so render segments in order. Kept current with the video."""
+    out = FRAMES_DIR / f"{scene_class}_last.png"
+    if not video.is_file() or (out.is_file() and out.stat().st_mtime >= video.stat().st_mtime):
+        return
+    FRAMES_DIR.mkdir(parents=True, exist_ok=True)
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-sseof", "-0.05", "-i", str(video), "-frames:v", "1",
+                    "-update", "1", str(out)], check=True)
+
+
 def load_json(path: Path) -> dict:
     with path.open(encoding="utf-8") as f:
         return json.load(f)
@@ -169,6 +183,8 @@ def main() -> None:
         if not args.force and not needs:
             print(f"skip {seg_id}: {reason}")
             skipped += 1
+            if not args.dry_run:
+                save_last_frame(video_path, parse_scene(entry["scene"])[1])
             continue
 
         scene_file, scene_class = parse_scene(entry["scene"])
@@ -178,6 +194,7 @@ def main() -> None:
         print("  ", " ".join(cmd))
         if not args.dry_run:
             subprocess.run(cmd, cwd=REPO_ROOT, check=True)
+            save_last_frame(video_path, scene_class)
         rendered += 1
 
     qual = "HD" if hd else "preview"
