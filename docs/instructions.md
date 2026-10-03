@@ -90,6 +90,8 @@ python3 scripts/mux_audio.py --segment bit1
 
 Register segments in `config/scenes_manifest.json` and `config/audio_manifest.json`. Same frame size for all segments in one assemble run.
 
+**Render segments in order.** Each segment opens on the previous one's exact last frame and dissolves into its own (`AgentScene.continue_from`), so the cuts are seamless; `render_segments.py` saves every render's last frame to `media/frames/` for the next one. After changing a segment, re-render it and the one after it.
+
 ### Visual verification
 
 Render preview → keyframes → **look at PNGs** → fix → repeat. Mux when VO exists.

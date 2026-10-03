@@ -47,4 +47,4 @@ pip install -r manim/requirements.txt
 
 ## Status
 
-Scaffolded 2 Oct 2026 from video 2's repo. No segments yet; packaging not locked.
+All eight segments built and rendered (3 Oct 2026); upload cut and Arabic SRT in `media/output/` (`build_srt_cut.py`, see `docs/to_do.md`). Packaging not locked.
