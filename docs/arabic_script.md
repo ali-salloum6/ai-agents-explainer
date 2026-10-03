@@ -2,10 +2,11 @@
 
 One entry per spoken line, in order: when it plays in the planned cut (estimated; there is no render yet), its key in
 `config/narration.json`, the English line, then 2 Arabic versions. **★ = the one I recommend.** Write your pick after
-**Decision:** (1, 2, ★, or your own wording; `remove` to cut a line). Then
-`python3 scripts/build_narration_ar.py` turns the decisions into `config/narration_ar.json`, and the recorder
-(`python3 scripts/record_server.py`, http://localhost:8765) shows every decided line ready to record. Undecided
-lines show as pending and can't be recorded yet; you can also type a line on its card in the recorder, which makes it ready.
+**Decision:** (1, 2, ★, or your own wording; `remove` to cut a line), here or in the recorder's **Decide** mode
+(`python3 scripts/record_server.py`, http://localhost:8765), which writes the same thing here: pick an option, change a
+few of its letters first (the option is rewritten in place and keeps its number), write your own wording, or remove the
+line. `python3 scripts/build_narration_ar.py` turns the decisions into `config/narration_ar.json` (the recorder does it
+on every reload), and **Record** mode shows every decided line ready to record. Undecided lines can't be recorded yet.
 
 The scenes re-time themselves to your recorded voice, so an Arabic line can run longer or shorter than the English. Try to stay within about ±30%.
 

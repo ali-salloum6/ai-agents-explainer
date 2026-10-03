@@ -201,7 +201,8 @@
           "key": "bit3_desk.9",
           "en": "In another test, an AI that believed it had closed its shop kept seeing a two-dollar fee, and emailed the FBI.",
           "ar": null,
-          "status": "pending"
+          "status": "removed",
+          "note": "Ali: remove this line"
         },
         {
           "key": "bit3_desk.10",

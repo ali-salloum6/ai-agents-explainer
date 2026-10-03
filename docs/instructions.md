@@ -124,7 +124,7 @@ with register_font(str(Path(__file__).resolve().parent.parent / "assets/fonts/Am
 
 1. `config/narration.json`: one entry per spoken line (`key`, English text, `pause`). Scenes are `NarratedScene`s and play each line inside `with self.narrate(key):`, so timing follows the voice.
 2. Placeholder voice: `python3 scripts/narrate.py synth` (English AI voice, `VO_LANG=en`), render, then `python3 scripts/narrate.py track` and `python3 scripts/build_srt_cut.py --cues config/cues_en_vo.json --burn` for the review cut.
-3. Arabic: candidates and decisions in `docs/arabic_script.md` → `python3 scripts/build_narration_ar.py` → `config/narration_ar.json`. Instructions that a number can't express ("cut this line") go in its `OVERRIDES` by hand.
-4. Record: `python3 scripts/record_server.py`, open http://localhost:8765 (also in `.claude/launch.json`). Every take is kept.
+3. Arabic: candidates and decisions in `docs/arabic_script.md` → `python3 scripts/build_narration_ar.py` → `config/narration_ar.json`. Ali decides in the recorder's Decide mode (step 4) or by hand after **Decision:**; both write the same file. A decision that reads like an instruction shows as "needs a look" and goes in the builder's `OVERRIDES` by hand.
+4. Decide and record: `python3 scripts/record_server.py`, open http://localhost:8765 (also in `.claude/launch.json`). Decide mode: pick an option, change a few of its letters first, write your own wording, or remove the line. Record mode: one line at a time; every take is kept.
 5. `scripts/enhance_takes.py` (Adobe Enhance Speech, one by one) → `scripts/process_takes.py` (trim, pauses, loudness) → re-render with `VO_LANG=ar` (default) → `narrate.py track` → mux.
 6. Upload cut with the music bed and the bottom band clear for YouTube captions: `build_srt_cut.py --cues config/cues_ar_vo.json --caption-band 0.20` (see its docstring).
