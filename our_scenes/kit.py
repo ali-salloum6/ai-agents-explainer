@@ -884,12 +884,17 @@ def flip_card(card_front: VGroup, card_back: VGroup, run_time: float = 0.5) -> A
 # Writer devices
 # ----------------------------------------------------------------------------
 def cursor(height: float = 0.5) -> VMobject:
-    """Text-cursor bar in ACCENT."""
-    w = 0.14 * height
-    bar = RoundedRectangle(width=w, height=height, corner_radius=0.45 * w)
-    bar.set_fill(ACCENT, opacity=1.0)
-    bar.set_stroke(width=0)
-    return bar
+    """Text cursor in ACCENT: an I-beam, a stem with a short horizontal bar at the top and at the bottom."""
+    h = height
+    stem, bar, wide = 0.10 * h, 0.10 * h, 0.40 * h          # stem width, bar thickness, bar width
+    pts = [(-wide / 2, h / 2), (wide / 2, h / 2), (wide / 2, h / 2 - bar), (stem / 2, h / 2 - bar),
+           (stem / 2, bar - h / 2), (wide / 2, bar - h / 2), (wide / 2, -h / 2), (-wide / 2, -h / 2),
+           (-wide / 2, bar - h / 2), (-stem / 2, bar - h / 2), (-stem / 2, h / 2 - bar), (-wide / 2, h / 2 - bar)]
+    beam = Polygon(*[np.array([x, y, 0.0]) for x, y in pts])
+    beam.round_corners(0.03 * h)
+    beam.set_fill(ACCENT, opacity=1.0)
+    beam.set_stroke(width=0)
+    return beam
 
 
 def blink(cursor_mob: Mobject, n: int = 2, period: float = 0.5) -> Animation:

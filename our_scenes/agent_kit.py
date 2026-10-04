@@ -186,16 +186,47 @@ def icon_tag(size: float = 0.5, color=WARM) -> VGroup:
     return VGroup(tag, hole)
 
 
+def rounded_polygon(points, radii) -> VMobject:
+    """ONE closed outline through `points` (x, y; in order), each corner rounded by its own radius: a per-corner
+    version of Polygon.round_corners. Use it for a stroked shape that has a part stuck on (a bubble's tail):
+    ManimGL's Union() leaves each part's own outline in place, so a stroked union shows a seam across the join."""
+    verts = [np.array([x, y, 0.0]) for x, y in points]
+    n = len(verts)
+    arcs = []
+    for k in range(n):
+        v1, v2, v3 = verts[k - 1], verts[k], verts[(k + 1) % n]
+        e1, e2 = normalize(v2 - v1), normalize(v3 - v2)
+        angle = angle_between_vectors(e1, e2)
+        cut = radii[k] * np.tan(angle / 2)
+        arcs.append(ArcBetweenPoints(v2 - e1 * cut, v2 + e2 * cut, angle=np.sign(cross2d(e1, e2)) * angle, n_components=2))
+    out = VMobject()
+    for k in range(n):
+        out.add_subpath(arcs[k].get_points())
+        out.add_line_to(arcs[(k + 1) % n].get_start())
+    return out
+
+
+def bubble_outline(width: float, height: float, corner: float, tail: str = "DR", base_w: float = 0.2,
+                   tip_in: float = 0.1, depth: float = 0.2, gap: float = 0.03) -> VMobject:
+    """A rounded speech bubble and its tail as ONE closed outline, centred on the body. The tail hangs from the
+    bottom edge by the right ("DR") or left ("DL") corner: its base starts `gap` past the corner's curve and is
+    `base_w` wide; its tip is `depth` below the body and `tip_in` in from the side."""
+    hw, hh = width / 2, height / 2
+    near = hw - corner - gap                      # base end nearest the corner
+    pts = [(-hw, hh), (-hw, -hh), (near - base_w, -hh), (hw - tip_in, -hh - depth), (near, -hh), (hw, -hh), (hw, hh)]
+    soft, tip = 0.15 * depth, 0.07 * depth
+    out = rounded_polygon(pts, [corner, corner, soft, tip, soft, corner, corner])
+    return out.flip(UP) if tail == "DL" else out
+
+
 def icon_bubble(size: float = 0.5, color=INK_2, fill=BUBBLE_FILL) -> VGroup:
-    body = RoundedRectangle(width=size, height=0.66 * size, corner_radius=0.2 * size)
-    body.set_fill(fill, opacity=1.0).set_stroke(color, width=1.6)
-    b, r = body.get_bottom()[1], body.get_right()[0]
-    tail = Polygon(np.array([r - 0.32 * size, b + 0.02, 0]), np.array([r - 0.12 * size, b + 0.02, 0]),
-                   np.array([r - 0.06 * size, b - 0.16 * size, 0]))
-    tail.set_fill(fill, opacity=1.0).set_stroke(color, width=1.6)
+    """A small chat bubble (three dots) with a tail at its bottom right, body and tail one outline (no seam)."""
+    shape = bubble_outline(size, 0.66 * size, 0.2 * size, "DR", base_w=0.2 * size, tip_in=0.10 * size,
+                           depth=0.20 * size, gap=0.03 * size)
+    shape.set_fill(fill, opacity=1.0).set_stroke(color, width=1.6)
     dots = VGroup(*[Dot(radius=0.045 * size).set_fill(color, 1.0) for _ in range(3)]).arrange(RIGHT, buff=0.1 * size)
-    dots.move_to(body)
-    return VGroup(tail, body, dots)
+    dots.move_to(ORIGIN)
+    return VGroup(shape, dots)
 
 
 def speech_bubble(width: float = 2.0, height: float = 1.4, tail: str = "DR", fill=BUBBLE_FILL) -> VGroup:

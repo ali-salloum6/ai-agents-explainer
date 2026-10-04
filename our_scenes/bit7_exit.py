@@ -150,17 +150,12 @@ def chat_bubble(who: str, width: float, n: int, seed: int) -> VGroup:
     lines = text_lines(width - 0.28, n=n, height=0.06, gap=0.09, color=INK if user else ACCENT,
                        opacity=0.7 if user else 0.85, seed=seed)
     h = max(0.32, lines.get_height() + 0.24)
-    body = RoundedRectangle(width=width, height=h, corner_radius=min(0.14, h / 2))
     fill, edge = (BUBBLE_FILL, None) if user else (CARD_FILL, ACCENT)
-    s = 1 if user else -1
-    x = body.get_right()[0] - 0.16 if user else body.get_left()[0] + 0.16
-    b = body.get_bottom()[1]
-    tail = Polygon(np.array([x - 0.10 * s, b + 0.02, 0]), np.array([x + 0.08 * s, b + 0.02, 0]),
-                   np.array([x + 0.16 * s, b - 0.11, 0]))
-    shape = Union(body, tail)
+    shape = bubble_outline(width, h, min(0.14, h / 2), "DR" if user else "DL", base_w=0.14, tip_in=0.03,
+                           depth=0.11, gap=0.02)           # body and tail as one outline: no seam across the join
     shape.set_fill(fill, opacity=1.0)
     shape.set_stroke(edge or fill, width=1.6 if edge else 0)
-    lines.move_to(body)
+    lines.move_to(ORIGIN)
     out = VGroup(shape, lines)
     out.who = who
     return out
