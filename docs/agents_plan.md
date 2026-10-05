@@ -53,6 +53,8 @@ Contents: §0 accuracy · §1 why this video · §2 promise · §3 packaging · 
 
 ## 3. Packaging
 
+> **Decided 5 Oct 2026: packaging and publish plan are in [`youtube/publish_pack.md`](youtube/publish_pack.md).** Pair 1, published: title «كيف الـ AI Agent بيدير محل؟» + thumbnail "the loop" (the page the AI writes, caret at its end → request slip → the shop → result slip back; no text). Pair 2, challenger: «الـ AI Agent ما بيعرف غير يكتب… كيف أدار محل؟» + "the riddle" (page ? shop). Built by copying video 2's recipe (plain dialect «كيف + AI + task؟», one still of the video's own mechanism, no text, glowing cursor). **Publish Friday 9 Oct 2026, 15:00 Syria time.** The pairs A/B/C below are superseded and kept for the record.
+
 Rules (from video 1's `thumbnail_title_guide.md`, unchanged): one subject at 160 px, dark ground, bottom-right empty, thumbnail text 0–3 words and never a repeat of the title, title hook in the first words, nothing the video doesn't show.
 
 **New rule for this channel (the warning):** the title names the subject and the thumbnail shows the mechanism. The story is the hook *inside* that frame.
@@ -174,10 +176,10 @@ The beat sheet lives in [`script_visual_map.md`](script_visual_map.md): eight se
 
 ## 9. Open questions for Ali
 
-1. Packaging: pair A, B or C for day one, and which two to A/B?
+1. ~~Packaging: pair A, B or C for day one, and which two to A/B?~~ **Decided 5 Oct:** see `youtube/publish_pack.md` (Pair 1 default, Pair 2 challenger).
 2. ~~Spoken word for "agent": «الإيجنت», «الوكيل», or both?~~ **«إيجنت»** (Ali, 3 Oct). Also decided: one lap = **دورة**, the tools list = **دليل الأدوات** («منيو» only for the shop's price menu), the dial «لأ» ↔ **«أكيد»**.
 3. ~~Name Anthropic in VO, or only "an AI company"?~~ **In hook.1 and bit4_yes.4** (Ali, 3 Oct).
 4. ~~Keep the Vending-Bench FBI example in bit 3, or is one drift example enough?~~ **Cut** (Ali, 3 Oct).
 5. ~~Keep the optional SWE-agent line in bit 5?~~ **Not used** (Ali, 3 Oct).
-6. Upload date: ~11 Oct with the full scope, or 4 Oct with the cut-down version (§7)?
-7. Music: video 2's beds again, or new ones?
+6. ~~Upload date: ~11 Oct with the full scope, or 4 Oct with the cut-down version (§7)?~~ Full scope is done: **Friday 9 Oct 2026, 15:00 Syria time** (UTC+3), upload on Monday 5 Oct.
+7. ~~Music: video 2's beds again, or new ones?~~ Video 2's «No.10 A New Beginning», as in the cut.

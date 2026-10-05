@@ -19,4 +19,6 @@
 
 - [x] Upload cut (3 Oct): `media/output/full_cut_ar.mp4` (1080p, 5:54, voice + "A New Beginning" bed, bottom 20% clear)
       and `media/output/full_cut_ar.ar.srt` (69 cues)
-- [ ] Ali: watch the cut; packaging (title + thumbnail, plan §3) still open
+- [x] Packaging decided (5 Oct): `docs/youtube/publish_pack.md` (titles, thumbnails, description, tags, pinned comment, schedule)
+- [ ] Ali: watch the cut once; upload Mon 5 Oct, schedule Fri 9 Oct 15:00 (Syria time); check Studio for Advanced features (A/B testing)
+- [ ] After publishing: read Reach at 72 h into `docs/video3_analytics.md` (swap rule in the pack, §5)

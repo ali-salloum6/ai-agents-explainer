@@ -47,4 +47,4 @@ pip install -r manim/requirements.txt
 
 ## Status
 
-All eight segments built and rendered (3 Oct 2026); upload cut and Arabic SRT in `media/output/` (`build_srt_cut.py`, see `docs/to_do.md`). Packaging not locked.
+All eight segments built and rendered (3 Oct 2026); upload cut and Arabic SRT in `media/output/` (`build_srt_cut.py`, see `docs/to_do.md`). Packaging decided and publish pack ready (5 Oct 2026): [`docs/youtube/publish_pack.md`](docs/youtube/publish_pack.md); publish planned for Fri 9 Oct, 15:00 Syria time.

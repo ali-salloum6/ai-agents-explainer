@@ -1,0 +1,44 @@
+شرح طريقة عمل وكلاء الذكاء الاصطناعي (AI Agents) بالرسم: كيف بيشتغل الـ AI Agent، من خلال ذكاء اصطناعي أدار محل شهر كامل.
+
+الـ AI Agent بالنهاية نموذج بيكتب بس، ما بيلمس شي. شرح بالعربي، بدون برمجة ولا معادلات، كيف صار يدير محل: الدورة اللي بتخلّيه يشتغل، دليل الأدوات، والطاولة اللي بتخلص. وليش المحل خسّر، وشو تغيّر لما جرّبوه مرة تانية.
+
+بالفيديو منمرّ على:
+• الدورة: النموذج بيكتب طلب، برنامج صغير بينفّذه، والنتيجة بترجعله مكتوبة (هاد هو الـ AI Agent)
+• دليل الأدوات: ليش طريقة كتابة الأداة بتفرق، وكيف صار في شكل موحّد (MCP)
+• الطاولة: ليش الذاكرة محدودة، وشو بيعملوا بالدفتر والملخّصات وقائمة المهام
+• ليش بيقول «أكيد» لكل خصم
+• تاريخ الدورة: من 2022 لـ AutoGPT لليوم
+• الجولة التانية: شو تغيّر وخلّى المحل يخسر أقل
+
+AI agent · agentic AI · tool use · context window · Model Context Protocol (MCP) · ReAct · AutoGPT · Project Vend
+
+0:00 محل ما حدا ديرو بإيده
+0:41 الكاتب وإيديه: الدورة
+1:28 دليل الأدوات
+2:23 الطاولة: الذاكرة المحدودة
+3:22 ليش بيقول «أكيد» لكل شي
+3:50 الدورة مانا اختراع جديد
+4:32 الجولة التانية: شو تغيّر
+5:23 باختصار
+
+التجربة أجرتها Anthropic بالتعاون مع Andon Labs. ملاحظة تبسيط: الرسم بيوريكم طلب واحد بكل دورة، بس الـ AI Agents الحقيقية ممكن تكتب أكتر من طلب بالدورة.
+
+للاستزادة:
+Anthropic — Project Vend: Can Claude run a small shop? (2025)
+https://www.anthropic.com/research/project-vend-1
+Anthropic — Project Vend: Phase two (2025)
+https://www.anthropic.com/research/project-vend-2
+Yao et al. — ReAct: Synergizing Reasoning and Acting in Language Models (2022)
+https://arxiv.org/abs/2210.03629
+Anthropic — Introducing the Model Context Protocol (2024)
+https://www.anthropic.com/news/model-context-protocol
+AutoGPT (2023)
+https://en.wikipedia.org/wiki/AutoGPT
+TechCrunch — What is Auto-GPT and why does it matter? (2023)
+https://techcrunch.com/2023/04/22/what-is-auto-gpt-and-why-does-it-matter/
+
+الفيديو السابق: كيف الذكاء الاصطناعي بيرسم الصور؟
+https://www.youtube.com/watch?v=C-31-hB0-cY
+
+موسيقى:
+Esther Abrami — No.10 A New Beginning
