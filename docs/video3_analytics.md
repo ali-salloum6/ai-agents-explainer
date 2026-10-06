@@ -54,10 +54,27 @@ Judge CTR on **Browse/Home impressions only** (Reach → traffic source types �
 
 At 7 days, if total impressions are still < 100: swap the thumbnail anyway as a relaunch experiment; there is nothing left to lose. A/B "Test & compare" can't resolve at ~11 impressions a day, so don't use it.
 
-### Challenger thumbnail (prepare now, don't upload)
-Change one variable: **thumbnail only, title unchanged** (the title is what's bringing search impressions). One hero, big: the shop (fridge, baskets, iPad, as drawn in the hook) filling about 60% of the frame; the teal writer box with the cursor small at the other side; one slip between them; no loop, no second object of equal weight. Squint test at 160 px: the shop must read as a shop. Optional, weigh against the "funny story" warning: one wrong detail on the shop (a tie).
+### Thumbnail swap (6 Oct)
+Ali decided to replace the thumbnail now, without waiting for 48 h: the loop picture has two boxes of equal weight, no focal point and a right-hand object that reads as a phone. **Thumbnail only; the title stays** (it is what brings the search impressions).
+
+Five simple candidates, one or two objects each, built from the video's own palette, cursor and drawings: [`youtube/thumbnails/candidates/`](youtube/thumbnails/candidates/) (sheet: `candidates_sheet.png`, phone feed and 160 px next to the current thumbnail and video 2's; source: `scripts/thumb_candidates.py`, needs only Chrome/Chromium):
+
+| | Candidate | What it is | Reads as |
+|---|---|---|---|
+| c | `thumb_c_shopkeeper` | the shop fridge with the iPad as a smiling face and the red tie from the hook | "an AI runs a shop": a face to land on, the title's object |
+| d | `thumb_d_writes` | «بس بيكتب» (it only writes) + the writing cursor | the video's thesis as a hook word; the highest-contrast of the five |
+| e | `thumb_e_request` | one typed request, «ابعت إيميل», an envelope flying out | the mechanism: words turn into actions |
+| f | `thumb_f_ring` | the agent loop as one glowing ring, the cursor in the middle | the simplest; may read as a "refresh" icon |
+| g | `thumb_g_cube` | one metal cube with a falling price tag | the shop's first strange moment; the most "story", least "explainer" |
+
+**Pick: c first, d second.** They are the two with a real hook (a face; a hook word), and c follows the guide's split: the thumbnail shows the object, the title asks the question. Each file comes in 1280×720 (upload) and 1920×1080.
+
+**Log the swap.** Write the exact time and which candidate here, so reads before and after can be told apart:
+- Swapped at: _(time, Syria)_ to: _(candidate)_
+- The 48 h rule above now runs from the swap, and CTR counts only impressions after it.
+- "Test & compare" can't resolve at ~11 impressions a day; once the video has a few hundred, a c-vs-d test is the one worth running.
 
 ### Open
 - Report back: the four checks, then the 48 h numbers by source.
-- Prepare the challenger by Tue night so a swap on Wed is one upload.
+- Upload the chosen candidate (thumbnail only) and fill in the swap time above.
 - Video 4's thumbnail needs one focal point at stamp size; learn from this before it's drawn.

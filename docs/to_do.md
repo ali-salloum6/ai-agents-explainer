@@ -23,6 +23,6 @@
 - [x] Published: live since Mon 5 Oct 12:46 UTC (the Friday schedule in the pack was not used)
 - [x] Read 1 logged (6 Oct): 6 impressions in 13.5 h, none from Browse. See `docs/video3_analytics.md`
 - [ ] Today: the four Studio checks in `docs/video3_analytics.md`; make sure the first-hour share went out
-- [ ] Prepare the challenger thumbnail (thumbnail only, don't upload) by Tue night
-- [ ] Wed 7 Oct ~12:46 UTC (48 h): read impressions by source and apply the decision rule
+- [ ] Pick a candidate from `docs/youtube/thumbnails/candidates/` (sheet there; my pick c, then d), upload it (thumbnail only, title unchanged) and log the swap time in `docs/video3_analytics.md`
+- [ ] 48 h after the swap: read impressions by source (after the swap only) and apply the decision rule
 - [ ] Thu 8 Oct (72 h) and Mon 12 Oct (7 d): log Reads 3 and 4
