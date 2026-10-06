@@ -121,6 +121,7 @@ Honest limits: nobody can know which pair wins before it runs. Pair 1 is the low
 - **First hour:** post and pin the comment; send the link to 10–20 people who would really watch (AI-curious). Video 1's lesson: a wrong first audience froze the shelf, so the first clicks should come from the right people.
 - **Don't touch the title or thumbnail for 72 hours** (video 1: swaps don't reopen a closed shelf; an A/B test also stops if either is edited).
 - **At 72 h, with at least 500 impressions** (Studio → Analytics → Reach). These thresholds are a rule of thumb, not data: CTR 4% or more, keep; 2–4%, wait 24 h more; under 2%, swap to Pair 2 (title and thumbnail together) and leave it another 72 h.
+- **Revised 6 Oct:** at this channel's volume 500 impressions takes ~5 days (the video had 6 after 13.5 h), so the rule above can't trigger. Use the decision rule in [`../video3_analytics.md`](../video3_analytics.md).
 - If CTR is fine but average view duration drops hard, look at the retention graph around 0:26 (video 1 lost cold viewers there; this video pays the title at about 0:25 with «كل اللي بيعرف يعملو إنو يكتب»).
 - Record the reads in `docs/video3_analytics.md` like video 2's.
 

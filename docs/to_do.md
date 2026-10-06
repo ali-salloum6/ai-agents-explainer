@@ -20,5 +20,9 @@
 - [x] Upload cut (3 Oct): `media/output/full_cut_ar.mp4` (1080p, 5:54, voice + "A New Beginning" bed, bottom 20% clear)
       and `media/output/full_cut_ar.ar.srt` (69 cues)
 - [x] Packaging decided (5 Oct): `docs/youtube/publish_pack.md` (titles, thumbnails, description, tags, pinned comment, schedule)
-- [ ] Ali: watch the cut once; upload Mon 5 Oct, schedule Fri 9 Oct 15:00 (Syria time); check Studio for Advanced features (A/B testing)
-- [ ] After publishing: read Reach at 72 h into `docs/video3_analytics.md` (swap rule in the pack, §5)
+- [x] Published: live since Mon 5 Oct 12:46 UTC (the Friday schedule in the pack was not used)
+- [x] Read 1 logged (6 Oct): 6 impressions in 13.5 h, none from Browse. See `docs/video3_analytics.md`
+- [ ] Today: the four Studio checks in `docs/video3_analytics.md`; make sure the first-hour share went out
+- [ ] Prepare the challenger thumbnail (thumbnail only, don't upload) by Tue night
+- [ ] Wed 7 Oct ~12:46 UTC (48 h): read impressions by source and apply the decision rule
+- [ ] Thu 8 Oct (72 h) and Mon 12 Oct (7 d): log Reads 3 and 4
