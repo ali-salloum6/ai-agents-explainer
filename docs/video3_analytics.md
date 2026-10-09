@@ -1,6 +1,6 @@
 # Video 3 analytics — «كيف الـ AI Agent بيدير محل؟»
 
-Packaging live: Pair 1 from [`youtube/publish_pack.md`](youtube/publish_pack.md): the title above, thumbnail `thumb_a_loop`, the description, tags and Arabic subtitles. Per Studio it went live **Mon 5 Oct 2026, 12:46 UTC (15:46 Syria)**. The pack had planned a Friday 9 Oct 15:00 schedule; the video went public on upload day instead.
+Packaging live: Pair 1 from [`youtube/publish_pack.md`](youtube/publish_pack.md): the title above, thumbnail `thumb_a_loop`, the description, tags and Arabic subtitles. Per Studio it went live **Mon 5 Oct 2026, 12:46 UTC (15:46 Syria)**. The pack had planned a Friday 9 Oct 15:00 schedule; the video went public on upload day instead. **Packaging has changed since: see Read 2.**
 
 ## Read 1: 6 Oct 2026 (~13.5 h after upload)
 
@@ -43,6 +43,8 @@ Ali asked why the video had zero views, then whether to change the thumbnail or 
 
 ### Decision rule (replaces the pack's §5 "500 impressions at 72 h", unreachable here)
 
+_Superseded on 9 Oct: with ~7 impressions a day and two packaging changes this rule can't be applied. See Read 2 → Plan._
+
 Times: **48 h = Wed 7 Oct 12:46 UTC (15:46 Syria)**, 72 h = Thu 8 Oct, 7 days = Mon 12 Oct.
 Judge CTR on **Browse/Home impressions only** (Reach → traffic source types → Browse features), not the blended figure; search CTR is a different animal.
 
@@ -78,3 +80,56 @@ Five simple candidates, one or two objects each, built from the video's own pale
 - Report back: the four checks, then the 48 h numbers by source.
 - Upload the chosen candidate (thumbnail only) and fill in the swap time above.
 - Video 4's thumbnail needs one focal point at stamp size; learn from this before it's drawn.
+
+## Read 2: 9 Oct 2026 (~3.5 days after upload; data through ~8 Oct)
+
+Source: Studio's numbers as read out by YouTube's built-in assistant in a longer chat with Ali. Only its figures are recorded. Its explanations (topic size, "each video is judged independently", title ideas, and the claim that 4.17% CTR and 53% retention show the content resonates) are opinions without data and are left out. Its video 2 figures match Ali's earlier screenshots, so its numbers look like Studio's.
+
+### Packaging changes (facts)
+- **Title**, changed by Ali during the chat (~8–9 Oct, ~3.5 days in): «كيف AI Agent بيدير محل؟» → «كيف ايجنت ذكاء اصطناعي يدير محل؟». Ali's reason: the successful video's title had no Latin letters. Every number below belongs to the old title.
+- **Thumbnail:** Ali chose candidate c on 6 Oct; the upload time was not recorded. _(Ali: which thumbnail has been live since when?)_
+- Title and thumbnail have both been touched within four days, so reads from here on mix packaging states.
+
+### First 3 days, video 2 vs video 3 (the assistant's table)
+
+| | Video 2 | Video 3 |
+|---|---|---|
+| Impressions | 347 | 24 |
+| Views | 36 | 4 |
+| CTR | 3.17% | 4.17% |
+| Average % viewed | 36.51% | 53.42% |
+
+- **4.17% of 24 is exactly 1 click, and 53.42% of 5:54 (≈ 3:09) is the average of 4 views.** n = 1 and n = 4: neither number says anything about quality, in either direction.
+- **Impressions since Read 1:** 6 at 13.5 h → 24 at 3 days, about 7 a day. That is video 2's level after its wave (5–8 a day), with no wave before it.
+- The sources of the 24 weren't given (the first 6 were 5 search + 1 suggested).
+- 4 views against 1 click: video 2 shows the same gap (views ≈ 3× the clicks CTR implies), so it isn't evidence of how many came from shares.
+
+### Video 2's pattern, for comparison (details in its Read 3)
+Browse wave ≈ 30 Sep – 2 Oct (≈ 430 impressions and 65 views in 3 days) at 5.36% Browse CTR; Suggested 172 impressions, 0 clicks; then 10 impressions on 3 Oct and 5–8 a day since. Lifetime to 8 Oct: just over 800 impressions, ~106 views.
+
+### Three videos side by side
+
+| | Video 1 | Video 2 | Video 3 |
+|---|---|---|---|
+| Title now (Studio id) | «كيف بتشتغل الشبكات العصبية؟ أساس الذكاء الاصطناعي» (gB0a33ZZYmE) | «كيف الذكاء الاصطناعي بيرسم الصور؟» (C-31-hB0-cY) | «كيف ايجنت ذكاء اصطناعي يدير محل؟» (HygDWiw5PS0), first «كيف AI Agent بيدير محل؟» |
+| Latin letters in the title | none | none | at first; none now |
+| Length | 14:24 | 3:48 | 5:54 |
+| Published | not recorded here | Sun 27 Sep 2026 (time of day: check Studio) | Mon 5 Oct 2026, 12:46 UTC (15:46 Syria) |
+| Thumbnail | phone + net, then a dense net | a half-written face, no text | the loop picture, then candidate c (the shop fridge with a face) |
+| Impressions | 1,051 lifetime (to 13 Sep); hundreds on day 1, mostly Suggested | 347 in 3 days; just over 800 by 8 Oct | 24 in 3 days |
+| Views | ~80 lifetime: ~66 friends/direct, ~14 impression clicks | 36 in 3 days; ~106 by 8 Oct | 4 in 3 days |
+| Where impressions came from | mostly Suggested | Browse 560, Suggested 172, Search ~81 | not split; first 13.5 h: 5 search, 1 suggested |
+| CTR | 0.4–0.8% day one; 1.33% lifetime | 3.17% (3 days); 5.36% on Browse; 0% on Suggested | 4.17% = 1 click of 24 |
+| Average % viewed | ~7.5% per raw view (1:05); friends 14.8% | 36.5% (3 days), ~30% (6 days) | 53.4% over 4 views |
+
+Video 1's column is from `../../ai-image-explainer/docs/image_plan.md` §1.
+
+### Retracted from Read 1
+Hypothesis 2 ("the first test audience is a small, mostly short-watch group; video 2's wave viewers averaged ~25 s") rested on a wrong figure. It came from a lagging watch-time card; the processed retention of video 2's wave viewers was about a minute of 3:48. **Why video 3 got no Browse test is unknown.** Videos 2 and 3 differ in topic, title (Latin letters or none), thumbnail (a face or an abstract picture), publish time and first-hour audience; one pair of videos can't separate them. Video 1 had no Latin letters in its title either and also froze, so the title alone doesn't explain the pattern.
+
+### Plan (supersedes the 48 h decision rule in Read 1)
+- **No more edits** to title, thumbnail or description until **Mon 19 Oct** (day 14; 10 days after the title change). At ~7 impressions a day nothing can be learned from further changes, and each one muddies the read.
+- **Reads:** Mon 12 Oct (day 7): impressions by source and the Search terms (do they still match the Arabic title?). Mon 19 Oct (day 14): the verdict read.
+- **Free bridges, today:** cards and end screens on videos 1 and 2 pointing to video 3 (and 3 → 2); a playlist «كيف يشتغل الذكاء الاصطناعي من جوا» with videos 2 and 3; a pinned comment on videos 1 and 2.
+- **Next video:** don't wait for video 3's verdict. Start video 4 (`../../ai-rl-explainer/docs/rl_plan.md` §0 has the data to design against).
+
