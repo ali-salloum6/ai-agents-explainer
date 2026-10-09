@@ -137,5 +137,5 @@ Hypothesis 2 ("the first test audience is a small, mostly short-watch group; vid
 - **No more edits** to title, thumbnail or description until **Mon 19 Oct** (day 14; 10 days after the title change). At ~7 impressions a day nothing can be learned from further changes, and each one muddies the read.
 - **Reads:** Mon 12 Oct (day 7): impressions by source and the Search terms (do they still match the Arabic title?). Mon 19 Oct (day 14): the verdict read.
 - **Free bridges, today:** cards and end screens on videos 1 and 2 pointing to video 3 (and 3 → 2); a playlist «كيف يشتغل الذكاء الاصطناعي من جوا» with videos 2 and 3; a pinned comment on videos 1 and 2.
-- **Next video:** don't wait for video 3's verdict. Start video 4 (`../../ai-rl-explainer/docs/rl_plan.md` §0 has the data to design against).
+- **Next video:** don't wait for video 3's verdict. Start video 4 (`../../ai-rl-explainer/docs/START_HERE.md`: a self-contained snapshot of this data, checked facts and the hand-over).
 

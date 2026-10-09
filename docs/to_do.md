@@ -29,4 +29,4 @@
 - [ ] No more edits to video 3's title, thumbnail or description before Mon 19 Oct
 - [ ] Mon 12 Oct (day 7): impressions by source, Search terms. Mon 19 Oct (day 14): the verdict read
 - [ ] Studio, for the notes: video 2's publish time of day; lifetime watch time + average view duration; Reach → Suggested videos (which videos showed it)
-- [ ] Video 4: start (plan and data in `../ai-rl-explainer`)
+- [ ] Video 4: start when ready (`../ai-rl-explainer/docs/START_HERE.md` has the data, checked facts and the hand-over)
