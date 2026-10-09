@@ -72,13 +72,13 @@ Five simple candidates, one or two objects each, built from the video's own pale
 **Pick: c first, d second.** They are the two with a real hook (a face; a hook word), and c follows the guide's split: the thumbnail shows the object, the title asks the question. Each file comes in 1280×720 (upload) and 1920×1080.
 
 **Log the swap.** Write the exact time and which candidate here, so reads before and after can be told apart:
-- Swapped at: _(time, Syria)_ to: _(candidate)_
+- Swapped at: 6 Oct, after ~03:00 UTC (exact time not recorded), to: **c** (Ali, 9 Oct)
 - The 48 h rule above now runs from the swap, and CTR counts only impressions after it.
 - "Test & compare" can't resolve at ~11 impressions a day; once the video has a few hundred, a c-vs-d test is the one worth running.
 
 ### Open
 - Report back: the four checks, then the 48 h numbers by source.
-- Upload the chosen candidate (thumbnail only) and fill in the swap time above.
+- ~~Upload the chosen candidate and fill in the swap time~~ (done 6 Oct, see Read 2).
 - Video 4's thumbnail needs one focal point at stamp size; learn from this before it's drawn.
 
 ## Read 2: 9 Oct 2026 (~3.5 days after upload; data through ~8 Oct)
@@ -86,9 +86,15 @@ Five simple candidates, one or two objects each, built from the video's own pale
 Source: Studio's numbers as read out by YouTube's built-in assistant in a longer chat with Ali. Only its figures are recorded. Its explanations (topic size, "each video is judged independently", title ideas, and the claim that 4.17% CTR and 53% retention show the content resonates) are opinions without data and are left out. Its video 2 figures match Ali's earlier screenshots, so its numbers look like Studio's.
 
 ### Packaging changes (facts)
-- **Title**, changed by Ali during the chat (~8–9 Oct, ~3.5 days in): «كيف AI Agent بيدير محل؟» → «كيف ايجنت ذكاء اصطناعي يدير محل؟». Ali's reason: the successful video's title had no Latin letters. Every number below belongs to the old title.
-- **Thumbnail:** Ali chose candidate c on 6 Oct; the upload time was not recorded. _(Ali: which thumbnail has been live since when?)_
-- Title and thumbnail have both been touched within four days, so reads from here on mix packaging states.
+- **Thumbnail:** candidate c (the shop fridge with a face on its screen and the red tie; Ali calls it "the vending machine with a face on top") has been live since **6 Oct**: Ali uploaded it as soon as it was generated, so after ~03:00 UTC (the candidates were committed at 02:58 UTC), about 14 h after publishing. Exact time not recorded.
+- **Title**, changed by Ali during the 8–9 Oct chat (~3.5 days in): «كيف AI Agent بيدير محل؟» → «كيف ايجنت ذكاء اصطناعي يدير محل؟». Ali's reason: the successful video's title had no Latin letters.
+- **So the first 3 days mix two thumbnails and one title:** the loop thumbnail (a) for the first ~14 h (the 6 impressions of Read 1 were all under it), then c for the rest (≈ 18 of the 24 impressions), all under the old title.
+
+| State | From | To |
+|---|---|---|
+| Old title + loop thumbnail (a) | Mon 5 Oct 12:46 UTC | 6 Oct, after ~03:00 UTC |
+| Old title + c | 6 Oct | ~8–9 Oct |
+| New title + c | ~8–9 Oct | now (stable; no more edits planned before 19 Oct) |
 
 ### First 3 days, video 2 vs video 3 (the assistant's table)
 

@@ -24,7 +24,7 @@
 - [x] Read 1 logged (6 Oct): 6 impressions in 13.5 h, none from Browse. See `docs/video3_analytics.md`
 - [ ] Today: the four Studio checks in `docs/video3_analytics.md`; make sure the first-hour share went out
 - [x] Read 2 logged (9 Oct): first 3 days = 24 impressions, 4 views; title changed to «كيف ايجنت ذكاء اصطناعي يدير محل؟»; video 2's daily pattern is in its Read 3
-- [ ] Confirm in `docs/video3_analytics.md` Read 2: which thumbnail has been live since when
+- [x] Thumbnail: candidate c live since 6 Oct (Ali, 9 Oct); packaging timeline in `docs/video3_analytics.md` Read 2
 - [ ] Today, 15 min, free: bridges. Cards/end screens on videos 1 and 2 → video 3 (and 3 → 2); playlist «كيف يشتغل الذكاء الاصطناعي من جوا» with videos 2 and 3; pinned comment on videos 1 and 2
 - [ ] No more edits to video 3's title, thumbnail or description before Mon 19 Oct
 - [ ] Mon 12 Oct (day 7): impressions by source, Search terms. Mon 19 Oct (day 14): the verdict read
